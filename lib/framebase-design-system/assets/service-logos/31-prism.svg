@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="prism-31-title" overflow="visible">
+  <title id="prism-31-title">Elara</title>
+  <defs>
+    <linearGradient id="prism-31-bg" x1="32" y1="1" x2="32" y2="63" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#118BB5"/>
+      <stop offset=".48" stop-color="#118BB5" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#71C9E5"/>
+    </linearGradient>
+    <radialGradient id="prism-31-top-light" cx="0" cy="0" r="1" gradientTransform="translate(20 4) rotate(65) scale(38 48)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="prism-31-bottom-light" cx="0" cy="0" r="1" gradientTransform="translate(30 65) rotate(-87) scale(36 49)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ade0f0" stop-opacity=".46"/>
+      <stop offset="1" stop-color="#71C9E5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="prism-31-edge" x1="11" y1="5" x2="55" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".74"/>
+      <stop offset=".28" stop-color="#fff" stop-opacity=".12"/>
+      <stop offset=".72" stop-color="#118BB5" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#EAF2FF" stop-opacity=".62"/>
+    </linearGradient>
+    <linearGradient id="prism-31-glyph" x1="25" y1="15" x2="38" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/>
+      <stop offset=".42" stop-color="#F9FBFF"/>
+      <stop offset=".76" stop-color="#e0f3f9"/>
+      <stop offset="1" stop-color="#c3e8f4"/>
+    </linearGradient>
+    <linearGradient id="prism-31-glyph-gloss" x1="26" y1="15" x2="34" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".95"/>
+      <stop offset=".48" stop-color="#fff" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="prism-31-halo" cx="0" cy="0" r="1" gradientTransform="translate(31 31) scale(25)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".19"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="prism-31-tile-shadow" x="-16%" y="-14%" width="132%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="1.4" stdDeviation="1.4" flood-color="#144e6e" flood-opacity=".42"/>
+      <feDropShadow dx="-.35" dy="-.45" stdDeviation=".38" flood-color="#fff" flood-opacity=".4"/>
+    </filter>
+    <filter id="prism-31-material" x="-28%" y="-28%" width="156%" height="165%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="1.4" stdDeviation=".88" flood-color="#144e6e" flood-opacity=".64"/>
+      <feDropShadow dx="-.55" dy="-.7" stdDeviation=".48" flood-color="#fff" flood-opacity=".95"/>
+      <feDropShadow dx=".3" dy=".45" stdDeviation=".34" flood-color="#B7CBF5" flood-opacity=".7"/>
+    </filter>
+    <clipPath id="prism-31-clip"><path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z"/></clipPath>
+  </defs>
+  <g filter="url(#prism-31-tile-shadow)">
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="url(#prism-31-bg)"/>
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="url(#prism-31-top-light)"/>
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="url(#prism-31-bottom-light)"/>
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="none" stroke="url(#prism-31-edge)" stroke-width="1.45"/>
+    <path d="M8 42c10 9 37 11 50-2v8c-2 9-7 14-18 15H21C10 62 4 55 2 46l6-4Z" fill="#D7E5FF" opacity=".1" clip-path="url(#prism-31-clip)"/>
+  </g>
+  <circle cx="32" cy="32" r="25" fill="url(#prism-31-halo)"/>
+  <g filter="url(#prism-31-material)"><g fill="none" stroke="url(#prism-31-glyph)" stroke-width="5.10" stroke-linecap="round" stroke-linejoin="round"><path d="M43.32 39.26L43.49 40.48L43.85 42.00L44.04 43.59L43.78 44.93L42.97 45.75L41.69 45.92L40.17 45.55L38.69 44.94L37.44 44.46L36.50 44.47L35.79 45.12L35.13 46.32L34.38 47.75L33.44 48.98L32.34 49.60L31.19 49.43L30.14 48.52L29.28 47.15L28.59 45.77L27.93 44.77L27.14 44.39L26.07 44.62L24.71 45.20L23.18 45.76L21.73 45.92L20.62 45.48L20.04 44.42L20.00 42.94L20.30 41.34L20.62 39.92L20.62 38.86L20.05 38.18L18.91 37.71L17.42 37.26L15.94 36.63L14.91 35.74L14.61 34.63L15.10 33.43L16.18 32.30L17.45 31.32L18.49 30.48L18.95 29.66L18.74 28.72L18.03 27.55L17.17 26.19L16.58 24.76L16.59 23.49L17.31 22.58L18.62 22.13L20.23 22.07L21.78 22.16L22.97 22.09L23.70 21.59L24.04 20.56L24.21 19.09L24.50 17.49L25.08 16.15L26.01 15.41L27.22 15.44L28.53 16.14L29.76 17.20L30.83 18.19L31.75 18.71L32.62 18.57L33.59 17.81L34.73 16.74L36.02 15.78L37.31 15.33L38.42 15.63L39.21 16.65L39.65 18.15L39.86 19.74L40.07 21.06L40.55 21.87L41.47 22.16L42.84 22.12L44.45 22.06L45.98 22.27L47.08 22.91L47.50 23.98L47.23 25.35L46.48 26.77L45.63 28.07L45.10 29.13L45.16 30.01L45.89 30.82L47.07 31.71L48.32 32.76L49.19 33.93L49.36 35.11L48.73 36.14L47.47 36.93L45.94 37.46L44.55 37.89L43.64 38.43Z"/></g><g fill="url(#prism-31-glyph)"><path d="M35.62 36.96L35.33 37.25L35.09 37.66L34.87 38.18L34.62 38.79L34.33 39.43L33.95 40.05L33.50 40.58L32.97 40.99L32.39 41.22L31.78 41.25L31.19 41.07L30.64 40.71L30.16 40.20L29.77 39.60L29.45 38.96L29.19 38.34L28.97 37.80L28.74 37.35L28.47 37.03L28.12 36.82L27.67 36.70L27.13 36.65L26.49 36.61L25.80 36.53L25.09 36.38L24.42 36.14L23.85 35.78L23.42 35.32L23.17 34.77L23.11 34.16L23.25 33.53L23.55 32.91L23.98 32.33L24.49 31.82L25.00 31.37L25.47 30.98L25.84 30.62L26.09 30.27L26.21 29.88L26.20 29.44L26.10 28.92L25.95 28.31L25.80 27.64L25.70 26.93L25.71 26.21L25.84 25.54L26.12 24.96L26.54 24.52L27.08 24.25L27.71 24.15L28.39 24.21L29.07 24.42L29.72 24.73L30.32 25.08L30.85 25.41L31.32 25.68L31.74 25.83L32.15 25.85L32.56 25.73L33.01 25.50L33.53 25.18L34.11 24.83L34.75 24.50L35.42 24.26L36.11 24.15L36.75 24.20L37.32 24.43L37.78 24.83L38.10 25.37L38.27 26.02L38.31 26.73L38.23 27.45L38.09 28.13L37.94 28.76L37.82 29.30L37.78 29.76L37.86 30.16L38.08 30.53L38.42 30.88L38.86 31.26L39.37 31.69L39.88 32.19L40.34 32.75L40.68 33.35L40.87 33.98L40.87 34.60L40.67 35.17L40.29 35.66L39.75 36.05L39.10 36.33L38.40 36.50L37.70 36.59L37.04 36.64L36.47 36.69L35.99 36.78Z"/></g></g>
+  <g opacity=".66" transform="translate(-.35 -.52)"><g fill="none" stroke="url(#prism-31-glyph-gloss)" stroke-width="2.20" stroke-linecap="round" stroke-linejoin="round"><path d="M43.32 39.26L43.49 40.48L43.85 42.00L44.04 43.59L43.78 44.93L42.97 45.75L41.69 45.92L40.17 45.55L38.69 44.94L37.44 44.46L36.50 44.47L35.79 45.12L35.13 46.32L34.38 47.75L33.44 48.98L32.34 49.60L31.19 49.43L30.14 48.52L29.28 47.15L28.59 45.77L27.93 44.77L27.14 44.39L26.07 44.62L24.71 45.20L23.18 45.76L21.73 45.92L20.62 45.48L20.04 44.42L20.00 42.94L20.30 41.34L20.62 39.92L20.62 38.86L20.05 38.18L18.91 37.71L17.42 37.26L15.94 36.63L14.91 35.74L14.61 34.63L15.10 33.43L16.18 32.30L17.45 31.32L18.49 30.48L18.95 29.66L18.74 28.72L18.03 27.55L17.17 26.19L16.58 24.76L16.59 23.49L17.31 22.58L18.62 22.13L20.23 22.07L21.78 22.16L22.97 22.09L23.70 21.59L24.04 20.56L24.21 19.09L24.50 17.49L25.08 16.15L26.01 15.41L27.22 15.44L28.53 16.14L29.76 17.20L30.83 18.19L31.75 18.71L32.62 18.57L33.59 17.81L34.73 16.74L36.02 15.78L37.31 15.33L38.42 15.63L39.21 16.65L39.65 18.15L39.86 19.74L40.07 21.06L40.55 21.87L41.47 22.16L42.84 22.12L44.45 22.06L45.98 22.27L47.08 22.91L47.50 23.98L47.23 25.35L46.48 26.77L45.63 28.07L45.10 29.13L45.16 30.01L45.89 30.82L47.07 31.71L48.32 32.76L49.19 33.93L49.36 35.11L48.73 36.14L47.47 36.93L45.94 37.46L44.55 37.89L43.64 38.43Z"/></g><g fill="url(#prism-31-glyph-gloss)"><path d="M35.62 36.96L35.33 37.25L35.09 37.66L34.87 38.18L34.62 38.79L34.33 39.43L33.95 40.05L33.50 40.58L32.97 40.99L32.39 41.22L31.78 41.25L31.19 41.07L30.64 40.71L30.16 40.20L29.77 39.60L29.45 38.96L29.19 38.34L28.97 37.80L28.74 37.35L28.47 37.03L28.12 36.82L27.67 36.70L27.13 36.65L26.49 36.61L25.80 36.53L25.09 36.38L24.42 36.14L23.85 35.78L23.42 35.32L23.17 34.77L23.11 34.16L23.25 33.53L23.55 32.91L23.98 32.33L24.49 31.82L25.00 31.37L25.47 30.98L25.84 30.62L26.09 30.27L26.21 29.88L26.20 29.44L26.10 28.92L25.95 28.31L25.80 27.64L25.70 26.93L25.71 26.21L25.84 25.54L26.12 24.96L26.54 24.52L27.08 24.25L27.71 24.15L28.39 24.21L29.07 24.42L29.72 24.73L30.32 25.08L30.85 25.41L31.32 25.68L31.74 25.83L32.15 25.85L32.56 25.73L33.01 25.50L33.53 25.18L34.11 24.83L34.75 24.50L35.42 24.26L36.11 24.15L36.75 24.20L37.32 24.43L37.78 24.83L38.10 25.37L38.27 26.02L38.31 26.73L38.23 27.45L38.09 28.13L37.94 28.76L37.82 29.30L37.78 29.76L37.86 30.16L38.08 30.53L38.42 30.88L38.86 31.26L39.37 31.69L39.88 32.19L40.34 32.75L40.68 33.35L40.87 33.98L40.87 34.60L40.67 35.17L40.29 35.66L39.75 36.05L39.10 36.33L38.40 36.50L37.70 36.59L37.04 36.64L36.47 36.69L35.99 36.78Z"/></g></g>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="link-6-title" overflow="visible">
+  <title id="link-6-title">Aster</title>
+  <defs>
+    <linearGradient id="link-6-bg" x1="32" y1="1" x2="32" y2="63" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E56C28"/>
+      <stop offset=".48" stop-color="#E56C28" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#F4AF6B"/>
+    </linearGradient>
+    <radialGradient id="link-6-top-light" cx="0" cy="0" r="1" gradientTransform="translate(20 4) rotate(65) scale(38 48)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="link-6-bottom-light" cx="0" cy="0" r="1" gradientTransform="translate(30 65) rotate(-87) scale(36 49)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f9d1a9" stop-opacity=".46"/>
+      <stop offset="1" stop-color="#F4AF6B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="link-6-edge" x1="11" y1="5" x2="55" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".74"/>
+      <stop offset=".28" stop-color="#fff" stop-opacity=".12"/>
+      <stop offset=".72" stop-color="#E56C28" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#EAF2FF" stop-opacity=".62"/>
+    </linearGradient>
+    <linearGradient id="link-6-glyph" x1="25" y1="15" x2="38" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/>
+      <stop offset=".42" stop-color="#F9FBFF"/>
+      <stop offset=".76" stop-color="#fdedde"/>
+      <stop offset="1" stop-color="#faddc1"/>
+    </linearGradient>
+    <linearGradient id="link-6-glyph-gloss" x1="26" y1="15" x2="34" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".95"/>
+      <stop offset=".48" stop-color="#fff" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="link-6-halo" cx="0" cy="0" r="1" gradientTransform="translate(31 31) scale(25)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".19"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="link-6-tile-shadow" x="-16%" y="-14%" width="132%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="1.4" stdDeviation="1.4" flood-color="#6e4132" flood-opacity=".42"/>
+      <feDropShadow dx="-.35" dy="-.45" stdDeviation=".38" flood-color="#fff" flood-opacity=".4"/>
+    </filter>
+    <filter id="link-6-material" x="-28%" y="-28%" width="156%" height="165%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="1.4" stdDeviation=".88" flood-color="#6e4132" flood-opacity=".64"/>
+      <feDropShadow dx="-.55" dy="-.7" stdDeviation=".48" flood-color="#fff" flood-opacity=".95"/>
+      <feDropShadow dx=".3" dy=".45" stdDeviation=".34" flood-color="#B7CBF5" flood-opacity=".7"/>
+    </filter>
+    <clipPath id="link-6-clip"><path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z"/></clipPath>
+  </defs>
+  <g filter="url(#link-6-tile-shadow)">
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="url(#link-6-bg)"/>
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="url(#link-6-top-light)"/>
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="url(#link-6-bottom-light)"/>
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="none" stroke="url(#link-6-edge)" stroke-width="1.45"/>
+    <path d="M8 42c10 9 37 11 50-2v8c-2 9-7 14-18 15H21C10 62 4 55 2 46l6-4Z" fill="#D7E5FF" opacity=".1" clip-path="url(#link-6-clip)"/>
+  </g>
+  <circle cx="32" cy="32" r="25" fill="url(#link-6-halo)"/>
+  <g filter="url(#link-6-material)"><g fill="none" stroke="url(#link-6-glyph)" stroke-width="5.10" stroke-linecap="round" stroke-linejoin="round"><path d="M39.06 47.36L38.07 47.88L36.72 47.27L35.36 46.06L34.24 45.11L33.36 45.13L32.54 46.20L31.57 47.74L30.43 48.83L29.32 48.79L28.45 47.59L27.88 45.85L27.38 44.47L26.62 44.05L25.37 44.57L23.76 45.42L22.23 45.79L21.28 45.20L21.13 43.73L21.51 41.94L21.77 40.49L21.31 39.74L19.97 39.57L18.15 39.50L16.64 39.06L16.12 38.07L16.73 36.72L17.94 35.36L18.89 34.24L18.87 33.36L17.80 32.54L16.26 31.57L15.17 30.43L15.21 29.32L16.41 28.45L18.15 27.88L19.53 27.38L19.95 26.62L19.43 25.37L18.58 23.76L18.21 22.23L18.80 21.28L20.27 21.13L22.06 21.51L23.51 21.77L24.26 21.31L24.43 19.97L24.50 18.15L24.94 16.64L25.93 16.12L27.28 16.73L28.64 17.94L29.76 18.89L30.64 18.87L31.46 17.80L32.43 16.26L33.57 15.17L34.68 15.21L35.55 16.41L36.12 18.15L36.62 19.53L37.38 19.95L38.63 19.43L40.24 18.58L41.77 18.21L42.72 18.80L42.87 20.27L42.49 22.06L42.23 23.51L42.69 24.26L44.03 24.43L45.85 24.50L47.36 24.94L47.88 25.93L47.27 27.28L46.06 28.64L45.11 29.76L45.13 30.64L46.20 31.46L47.74 32.43L48.83 33.57L48.79 34.68L47.59 35.55L45.85 36.12L44.47 36.62L44.05 37.38L44.57 38.63L45.42 40.24L45.79 41.77L45.20 42.72L43.73 42.87L41.94 42.49L40.49 42.23L39.74 42.69L39.57 44.03L39.50 45.85Z"/></g><g fill="none" stroke="url(#link-6-glyph)" stroke-width="3.90" stroke-linecap="round" stroke-linejoin="round"><path d="M31.83 41.06L31.22 41.21L30.56 41.52L29.83 41.89L29.05 42.23L28.24 42.41L27.47 42.37L26.80 42.06L26.26 41.51L25.88 40.79L25.64 39.97L25.47 39.16L25.31 38.44L25.07 37.85L24.68 37.39L24.14 37.04L23.45 36.72L22.70 36.37L21.96 35.93L21.37 35.38L20.99 34.72L20.89 33.99L21.06 33.23L21.45 32.49L21.96 31.81L22.48 31.19L22.90 30.62L23.16 30.06L23.22 29.47L23.12 28.79L22.92 28.03L22.74 27.21L22.66 26.37L22.78 25.58L23.13 24.92L23.70 24.44L24.44 24.15L25.28 24.04L26.13 24.03L26.91 24.05L27.58 24.00L28.15 23.81L28.64 23.43L29.10 22.89L29.58 22.24L30.14 21.59L30.77 21.05L31.48 20.72L32.22 20.66L32.94 20.89L33.61 21.35L34.20 21.97L34.71 22.63L35.17 23.22L35.64 23.67L36.17 23.94L36.80 24.05L37.54 24.04L38.37 24.03L39.22 24.08L40.01 24.29L40.66 24.70L41.10 25.29L41.31 26.03L41.31 26.86L41.16 27.70L40.96 28.49L40.81 29.20L40.79 29.82L40.97 30.39L41.33 30.95L41.82 31.55L42.35 32.20L42.80 32.92L43.07 33.67L43.09 34.43L42.82 35.12L42.30 35.72L41.62 36.20L40.86 36.58L40.13 36.91L39.52 37.24L39.07 37.65L38.78 38.18L38.59 38.85L38.43 39.63L38.23 40.45L37.91 41.23L37.44 41.86L36.82 42.27L36.08 42.42L35.29 42.33L34.49 42.04L33.73 41.67L33.05 41.33L32.42 41.10Z"/></g><g fill="url(#link-6-glyph)"><circle cx="32" cy="32" r="3.2"/></g></g>
+  <g opacity=".66" transform="translate(-.35 -.52)"><g fill="none" stroke="url(#link-6-glyph-gloss)" stroke-width="2.20" stroke-linecap="round" stroke-linejoin="round"><path d="M39.06 47.36L38.07 47.88L36.72 47.27L35.36 46.06L34.24 45.11L33.36 45.13L32.54 46.20L31.57 47.74L30.43 48.83L29.32 48.79L28.45 47.59L27.88 45.85L27.38 44.47L26.62 44.05L25.37 44.57L23.76 45.42L22.23 45.79L21.28 45.20L21.13 43.73L21.51 41.94L21.77 40.49L21.31 39.74L19.97 39.57L18.15 39.50L16.64 39.06L16.12 38.07L16.73 36.72L17.94 35.36L18.89 34.24L18.87 33.36L17.80 32.54L16.26 31.57L15.17 30.43L15.21 29.32L16.41 28.45L18.15 27.88L19.53 27.38L19.95 26.62L19.43 25.37L18.58 23.76L18.21 22.23L18.80 21.28L20.27 21.13L22.06 21.51L23.51 21.77L24.26 21.31L24.43 19.97L24.50 18.15L24.94 16.64L25.93 16.12L27.28 16.73L28.64 17.94L29.76 18.89L30.64 18.87L31.46 17.80L32.43 16.26L33.57 15.17L34.68 15.21L35.55 16.41L36.12 18.15L36.62 19.53L37.38 19.95L38.63 19.43L40.24 18.58L41.77 18.21L42.72 18.80L42.87 20.27L42.49 22.06L42.23 23.51L42.69 24.26L44.03 24.43L45.85 24.50L47.36 24.94L47.88 25.93L47.27 27.28L46.06 28.64L45.11 29.76L45.13 30.64L46.20 31.46L47.74 32.43L48.83 33.57L48.79 34.68L47.59 35.55L45.85 36.12L44.47 36.62L44.05 37.38L44.57 38.63L45.42 40.24L45.79 41.77L45.20 42.72L43.73 42.87L41.94 42.49L40.49 42.23L39.74 42.69L39.57 44.03L39.50 45.85Z"/></g><g fill="none" stroke="url(#link-6-glyph-gloss)" stroke-width="1.66" stroke-linecap="round" stroke-linejoin="round"><path d="M31.83 41.06L31.22 41.21L30.56 41.52L29.83 41.89L29.05 42.23L28.24 42.41L27.47 42.37L26.80 42.06L26.26 41.51L25.88 40.79L25.64 39.97L25.47 39.16L25.31 38.44L25.07 37.85L24.68 37.39L24.14 37.04L23.45 36.72L22.70 36.37L21.96 35.93L21.37 35.38L20.99 34.72L20.89 33.99L21.06 33.23L21.45 32.49L21.96 31.81L22.48 31.19L22.90 30.62L23.16 30.06L23.22 29.47L23.12 28.79L22.92 28.03L22.74 27.21L22.66 26.37L22.78 25.58L23.13 24.92L23.70 24.44L24.44 24.15L25.28 24.04L26.13 24.03L26.91 24.05L27.58 24.00L28.15 23.81L28.64 23.43L29.10 22.89L29.58 22.24L30.14 21.59L30.77 21.05L31.48 20.72L32.22 20.66L32.94 20.89L33.61 21.35L34.20 21.97L34.71 22.63L35.17 23.22L35.64 23.67L36.17 23.94L36.80 24.05L37.54 24.04L38.37 24.03L39.22 24.08L40.01 24.29L40.66 24.70L41.10 25.29L41.31 26.03L41.31 26.86L41.16 27.70L40.96 28.49L40.81 29.20L40.79 29.82L40.97 30.39L41.33 30.95L41.82 31.55L42.35 32.20L42.80 32.92L43.07 33.67L43.09 34.43L42.82 35.12L42.30 35.72L41.62 36.20L40.86 36.58L40.13 36.91L39.52 37.24L39.07 37.65L38.78 38.18L38.59 38.85L38.43 39.63L38.23 40.45L37.91 41.23L37.44 41.86L36.82 42.27L36.08 42.42L35.29 42.33L34.49 42.04L33.73 41.67L33.05 41.33L32.42 41.10Z"/></g><g fill="url(#link-6-glyph-gloss)"><circle cx="32" cy="32" r="3.2"/></g></g>
+</svg>

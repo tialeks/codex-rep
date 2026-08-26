@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="maze-43-title" overflow="visible">
+  <title id="maze-43-title">Luno</title>
+  <defs>
+    <linearGradient id="maze-43-bg" x1="32" y1="1" x2="32" y2="63" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9D4BD2"/>
+      <stop offset=".48" stop-color="#9D4BD2" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#D691ED"/>
+    </linearGradient>
+    <radialGradient id="maze-43-top-light" cx="0" cy="0" r="1" gradientTransform="translate(20 4) rotate(65) scale(38 48)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="maze-43-bottom-light" cx="0" cy="0" r="1" gradientTransform="translate(30 65) rotate(-87) scale(36 49)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e7bff5" stop-opacity=".46"/>
+      <stop offset="1" stop-color="#D691ED" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="maze-43-edge" x1="11" y1="5" x2="55" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".74"/>
+      <stop offset=".28" stop-color="#fff" stop-opacity=".12"/>
+      <stop offset=".72" stop-color="#9D4BD2" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#EAF2FF" stop-opacity=".62"/>
+    </linearGradient>
+    <linearGradient id="maze-43-glyph" x1="25" y1="15" x2="38" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/>
+      <stop offset=".42" stop-color="#F9FBFF"/>
+      <stop offset=".76" stop-color="#f6e7fb"/>
+      <stop offset="1" stop-color="#eed1f7"/>
+    </linearGradient>
+    <linearGradient id="maze-43-glyph-gloss" x1="26" y1="15" x2="34" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".95"/>
+      <stop offset=".48" stop-color="#fff" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="maze-43-halo" cx="0" cy="0" r="1" gradientTransform="translate(31 31) scale(25)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".19"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="maze-43-tile-shadow" x="-16%" y="-14%" width="132%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="1.4" stdDeviation="1.4" flood-color="#4f337a" flood-opacity=".42"/>
+      <feDropShadow dx="-.35" dy="-.45" stdDeviation=".38" flood-color="#fff" flood-opacity=".4"/>
+    </filter>
+    <filter id="maze-43-material" x="-28%" y="-28%" width="156%" height="165%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="1.4" stdDeviation=".88" flood-color="#4f337a" flood-opacity=".64"/>
+      <feDropShadow dx="-.55" dy="-.7" stdDeviation=".48" flood-color="#fff" flood-opacity=".95"/>
+      <feDropShadow dx=".3" dy=".45" stdDeviation=".34" flood-color="#B7CBF5" flood-opacity=".7"/>
+    </filter>
+    <clipPath id="maze-43-clip"><path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z"/></clipPath>
+  </defs>
+  <g filter="url(#maze-43-tile-shadow)">
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="url(#maze-43-bg)"/>
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="url(#maze-43-top-light)"/>
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="url(#maze-43-bottom-light)"/>
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="none" stroke="url(#maze-43-edge)" stroke-width="1.45"/>
+    <path d="M8 42c10 9 37 11 50-2v8c-2 9-7 14-18 15H21C10 62 4 55 2 46l6-4Z" fill="#D7E5FF" opacity=".1" clip-path="url(#maze-43-clip)"/>
+  </g>
+  <circle cx="32" cy="32" r="25" fill="url(#maze-43-halo)"/>
+  <g filter="url(#maze-43-material)"><g fill="none" stroke="url(#maze-43-glyph)" stroke-width="5.10" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="32" cy="32" rx="18" ry="9.2" transform="rotate(48 32 32)"/><ellipse cx="32" cy="32" rx="18" ry="9.2" transform="rotate(-48 32 32)"/></g><g fill="url(#maze-43-glyph)"><path d="M39.66 33.47L39.43 33.94L38.93 34.30L38.26 34.55L37.58 34.71L37.02 34.86L36.68 35.08L36.56 35.45L36.61 35.99L36.73 36.67L36.78 37.38L36.68 38.02L36.37 38.46L35.88 38.63L35.27 38.52L34.62 38.23L34.03 37.86L33.53 37.57L33.13 37.49L32.78 37.67L32.44 38.09L32.04 38.64L31.57 39.19L31.05 39.56L30.53 39.66L30.06 39.43L29.70 38.93L29.45 38.26L29.29 37.58L29.14 37.02L28.92 36.68L28.55 36.56L28.01 36.61L27.33 36.73L26.62 36.78L25.98 36.68L25.54 36.37L25.37 35.88L25.48 35.27L25.77 34.62L26.14 34.03L26.43 33.53L26.51 33.13L26.33 32.78L25.91 32.44L25.36 32.04L24.81 31.57L24.44 31.05L24.34 30.53L24.57 30.06L25.07 29.70L25.74 29.45L26.42 29.29L26.98 29.14L27.32 28.92L27.44 28.55L27.39 28.01L27.27 27.33L27.22 26.62L27.32 25.98L27.63 25.54L28.12 25.37L28.73 25.48L29.38 25.77L29.97 26.14L30.47 26.43L30.87 26.51L31.22 26.33L31.56 25.91L31.96 25.36L32.43 24.81L32.95 24.44L33.47 24.34L33.94 24.57L34.30 25.07L34.55 25.74L34.71 26.42L34.86 26.98L35.08 27.32L35.45 27.44L35.99 27.39L36.67 27.27L37.38 27.22L38.02 27.32L38.46 27.63L38.63 28.12L38.52 28.73L38.23 29.38L37.86 29.97L37.57 30.47L37.49 30.87L37.67 31.22L38.09 31.56L38.64 31.96L39.19 32.43L39.56 32.95Z"/></g></g>
+  <g opacity=".66" transform="translate(-.35 -.52)"><g fill="none" stroke="url(#maze-43-glyph-gloss)" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="32" cy="32" rx="18" ry="9.2" transform="rotate(48 32 32)"/><ellipse cx="32" cy="32" rx="18" ry="9.2" transform="rotate(-48 32 32)"/></g><g fill="url(#maze-43-glyph-gloss)"><path d="M39.66 33.47L39.43 33.94L38.93 34.30L38.26 34.55L37.58 34.71L37.02 34.86L36.68 35.08L36.56 35.45L36.61 35.99L36.73 36.67L36.78 37.38L36.68 38.02L36.37 38.46L35.88 38.63L35.27 38.52L34.62 38.23L34.03 37.86L33.53 37.57L33.13 37.49L32.78 37.67L32.44 38.09L32.04 38.64L31.57 39.19L31.05 39.56L30.53 39.66L30.06 39.43L29.70 38.93L29.45 38.26L29.29 37.58L29.14 37.02L28.92 36.68L28.55 36.56L28.01 36.61L27.33 36.73L26.62 36.78L25.98 36.68L25.54 36.37L25.37 35.88L25.48 35.27L25.77 34.62L26.14 34.03L26.43 33.53L26.51 33.13L26.33 32.78L25.91 32.44L25.36 32.04L24.81 31.57L24.44 31.05L24.34 30.53L24.57 30.06L25.07 29.70L25.74 29.45L26.42 29.29L26.98 29.14L27.32 28.92L27.44 28.55L27.39 28.01L27.27 27.33L27.22 26.62L27.32 25.98L27.63 25.54L28.12 25.37L28.73 25.48L29.38 25.77L29.97 26.14L30.47 26.43L30.87 26.51L31.22 26.33L31.56 25.91L31.96 25.36L32.43 24.81L32.95 24.44L33.47 24.34L33.94 24.57L34.30 25.07L34.55 25.74L34.71 26.42L34.86 26.98L35.08 27.32L35.45 27.44L35.99 27.39L36.67 27.27L37.38 27.22L38.02 27.32L38.46 27.63L38.63 28.12L38.52 28.73L38.23 29.38L37.86 29.97L37.57 30.47L37.49 30.87L37.67 31.22L38.09 31.56L38.64 31.96L39.19 32.43L39.56 32.95Z"/></g></g>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="spark-2-title" overflow="visible">
+  <title id="spark-2-title">Petal</title>
+  <defs>
+    <linearGradient id="spark-2-bg" x1="32" y1="1" x2="32" y2="63" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6554E3"/>
+      <stop offset=".48" stop-color="#6554E3" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#A192F4"/>
+    </linearGradient>
+    <radialGradient id="spark-2-top-light" cx="0" cy="0" r="1" gradientTransform="translate(20 4) rotate(65) scale(38 48)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spark-2-bottom-light" cx="0" cy="0" r="1" gradientTransform="translate(30 65) rotate(-87) scale(36 49)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c8c0f9" stop-opacity=".46"/>
+      <stop offset="1" stop-color="#A192F4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="spark-2-edge" x1="11" y1="5" x2="55" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".74"/>
+      <stop offset=".28" stop-color="#fff" stop-opacity=".12"/>
+      <stop offset=".72" stop-color="#6554E3" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#EAF2FF" stop-opacity=".62"/>
+    </linearGradient>
+    <linearGradient id="spark-2-glyph" x1="25" y1="15" x2="38" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/>
+      <stop offset=".42" stop-color="#F9FBFF"/>
+      <stop offset=".76" stop-color="#eae7fd"/>
+      <stop offset="1" stop-color="#d8d1fa"/>
+    </linearGradient>
+    <linearGradient id="spark-2-glyph-gloss" x1="26" y1="15" x2="34" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".95"/>
+      <stop offset=".48" stop-color="#fff" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="spark-2-halo" cx="0" cy="0" r="1" gradientTransform="translate(31 31) scale(25)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".19"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="spark-2-tile-shadow" x="-16%" y="-14%" width="132%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="1.4" stdDeviation="1.4" flood-color="#383681" flood-opacity=".42"/>
+      <feDropShadow dx="-.35" dy="-.45" stdDeviation=".38" flood-color="#fff" flood-opacity=".4"/>
+    </filter>
+    <filter id="spark-2-material" x="-28%" y="-28%" width="156%" height="165%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="1.4" stdDeviation=".88" flood-color="#383681" flood-opacity=".64"/>
+      <feDropShadow dx="-.55" dy="-.7" stdDeviation=".48" flood-color="#fff" flood-opacity=".95"/>
+      <feDropShadow dx=".3" dy=".45" stdDeviation=".34" flood-color="#B7CBF5" flood-opacity=".7"/>
+    </filter>
+    <clipPath id="spark-2-clip"><path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z"/></clipPath>
+  </defs>
+  <g filter="url(#spark-2-tile-shadow)">
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="url(#spark-2-bg)"/>
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="url(#spark-2-top-light)"/>
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="url(#spark-2-bottom-light)"/>
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="none" stroke="url(#spark-2-edge)" stroke-width="1.45"/>
+    <path d="M8 42c10 9 37 11 50-2v8c-2 9-7 14-18 15H21C10 62 4 55 2 46l6-4Z" fill="#D7E5FF" opacity=".1" clip-path="url(#spark-2-clip)"/>
+  </g>
+  <circle cx="32" cy="32" r="25" fill="url(#spark-2-halo)"/>
+  <g filter="url(#spark-2-material)"><g fill="url(#spark-2-glyph)"><ellipse cx="32" cy="20.2" rx="5.80" ry="9.50" transform="rotate(14.00 32 32)"/><ellipse cx="32" cy="20.2" rx="5.80" ry="9.50" transform="rotate(65.43 32 32)"/><ellipse cx="32" cy="20.2" rx="5.80" ry="9.50" transform="rotate(116.86 32 32)"/><ellipse cx="32" cy="20.2" rx="5.80" ry="9.50" transform="rotate(168.29 32 32)"/><ellipse cx="32" cy="20.2" rx="5.80" ry="9.50" transform="rotate(219.71 32 32)"/><ellipse cx="32" cy="20.2" rx="5.80" ry="9.50" transform="rotate(271.14 32 32)"/><ellipse cx="32" cy="20.2" rx="5.80" ry="9.50" transform="rotate(322.57 32 32)"/></g><g fill="url(#spark-2-glyph)"><path d="M38.72 34.69L37.90 34.82L37.08 34.85L36.41 34.86L35.96 34.96L35.76 35.21L35.78 35.68L35.91 36.35L36.06 37.16L36.11 37.99L35.99 38.71L35.67 39.20L35.17 39.38L34.55 39.22L33.91 38.79L33.31 38.19L32.81 37.58L32.40 37.12L32.06 36.91L31.74 37.00L31.36 37.38L30.90 37.95L30.33 38.57L29.70 39.08L29.06 39.35L28.51 39.31L28.11 38.94L27.91 38.29L27.90 37.49L28.02 36.65L28.18 35.92L28.26 35.37L28.15 35.03L27.80 34.88L27.20 34.85L26.43 34.84L25.59 34.75L24.83 34.54L24.30 34.17L24.09 33.68L24.23 33.12L24.69 32.57L25.36 32.08L26.09 31.69L26.72 31.37L27.12 31.09L27.23 30.79L27.05 30.39L26.65 29.86L26.17 29.22L25.74 28.49L25.51 27.78L25.54 27.17L25.88 26.77L26.47 26.61L27.22 26.69L28.02 26.95L28.75 27.27L29.35 27.54L29.77 27.62L30.04 27.43L30.22 26.96L30.39 26.27L30.62 25.47L30.95 24.72L31.39 24.16L31.90 23.91L32.42 24.02L32.89 24.47L33.27 25.17L33.53 25.97L33.72 26.72L33.89 27.28L34.11 27.58L34.47 27.60L35.00 27.39L35.68 27.07L36.47 26.77L37.25 26.61L37.92 26.67L38.36 26.99L38.52 27.53L38.38 28.21L38.01 28.94L37.53 29.63L37.09 30.20L36.81 30.65L36.80 30.98L37.10 31.26L37.65 31.56L38.36 31.92L39.07 32.37L39.62 32.91L39.90 33.47L39.83 33.99L39.41 34.41Z"/></g></g>
+  <g opacity=".66" transform="translate(-.35 -.52)"><g fill="url(#spark-2-glyph-gloss)"><ellipse cx="32" cy="20.2" rx="5.80" ry="9.50" transform="rotate(14.00 32 32)"/><ellipse cx="32" cy="20.2" rx="5.80" ry="9.50" transform="rotate(65.43 32 32)"/><ellipse cx="32" cy="20.2" rx="5.80" ry="9.50" transform="rotate(116.86 32 32)"/><ellipse cx="32" cy="20.2" rx="5.80" ry="9.50" transform="rotate(168.29 32 32)"/><ellipse cx="32" cy="20.2" rx="5.80" ry="9.50" transform="rotate(219.71 32 32)"/><ellipse cx="32" cy="20.2" rx="5.80" ry="9.50" transform="rotate(271.14 32 32)"/><ellipse cx="32" cy="20.2" rx="5.80" ry="9.50" transform="rotate(322.57 32 32)"/></g><g fill="url(#spark-2-glyph-gloss)"><path d="M38.72 34.69L37.90 34.82L37.08 34.85L36.41 34.86L35.96 34.96L35.76 35.21L35.78 35.68L35.91 36.35L36.06 37.16L36.11 37.99L35.99 38.71L35.67 39.20L35.17 39.38L34.55 39.22L33.91 38.79L33.31 38.19L32.81 37.58L32.40 37.12L32.06 36.91L31.74 37.00L31.36 37.38L30.90 37.95L30.33 38.57L29.70 39.08L29.06 39.35L28.51 39.31L28.11 38.94L27.91 38.29L27.90 37.49L28.02 36.65L28.18 35.92L28.26 35.37L28.15 35.03L27.80 34.88L27.20 34.85L26.43 34.84L25.59 34.75L24.83 34.54L24.30 34.17L24.09 33.68L24.23 33.12L24.69 32.57L25.36 32.08L26.09 31.69L26.72 31.37L27.12 31.09L27.23 30.79L27.05 30.39L26.65 29.86L26.17 29.22L25.74 28.49L25.51 27.78L25.54 27.17L25.88 26.77L26.47 26.61L27.22 26.69L28.02 26.95L28.75 27.27L29.35 27.54L29.77 27.62L30.04 27.43L30.22 26.96L30.39 26.27L30.62 25.47L30.95 24.72L31.39 24.16L31.90 23.91L32.42 24.02L32.89 24.47L33.27 25.17L33.53 25.97L33.72 26.72L33.89 27.28L34.11 27.58L34.47 27.60L35.00 27.39L35.68 27.07L36.47 26.77L37.25 26.61L37.92 26.67L38.36 26.99L38.52 27.53L38.38 28.21L38.01 28.94L37.53 29.63L37.09 30.20L36.81 30.65L36.80 30.98L37.10 31.26L37.65 31.56L38.36 31.92L39.07 32.37L39.62 32.91L39.90 33.47L39.83 33.99L39.41 34.41Z"/></g></g>
+</svg>

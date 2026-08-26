@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="crown-18-title" overflow="visible">
+  <title id="crown-18-title">Mesh</title>
+  <defs>
+    <linearGradient id="crown-18-bg" x1="32" y1="1" x2="32" y2="63" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2D8E9A"/>
+      <stop offset=".48" stop-color="#2D8E9A" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#7AC9D1"/>
+    </linearGradient>
+    <radialGradient id="crown-18-top-light" cx="0" cy="0" r="1" gradientTransform="translate(20 4) rotate(65) scale(38 48)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="crown-18-bottom-light" cx="0" cy="0" r="1" gradientTransform="translate(30 65) rotate(-87) scale(36 49)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b2e0e4" stop-opacity=".46"/>
+      <stop offset="1" stop-color="#7AC9D1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="crown-18-edge" x1="11" y1="5" x2="55" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".74"/>
+      <stop offset=".28" stop-color="#fff" stop-opacity=".12"/>
+      <stop offset=".72" stop-color="#2D8E9A" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#EAF2FF" stop-opacity=".62"/>
+    </linearGradient>
+    <linearGradient id="crown-18-glyph" x1="25" y1="15" x2="38" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/>
+      <stop offset=".42" stop-color="#F9FBFF"/>
+      <stop offset=".76" stop-color="#e2f3f5"/>
+      <stop offset="1" stop-color="#c7e8ec"/>
+    </linearGradient>
+    <linearGradient id="crown-18-glyph-gloss" x1="26" y1="15" x2="34" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".95"/>
+      <stop offset=".48" stop-color="#fff" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="crown-18-halo" cx="0" cy="0" r="1" gradientTransform="translate(31 31) scale(25)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".19"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="crown-18-tile-shadow" x="-16%" y="-14%" width="132%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="1.4" stdDeviation="1.4" flood-color="#204f62" flood-opacity=".42"/>
+      <feDropShadow dx="-.35" dy="-.45" stdDeviation=".38" flood-color="#fff" flood-opacity=".4"/>
+    </filter>
+    <filter id="crown-18-material" x="-28%" y="-28%" width="156%" height="165%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="1.4" stdDeviation=".88" flood-color="#204f62" flood-opacity=".64"/>
+      <feDropShadow dx="-.55" dy="-.7" stdDeviation=".48" flood-color="#fff" flood-opacity=".95"/>
+      <feDropShadow dx=".3" dy=".45" stdDeviation=".34" flood-color="#B7CBF5" flood-opacity=".7"/>
+    </filter>
+    <clipPath id="crown-18-clip"><path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z"/></clipPath>
+  </defs>
+  <g filter="url(#crown-18-tile-shadow)">
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="url(#crown-18-bg)"/>
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="url(#crown-18-top-light)"/>
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="url(#crown-18-bottom-light)"/>
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="none" stroke="url(#crown-18-edge)" stroke-width="1.45"/>
+    <path d="M8 42c10 9 37 11 50-2v8c-2 9-7 14-18 15H21C10 62 4 55 2 46l6-4Z" fill="#D7E5FF" opacity=".1" clip-path="url(#crown-18-clip)"/>
+  </g>
+  <circle cx="32" cy="32" r="25" fill="url(#crown-18-halo)"/>
+  <g filter="url(#crown-18-material)"><g fill="none" stroke="url(#crown-18-glyph)" stroke-width="5.10" stroke-linecap="round" stroke-linejoin="round"><rect x="19" y="19" width="26" height="26" rx="8" transform="rotate(45 32 32)"/></g><g fill="url(#crown-18-glyph)"><path d="M36.57 36.34L36.10 36.44L35.64 36.50L35.21 36.55L34.81 36.60L34.45 36.66L34.11 36.76L33.80 36.89L33.50 37.07L33.19 37.29L32.87 37.55L32.53 37.82L32.15 38.10L31.75 38.35L31.30 38.57L30.84 38.73L30.36 38.82L29.88 38.81L29.42 38.71L28.99 38.52L28.60 38.25L28.27 37.90L28.01 37.49L27.80 37.04L27.66 36.57L27.56 36.10L27.50 35.64L27.45 35.21L27.40 34.81L27.34 34.45L27.24 34.11L27.11 33.80L26.93 33.50L26.71 33.19L26.45 32.87L26.18 32.53L25.90 32.15L25.65 31.75L25.43 31.30L25.27 30.84L25.18 30.36L25.19 29.88L25.29 29.42L25.48 28.99L25.75 28.60L26.10 28.27L26.51 28.01L26.96 27.80L27.43 27.66L27.90 27.56L28.36 27.50L28.79 27.45L29.19 27.40L29.55 27.34L29.89 27.24L30.20 27.11L30.50 26.93L30.81 26.71L31.13 26.45L31.47 26.18L31.85 25.90L32.25 25.65L32.70 25.43L33.16 25.27L33.64 25.18L34.12 25.19L34.58 25.29L35.01 25.48L35.40 25.75L35.73 26.10L35.99 26.51L36.20 26.96L36.34 27.43L36.44 27.90L36.50 28.36L36.55 28.79L36.60 29.19L36.66 29.55L36.76 29.89L36.89 30.20L37.07 30.50L37.29 30.81L37.55 31.13L37.82 31.47L38.10 31.85L38.35 32.25L38.57 32.70L38.73 33.16L38.82 33.64L38.81 34.12L38.71 34.58L38.52 35.01L38.25 35.40L37.90 35.73L37.49 35.99L37.04 36.20Z"/></g></g>
+  <g opacity=".66" transform="translate(-.35 -.52)"><g fill="none" stroke="url(#crown-18-glyph-gloss)" stroke-width="2.20" stroke-linecap="round" stroke-linejoin="round"><rect x="19" y="19" width="26" height="26" rx="8" transform="rotate(45 32 32)"/></g><g fill="url(#crown-18-glyph-gloss)"><path d="M36.57 36.34L36.10 36.44L35.64 36.50L35.21 36.55L34.81 36.60L34.45 36.66L34.11 36.76L33.80 36.89L33.50 37.07L33.19 37.29L32.87 37.55L32.53 37.82L32.15 38.10L31.75 38.35L31.30 38.57L30.84 38.73L30.36 38.82L29.88 38.81L29.42 38.71L28.99 38.52L28.60 38.25L28.27 37.90L28.01 37.49L27.80 37.04L27.66 36.57L27.56 36.10L27.50 35.64L27.45 35.21L27.40 34.81L27.34 34.45L27.24 34.11L27.11 33.80L26.93 33.50L26.71 33.19L26.45 32.87L26.18 32.53L25.90 32.15L25.65 31.75L25.43 31.30L25.27 30.84L25.18 30.36L25.19 29.88L25.29 29.42L25.48 28.99L25.75 28.60L26.10 28.27L26.51 28.01L26.96 27.80L27.43 27.66L27.90 27.56L28.36 27.50L28.79 27.45L29.19 27.40L29.55 27.34L29.89 27.24L30.20 27.11L30.50 26.93L30.81 26.71L31.13 26.45L31.47 26.18L31.85 25.90L32.25 25.65L32.70 25.43L33.16 25.27L33.64 25.18L34.12 25.19L34.58 25.29L35.01 25.48L35.40 25.75L35.73 26.10L35.99 26.51L36.20 26.96L36.34 27.43L36.44 27.90L36.50 28.36L36.55 28.79L36.60 29.19L36.66 29.55L36.76 29.89L36.89 30.20L37.07 30.50L37.29 30.81L37.55 31.13L37.82 31.47L38.10 31.85L38.35 32.25L38.57 32.70L38.73 33.16L38.82 33.64L38.81 34.12L38.71 34.58L38.52 35.01L38.25 35.40L37.90 35.73L37.49 35.99L37.04 36.20Z"/></g></g>
+</svg>

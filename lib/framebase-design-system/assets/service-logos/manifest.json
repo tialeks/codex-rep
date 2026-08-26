@@ -1,0 +1,552 @@
+[
+  {
+    "id": 1,
+    "slug": "nova",
+    "title": "Nova",
+    "file": "/service-logos/01-nova.svg",
+    "loaderFile": "/service-logos/loader-marks/01-nova.svg",
+    "palette": [
+      "#2867EB",
+      "#77A6F6"
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "spark",
+    "title": "Petal",
+    "file": "/service-logos/02-spark.svg",
+    "loaderFile": "/service-logos/loader-marks/02-spark.svg",
+    "palette": [
+      "#6554E3",
+      "#A192F4"
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "orbit",
+    "title": "Orbit",
+    "file": "/service-logos/03-orbit.svg",
+    "loaderFile": "/service-logos/loader-marks/03-orbit.svg",
+    "palette": [
+      "#9D4BD2",
+      "#D691ED"
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "pulse",
+    "title": "Halo",
+    "file": "/service-logos/04-pulse.svg",
+    "loaderFile": "/service-logos/loader-marks/04-pulse.svg",
+    "palette": [
+      "#D43C8B",
+      "#F486B5"
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "layers",
+    "title": "Flux",
+    "file": "/service-logos/05-layers.svg",
+    "loaderFile": "/service-logos/loader-marks/05-layers.svg",
+    "palette": [
+      "#DF4C58",
+      "#F58F85"
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "link",
+    "title": "Aster",
+    "file": "/service-logos/06-link.svg",
+    "loaderFile": "/service-logos/loader-marks/06-link.svg",
+    "palette": [
+      "#E56C28",
+      "#F4AF6B"
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "compass",
+    "title": "Mallow",
+    "file": "/service-logos/07-compass.svg",
+    "loaderFile": "/service-logos/loader-marks/07-compass.svg",
+    "palette": [
+      "#C58E14",
+      "#EFD05F"
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "shield",
+    "title": "Weave",
+    "file": "/service-logos/08-shield.svg",
+    "loaderFile": "/service-logos/loader-marks/08-shield.svg",
+    "palette": [
+      "#68A525",
+      "#AFD773"
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "cloud",
+    "title": "Corona",
+    "file": "/service-logos/09-cloud.svg",
+    "loaderFile": "/service-logos/loader-marks/09-cloud.svg",
+    "palette": [
+      "#249B58",
+      "#76D497"
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "wave",
+    "title": "Loop",
+    "file": "/service-logos/10-wave.svg",
+    "loaderFile": "/service-logos/loader-marks/10-wave.svg",
+    "palette": [
+      "#07927E",
+      "#68CEBF"
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "bolt",
+    "title": "Sol",
+    "file": "/service-logos/11-bolt.svg",
+    "loaderFile": "/service-logos/loader-marks/11-bolt.svg",
+    "palette": [
+      "#118BB5",
+      "#71C9E5"
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "leaf",
+    "title": "Clover",
+    "file": "/service-logos/12-leaf.svg",
+    "loaderFile": "/service-logos/loader-marks/12-leaf.svg",
+    "palette": [
+      "#3975C7",
+      "#8DB5EA"
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "pin",
+    "title": "Lattice",
+    "file": "/service-logos/13-pin.svg",
+    "loaderFile": "/service-logos/loader-marks/13-pin.svg",
+    "palette": [
+      "#5D6682",
+      "#A4ABBC"
+    ]
+  },
+  {
+    "id": 14,
+    "slug": "chat",
+    "title": "Aura",
+    "file": "/service-logos/14-chat.svg",
+    "loaderFile": "/service-logos/loader-marks/14-chat.svg",
+    "palette": [
+      "#8153C2",
+      "#BD94E6"
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "grid",
+    "title": "Twin",
+    "file": "/service-logos/15-grid.svg",
+    "loaderFile": "/service-logos/loader-marks/15-grid.svg",
+    "palette": [
+      "#BE4A70",
+      "#EA91AA"
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "infinity",
+    "title": "Ripple",
+    "file": "/service-logos/16-infinity.svg",
+    "loaderFile": "/service-logos/loader-marks/16-infinity.svg",
+    "palette": [
+      "#C96A49",
+      "#EEA688"
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "diamond",
+    "title": "Flora",
+    "file": "/service-logos/17-diamond.svg",
+    "loaderFile": "/service-logos/loader-marks/17-diamond.svg",
+    "palette": [
+      "#3C9A89",
+      "#8BD4C5"
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "crown",
+    "title": "Mesh",
+    "file": "/service-logos/18-crown.svg",
+    "loaderFile": "/service-logos/loader-marks/18-crown.svg",
+    "palette": [
+      "#2D8E9A",
+      "#7AC9D1"
+    ]
+  },
+  {
+    "id": 19,
+    "slug": "mountain",
+    "title": "Rosette",
+    "file": "/service-logos/19-mountain.svg",
+    "loaderFile": "/service-logos/loader-marks/19-mountain.svg",
+    "palette": [
+      "#895A98",
+      "#C19CCA"
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "bloom",
+    "title": "Bond",
+    "file": "/service-logos/20-bloom.svg",
+    "loaderFile": "/service-logos/loader-marks/20-bloom.svg",
+    "palette": [
+      "#4A7B67",
+      "#92BEAA"
+    ]
+  },
+  {
+    "id": 21,
+    "slug": "hex",
+    "title": "Crest",
+    "file": "/service-logos/21-hex.svg",
+    "loaderFile": "/service-logos/loader-marks/21-hex.svg",
+    "palette": [
+      "#2867EB",
+      "#77A6F6"
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "bridge",
+    "title": "Bloom",
+    "file": "/service-logos/22-bridge.svg",
+    "loaderFile": "/service-logos/loader-marks/22-bridge.svg",
+    "palette": [
+      "#6554E3",
+      "#A192F4"
+    ]
+  },
+  {
+    "id": 23,
+    "slug": "ribbon",
+    "title": "Knot",
+    "file": "/service-logos/23-ribbon.svg",
+    "loaderFile": "/service-logos/loader-marks/23-ribbon.svg",
+    "palette": [
+      "#9D4BD2",
+      "#D691ED"
+    ]
+  },
+  {
+    "id": 24,
+    "slug": "play",
+    "title": "Ember",
+    "file": "/service-logos/24-play.svg",
+    "loaderFile": "/service-logos/loader-marks/24-play.svg",
+    "palette": [
+      "#D43C8B",
+      "#F486B5"
+    ]
+  },
+  {
+    "id": 25,
+    "slug": "nodes",
+    "title": "Runa",
+    "file": "/service-logos/25-nodes.svg",
+    "loaderFile": "/service-logos/loader-marks/25-nodes.svg",
+    "palette": [
+      "#DF4C58",
+      "#F58F85"
+    ]
+  },
+  {
+    "id": 26,
+    "slug": "code",
+    "title": "Vale",
+    "file": "/service-logos/26-code.svg",
+    "loaderFile": "/service-logos/loader-marks/26-code.svg",
+    "palette": [
+      "#E56C28",
+      "#F4AF6B"
+    ]
+  },
+  {
+    "id": 27,
+    "slug": "eye",
+    "title": "Mira",
+    "file": "/service-logos/27-eye.svg",
+    "loaderFile": "/service-logos/loader-marks/27-eye.svg",
+    "palette": [
+      "#C58E14",
+      "#EFD05F"
+    ]
+  },
+  {
+    "id": 28,
+    "slug": "target",
+    "title": "Opal",
+    "file": "/service-logos/28-target.svg",
+    "loaderFile": "/service-logos/loader-marks/28-target.svg",
+    "palette": [
+      "#68A525",
+      "#AFD773"
+    ]
+  },
+  {
+    "id": 29,
+    "slug": "rocket",
+    "title": "Sora",
+    "file": "/service-logos/29-rocket.svg",
+    "loaderFile": "/service-logos/loader-marks/29-rocket.svg",
+    "palette": [
+      "#249B58",
+      "#76D497"
+    ]
+  },
+  {
+    "id": 30,
+    "slug": "cube",
+    "title": "Nivo",
+    "file": "/service-logos/30-cube.svg",
+    "loaderFile": "/service-logos/loader-marks/30-cube.svg",
+    "palette": [
+      "#07927E",
+      "#68CEBF"
+    ]
+  },
+  {
+    "id": 31,
+    "slug": "prism",
+    "title": "Elara",
+    "file": "/service-logos/31-prism.svg",
+    "loaderFile": "/service-logos/loader-marks/31-prism.svg",
+    "palette": [
+      "#118BB5",
+      "#71C9E5"
+    ]
+  },
+  {
+    "id": 32,
+    "slug": "moon",
+    "title": "Vela",
+    "file": "/service-logos/32-moon.svg",
+    "loaderFile": "/service-logos/loader-marks/32-moon.svg",
+    "palette": [
+      "#3975C7",
+      "#8DB5EA"
+    ]
+  },
+  {
+    "id": 33,
+    "slug": "flame",
+    "title": "Noma",
+    "file": "/service-logos/33-flame.svg",
+    "loaderFile": "/service-logos/loader-marks/33-flame.svg",
+    "palette": [
+      "#5D6682",
+      "#A4ABBC"
+    ]
+  },
+  {
+    "id": 34,
+    "slug": "key",
+    "title": "Lucent",
+    "file": "/service-logos/34-key.svg",
+    "loaderFile": "/service-logos/loader-marks/34-key.svg",
+    "palette": [
+      "#8153C2",
+      "#BD94E6"
+    ]
+  },
+  {
+    "id": 35,
+    "slug": "anchor",
+    "title": "Kora",
+    "file": "/service-logos/35-anchor.svg",
+    "loaderFile": "/service-logos/loader-marks/35-anchor.svg",
+    "palette": [
+      "#BE4A70",
+      "#EA91AA"
+    ]
+  },
+  {
+    "id": 36,
+    "slug": "bell",
+    "title": "Nami",
+    "file": "/service-logos/36-bell.svg",
+    "loaderFile": "/service-logos/loader-marks/36-bell.svg",
+    "palette": [
+      "#C96A49",
+      "#EEA688"
+    ]
+  },
+  {
+    "id": 37,
+    "slug": "bookmark",
+    "title": "Taro",
+    "file": "/service-logos/37-bookmark.svg",
+    "loaderFile": "/service-logos/loader-marks/37-bookmark.svg",
+    "palette": [
+      "#3C9A89",
+      "#8BD4C5"
+    ]
+  },
+  {
+    "id": 38,
+    "slug": "flag",
+    "title": "Yuna",
+    "file": "/service-logos/38-flag.svg",
+    "loaderFile": "/service-logos/loader-marks/38-flag.svg",
+    "palette": [
+      "#2D8E9A",
+      "#7AC9D1"
+    ]
+  },
+  {
+    "id": 39,
+    "slug": "chart",
+    "title": "Zori",
+    "file": "/service-logos/39-chart.svg",
+    "loaderFile": "/service-logos/loader-marks/39-chart.svg",
+    "palette": [
+      "#895A98",
+      "#C19CCA"
+    ]
+  },
+  {
+    "id": 40,
+    "slug": "wand",
+    "title": "Filo",
+    "file": "/service-logos/40-wand.svg",
+    "loaderFile": "/service-logos/loader-marks/40-wand.svg",
+    "palette": [
+      "#4A7B67",
+      "#92BEAA"
+    ]
+  },
+  {
+    "id": 41,
+    "slug": "fingerprint",
+    "title": "Arca",
+    "file": "/service-logos/41-fingerprint.svg",
+    "loaderFile": "/service-logos/loader-marks/41-fingerprint.svg",
+    "palette": [
+      "#2867EB",
+      "#77A6F6"
+    ]
+  },
+  {
+    "id": 42,
+    "slug": "switch",
+    "title": "Ilya",
+    "file": "/service-logos/42-switch.svg",
+    "loaderFile": "/service-logos/loader-marks/42-switch.svg",
+    "palette": [
+      "#6554E3",
+      "#A192F4"
+    ]
+  },
+  {
+    "id": 43,
+    "slug": "maze",
+    "title": "Luno",
+    "file": "/service-logos/43-maze.svg",
+    "loaderFile": "/service-logos/loader-marks/43-maze.svg",
+    "palette": [
+      "#9D4BD2",
+      "#D691ED"
+    ]
+  },
+  {
+    "id": 44,
+    "slug": "spiral",
+    "title": "Orin",
+    "file": "/service-logos/44-spiral.svg",
+    "loaderFile": "/service-logos/loader-marks/44-spiral.svg",
+    "palette": [
+      "#D43C8B",
+      "#F486B5"
+    ]
+  },
+  {
+    "id": 45,
+    "slug": "drop",
+    "title": "Piko",
+    "file": "/service-logos/45-drop.svg",
+    "loaderFile": "/service-logos/loader-marks/45-drop.svg",
+    "palette": [
+      "#DF4C58",
+      "#F58F85"
+    ]
+  },
+  {
+    "id": 46,
+    "slug": "portal",
+    "title": "Seli",
+    "file": "/service-logos/46-portal.svg",
+    "loaderFile": "/service-logos/loader-marks/46-portal.svg",
+    "palette": [
+      "#E56C28",
+      "#F4AF6B"
+    ]
+  },
+  {
+    "id": 47,
+    "slug": "handshake",
+    "title": "Timo",
+    "file": "/service-logos/47-handshake.svg",
+    "loaderFile": "/service-logos/loader-marks/47-handshake.svg",
+    "palette": [
+      "#C58E14",
+      "#EFD05F"
+    ]
+  },
+  {
+    "id": 48,
+    "slug": "clock",
+    "title": "Varo",
+    "file": "/service-logos/48-clock.svg",
+    "loaderFile": "/service-logos/loader-marks/48-clock.svg",
+    "palette": [
+      "#68A525",
+      "#AFD773"
+    ]
+  },
+  {
+    "id": 49,
+    "slug": "star",
+    "title": "Welo",
+    "file": "/service-logos/49-star.svg",
+    "loaderFile": "/service-logos/loader-marks/49-star.svg",
+    "palette": [
+      "#249B58",
+      "#76D497"
+    ]
+  },
+  {
+    "id": 50,
+    "slug": "knot",
+    "title": "Zena",
+    "file": "/service-logos/50-knot.svg",
+    "loaderFile": "/service-logos/loader-marks/50-knot.svg",
+    "palette": [
+      "#07927E",
+      "#68CEBF"
+    ]
+  }
+]

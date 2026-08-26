@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="nova-1-title" overflow="visible">
+  <title id="nova-1-title">Nova</title>
+  <defs>
+    <linearGradient id="nova-1-bg" x1="32" y1="1" x2="32" y2="63" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2867EB"/>
+      <stop offset=".48" stop-color="#2867EB" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#77A6F6"/>
+    </linearGradient>
+    <radialGradient id="nova-1-top-light" cx="0" cy="0" r="1" gradientTransform="translate(20 4) rotate(65) scale(38 48)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nova-1-bottom-light" cx="0" cy="0" r="1" gradientTransform="translate(30 65) rotate(-87) scale(36 49)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b0cbfa" stop-opacity=".46"/>
+      <stop offset="1" stop-color="#77A6F6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nova-1-edge" x1="11" y1="5" x2="55" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".74"/>
+      <stop offset=".28" stop-color="#fff" stop-opacity=".12"/>
+      <stop offset=".72" stop-color="#2867EB" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#EAF2FF" stop-opacity=".62"/>
+    </linearGradient>
+    <linearGradient id="nova-1-glyph" x1="25" y1="15" x2="38" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/>
+      <stop offset=".42" stop-color="#F9FBFF"/>
+      <stop offset=".76" stop-color="#e1ebfd"/>
+      <stop offset="1" stop-color="#c6dafb"/>
+    </linearGradient>
+    <linearGradient id="nova-1-glyph-gloss" x1="26" y1="15" x2="34" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".95"/>
+      <stop offset=".48" stop-color="#fff" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="nova-1-halo" cx="0" cy="0" r="1" gradientTransform="translate(31 31) scale(25)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".19"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="nova-1-tile-shadow" x="-16%" y="-14%" width="132%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="1.4" stdDeviation="1.4" flood-color="#1e3e84" flood-opacity=".42"/>
+      <feDropShadow dx="-.35" dy="-.45" stdDeviation=".38" flood-color="#fff" flood-opacity=".4"/>
+    </filter>
+    <filter id="nova-1-material" x="-28%" y="-28%" width="156%" height="165%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="1.4" stdDeviation=".88" flood-color="#1e3e84" flood-opacity=".64"/>
+      <feDropShadow dx="-.55" dy="-.7" stdDeviation=".48" flood-color="#fff" flood-opacity=".95"/>
+      <feDropShadow dx=".3" dy=".45" stdDeviation=".34" flood-color="#B7CBF5" flood-opacity=".7"/>
+    </filter>
+    <clipPath id="nova-1-clip"><path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z"/></clipPath>
+  </defs>
+  <g filter="url(#nova-1-tile-shadow)">
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="url(#nova-1-bg)"/>
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="url(#nova-1-top-light)"/>
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="url(#nova-1-bottom-light)"/>
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="none" stroke="url(#nova-1-edge)" stroke-width="1.45"/>
+    <path d="M8 42c10 9 37 11 50-2v8c-2 9-7 14-18 15H21C10 62 4 55 2 46l6-4Z" fill="#D7E5FF" opacity=".1" clip-path="url(#nova-1-clip)"/>
+  </g>
+  <circle cx="32" cy="32" r="25" fill="url(#nova-1-halo)"/>
+  <g filter="url(#nova-1-material)"><g fill="none" stroke="url(#nova-1-glyph)" stroke-width="5.10" stroke-linecap="round" stroke-linejoin="round"><path d="M48.92 35.25L48.68 36.36L48.02 37.32L47.03 38.11L45.87 38.73L44.70 39.22L43.67 39.69L42.88 40.24L42.35 40.96L42.03 41.91L41.82 43.05L41.58 44.32L41.20 45.58L40.59 46.66L39.74 47.44L38.67 47.82L37.47 47.79L36.24 47.43L35.05 46.86L33.97 46.27L32.99 45.81L32.09 45.62L31.19 45.75L30.23 46.16L29.16 46.74L28.00 47.33L26.77 47.75L25.55 47.85L24.46 47.55L23.56 46.84L22.90 45.80L22.48 44.57L22.22 43.29L22.01 42.11L21.72 41.13L21.24 40.36L20.50 39.79L19.52 39.31L18.37 38.83L17.19 38.25L16.15 37.49L15.42 36.56L15.09 35.47L15.21 34.32L15.71 33.17L16.47 32.10L17.31 31.13L18.06 30.25L18.57 29.42L18.78 28.55L18.69 27.58L18.41 26.47L18.07 25.24L17.84 23.94L17.87 22.69L18.25 21.58L18.99 20.74L20.05 20.20L21.30 19.95L22.61 19.93L23.87 19.99L24.97 20.00L25.89 19.81L26.67 19.35L27.36 18.60L28.05 17.63L28.83 16.60L29.74 15.66L30.78 14.99L31.89 14.72L33.01 14.90L34.07 15.50L35.00 16.40L35.80 17.43L36.51 18.42L37.20 19.22L37.95 19.75L38.84 19.98L39.91 20.00L41.13 19.94L42.45 19.93L43.72 20.13L44.83 20.61L45.64 21.40L46.09 22.46L46.18 23.69L45.99 24.99L45.66 26.24L45.35 27.37L45.22 28.37L45.36 29.25L45.82 30.09L46.53 30.95L47.37 31.90L48.16 32.96L48.72 34.09Z"/></g><g fill="url(#nova-1-glyph)"><path d="M38.87 36.31L38.26 36.52L37.64 36.67L37.07 36.78L36.56 36.90L36.12 37.06L35.76 37.28L35.45 37.59L35.17 37.98L34.90 38.45L34.60 38.98L34.25 39.51L33.84 40.02L33.36 40.44L32.83 40.75L32.26 40.90L31.68 40.89L31.11 40.72L30.58 40.40L30.11 39.96L29.71 39.45L29.37 38.92L29.07 38.40L28.80 37.93L28.52 37.55L28.21 37.25L27.83 37.04L27.39 36.89L26.87 36.77L26.29 36.65L25.67 36.50L25.06 36.28L24.50 35.98L24.02 35.58L23.67 35.10L23.46 34.56L23.42 33.97L23.53 33.37L23.78 32.78L24.13 32.23L24.53 31.73L24.93 31.28L25.30 30.87L25.60 30.48L25.80 30.10L25.91 29.68L25.93 29.22L25.89 28.70L25.82 28.13L25.77 27.50L25.78 26.85L25.87 26.22L26.07 25.63L26.40 25.12L26.83 24.73L27.36 24.48L27.96 24.38L28.59 24.40L29.23 24.54L29.83 24.76L30.40 25.01L30.91 25.24L31.38 25.42L31.81 25.51L32.24 25.50L32.67 25.40L33.15 25.21L33.66 24.98L34.23 24.73L34.85 24.52L35.48 24.40L36.11 24.38L36.70 24.50L37.22 24.77L37.65 25.17L37.96 25.69L38.15 26.29L38.23 26.93L38.22 27.57L38.17 28.19L38.10 28.77L38.07 29.28L38.10 29.73L38.22 30.14L38.43 30.53L38.74 30.91L39.11 31.33L39.52 31.78L39.92 32.29L40.25 32.84L40.49 33.43L40.58 34.03L40.52 34.62L40.30 35.16L39.93 35.63L39.44 36.01Z"/></g></g>
+  <g opacity=".66" transform="translate(-.35 -.52)"><g fill="none" stroke="url(#nova-1-glyph-gloss)" stroke-width="2.20" stroke-linecap="round" stroke-linejoin="round"><path d="M48.92 35.25L48.68 36.36L48.02 37.32L47.03 38.11L45.87 38.73L44.70 39.22L43.67 39.69L42.88 40.24L42.35 40.96L42.03 41.91L41.82 43.05L41.58 44.32L41.20 45.58L40.59 46.66L39.74 47.44L38.67 47.82L37.47 47.79L36.24 47.43L35.05 46.86L33.97 46.27L32.99 45.81L32.09 45.62L31.19 45.75L30.23 46.16L29.16 46.74L28.00 47.33L26.77 47.75L25.55 47.85L24.46 47.55L23.56 46.84L22.90 45.80L22.48 44.57L22.22 43.29L22.01 42.11L21.72 41.13L21.24 40.36L20.50 39.79L19.52 39.31L18.37 38.83L17.19 38.25L16.15 37.49L15.42 36.56L15.09 35.47L15.21 34.32L15.71 33.17L16.47 32.10L17.31 31.13L18.06 30.25L18.57 29.42L18.78 28.55L18.69 27.58L18.41 26.47L18.07 25.24L17.84 23.94L17.87 22.69L18.25 21.58L18.99 20.74L20.05 20.20L21.30 19.95L22.61 19.93L23.87 19.99L24.97 20.00L25.89 19.81L26.67 19.35L27.36 18.60L28.05 17.63L28.83 16.60L29.74 15.66L30.78 14.99L31.89 14.72L33.01 14.90L34.07 15.50L35.00 16.40L35.80 17.43L36.51 18.42L37.20 19.22L37.95 19.75L38.84 19.98L39.91 20.00L41.13 19.94L42.45 19.93L43.72 20.13L44.83 20.61L45.64 21.40L46.09 22.46L46.18 23.69L45.99 24.99L45.66 26.24L45.35 27.37L45.22 28.37L45.36 29.25L45.82 30.09L46.53 30.95L47.37 31.90L48.16 32.96L48.72 34.09Z"/></g><g fill="url(#nova-1-glyph-gloss)"><path d="M38.87 36.31L38.26 36.52L37.64 36.67L37.07 36.78L36.56 36.90L36.12 37.06L35.76 37.28L35.45 37.59L35.17 37.98L34.90 38.45L34.60 38.98L34.25 39.51L33.84 40.02L33.36 40.44L32.83 40.75L32.26 40.90L31.68 40.89L31.11 40.72L30.58 40.40L30.11 39.96L29.71 39.45L29.37 38.92L29.07 38.40L28.80 37.93L28.52 37.55L28.21 37.25L27.83 37.04L27.39 36.89L26.87 36.77L26.29 36.65L25.67 36.50L25.06 36.28L24.50 35.98L24.02 35.58L23.67 35.10L23.46 34.56L23.42 33.97L23.53 33.37L23.78 32.78L24.13 32.23L24.53 31.73L24.93 31.28L25.30 30.87L25.60 30.48L25.80 30.10L25.91 29.68L25.93 29.22L25.89 28.70L25.82 28.13L25.77 27.50L25.78 26.85L25.87 26.22L26.07 25.63L26.40 25.12L26.83 24.73L27.36 24.48L27.96 24.38L28.59 24.40L29.23 24.54L29.83 24.76L30.40 25.01L30.91 25.24L31.38 25.42L31.81 25.51L32.24 25.50L32.67 25.40L33.15 25.21L33.66 24.98L34.23 24.73L34.85 24.52L35.48 24.40L36.11 24.38L36.70 24.50L37.22 24.77L37.65 25.17L37.96 25.69L38.15 26.29L38.23 26.93L38.22 27.57L38.17 28.19L38.10 28.77L38.07 29.28L38.10 29.73L38.22 30.14L38.43 30.53L38.74 30.91L39.11 31.33L39.52 31.78L39.92 32.29L40.25 32.84L40.49 33.43L40.58 34.03L40.52 34.62L40.30 35.16L39.93 35.63L39.44 36.01Z"/></g></g>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="shield-8-title" overflow="visible">
+  <title id="shield-8-title">Weave</title>
+  <defs>
+    <linearGradient id="shield-8-bg" x1="32" y1="1" x2="32" y2="63" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#68A525"/>
+      <stop offset=".48" stop-color="#68A525" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#AFD773"/>
+    </linearGradient>
+    <radialGradient id="shield-8-top-light" cx="0" cy="0" r="1" gradientTransform="translate(20 4) rotate(65) scale(38 48)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="shield-8-bottom-light" cx="0" cy="0" r="1" gradientTransform="translate(30 65) rotate(-87) scale(36 49)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d1e8ae" stop-opacity=".46"/>
+      <stop offset="1" stop-color="#AFD773" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shield-8-edge" x1="11" y1="5" x2="55" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".74"/>
+      <stop offset=".28" stop-color="#fff" stop-opacity=".12"/>
+      <stop offset=".72" stop-color="#68A525" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#EAF2FF" stop-opacity=".62"/>
+    </linearGradient>
+    <linearGradient id="shield-8-glyph" x1="25" y1="15" x2="38" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/>
+      <stop offset=".42" stop-color="#F9FBFF"/>
+      <stop offset=".76" stop-color="#edf6e0"/>
+      <stop offset="1" stop-color="#ddeec4"/>
+    </linearGradient>
+    <linearGradient id="shield-8-glyph-gloss" x1="26" y1="15" x2="34" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".95"/>
+      <stop offset=".48" stop-color="#fff" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="shield-8-halo" cx="0" cy="0" r="1" gradientTransform="translate(31 31) scale(25)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".19"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shield-8-tile-shadow" x="-16%" y="-14%" width="132%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="1.4" stdDeviation="1.4" flood-color="#395831" flood-opacity=".42"/>
+      <feDropShadow dx="-.35" dy="-.45" stdDeviation=".38" flood-color="#fff" flood-opacity=".4"/>
+    </filter>
+    <filter id="shield-8-material" x="-28%" y="-28%" width="156%" height="165%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="1.4" stdDeviation=".88" flood-color="#395831" flood-opacity=".64"/>
+      <feDropShadow dx="-.55" dy="-.7" stdDeviation=".48" flood-color="#fff" flood-opacity=".95"/>
+      <feDropShadow dx=".3" dy=".45" stdDeviation=".34" flood-color="#B7CBF5" flood-opacity=".7"/>
+    </filter>
+    <clipPath id="shield-8-clip"><path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z"/></clipPath>
+  </defs>
+  <g filter="url(#shield-8-tile-shadow)">
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="url(#shield-8-bg)"/>
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="url(#shield-8-top-light)"/>
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="url(#shield-8-bottom-light)"/>
+    <path d="M20 .8C8.5.8.8 8.5.8 20v24c0 11.5 7.7 19.2 19.2 19.2h24c11.5 0 19.2-7.7 19.2-19.2V20C63.2 8.5 55.5.8 44 .8H20Z" fill="none" stroke="url(#shield-8-edge)" stroke-width="1.45"/>
+    <path d="M8 42c10 9 37 11 50-2v8c-2 9-7 14-18 15H21C10 62 4 55 2 46l6-4Z" fill="#D7E5FF" opacity=".1" clip-path="url(#shield-8-clip)"/>
+  </g>
+  <circle cx="32" cy="32" r="25" fill="url(#shield-8-halo)"/>
+  <g filter="url(#shield-8-material)"><g fill="none" stroke="url(#shield-8-glyph)" stroke-width="5.10" stroke-linecap="round" stroke-linejoin="round"><rect x="19" y="19" width="26" height="26" rx="8" transform="rotate(45 32 32)"/></g><g fill="url(#shield-8-glyph)"><path d="M38.98 33.34L38.97 33.82L38.77 34.25L38.42 34.61L37.95 34.89L37.42 35.08L36.89 35.22L36.40 35.33L36.00 35.46L35.70 35.65L35.49 35.93L35.36 36.32L35.24 36.79L35.11 37.32L34.93 37.85L34.67 38.34L34.33 38.72L33.91 38.94L33.44 38.99L32.95 38.87L32.47 38.60L32.04 38.24L31.65 37.84L31.31 37.48L31.00 37.20L30.69 37.03L30.34 36.99L29.94 37.06L29.48 37.20L28.95 37.36L28.40 37.47L27.85 37.48L27.35 37.37L26.94 37.12L26.66 36.74L26.53 36.26L26.52 35.71L26.62 35.15L26.77 34.62L26.91 34.14L27.00 33.73L26.99 33.38L26.85 33.06L26.58 32.75L26.23 32.41L25.84 32.04L25.46 31.61L25.17 31.15L25.02 30.66L25.03 30.18L25.23 29.75L25.58 29.39L26.05 29.11L26.58 28.92L27.11 28.78L27.60 28.67L28.00 28.54L28.30 28.35L28.51 28.07L28.64 27.68L28.76 27.21L28.89 26.68L29.07 26.15L29.33 25.66L29.67 25.28L30.09 25.06L30.56 25.01L31.05 25.13L31.53 25.40L31.96 25.76L32.35 26.16L32.69 26.52L33.00 26.80L33.31 26.97L33.66 27.01L34.06 26.94L34.52 26.80L35.05 26.64L35.60 26.53L36.15 26.52L36.65 26.63L37.06 26.88L37.34 27.26L37.47 27.74L37.48 28.29L37.38 28.85L37.23 29.38L37.09 29.86L37.00 30.27L37.01 30.62L37.15 30.94L37.42 31.25L37.77 31.59L38.16 31.96L38.54 32.39L38.83 32.85Z"/></g></g>
+  <g opacity=".66" transform="translate(-.35 -.52)"><g fill="none" stroke="url(#shield-8-glyph-gloss)" stroke-width="2.20" stroke-linecap="round" stroke-linejoin="round"><rect x="19" y="19" width="26" height="26" rx="8" transform="rotate(45 32 32)"/></g><g fill="url(#shield-8-glyph-gloss)"><path d="M38.98 33.34L38.97 33.82L38.77 34.25L38.42 34.61L37.95 34.89L37.42 35.08L36.89 35.22L36.40 35.33L36.00 35.46L35.70 35.65L35.49 35.93L35.36 36.32L35.24 36.79L35.11 37.32L34.93 37.85L34.67 38.34L34.33 38.72L33.91 38.94L33.44 38.99L32.95 38.87L32.47 38.60L32.04 38.24L31.65 37.84L31.31 37.48L31.00 37.20L30.69 37.03L30.34 36.99L29.94 37.06L29.48 37.20L28.95 37.36L28.40 37.47L27.85 37.48L27.35 37.37L26.94 37.12L26.66 36.74L26.53 36.26L26.52 35.71L26.62 35.15L26.77 34.62L26.91 34.14L27.00 33.73L26.99 33.38L26.85 33.06L26.58 32.75L26.23 32.41L25.84 32.04L25.46 31.61L25.17 31.15L25.02 30.66L25.03 30.18L25.23 29.75L25.58 29.39L26.05 29.11L26.58 28.92L27.11 28.78L27.60 28.67L28.00 28.54L28.30 28.35L28.51 28.07L28.64 27.68L28.76 27.21L28.89 26.68L29.07 26.15L29.33 25.66L29.67 25.28L30.09 25.06L30.56 25.01L31.05 25.13L31.53 25.40L31.96 25.76L32.35 26.16L32.69 26.52L33.00 26.80L33.31 26.97L33.66 27.01L34.06 26.94L34.52 26.80L35.05 26.64L35.60 26.53L36.15 26.52L36.65 26.63L37.06 26.88L37.34 27.26L37.47 27.74L37.48 28.29L37.38 28.85L37.23 29.38L37.09 29.86L37.00 30.27L37.01 30.62L37.15 30.94L37.42 31.25L37.77 31.59L38.16 31.96L38.54 32.39L38.83 32.85Z"/></g></g>
+</svg>
