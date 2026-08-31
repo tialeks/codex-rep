@@ -1,0 +1,4 @@
+interface:
+  display_name: "ICN Variant Sort"
+  short_description: "Sort Figma variants and group them by initial"
+  default_prompt: "Use $icn-var-sort to sort this Figma component set and add Letter grouping safely."
