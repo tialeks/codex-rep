@@ -1,8 +1,15 @@
+---
+name: figma-automation
+description: Inspect and modify exposed component properties on Figma instances, including boolean properties such as Center Picture; use for instance-property edits.
+---
+
 # Figma Automation Skill
 
 ## Purpose
 
 Rules for safe Figma automation through MCP and Figma Plugin API.
+
+Follow [project operating rules](../../docs/operating-rules.md). Load the installed `figma-use` skill before using its tool; use the currently exposed API and tool schema.
 
 ## Component property modification
 
@@ -12,13 +19,7 @@ When modifying Figma component instances:
 - Always inspect `instance.componentProperties` first.
 - Boolean component properties must be changed through `instance.setProperties()`.
 
-Example:
-
-```javascript
-instance.setProperties({
-  "Center Picture#3143:11": true
-});
-```
+Resolve the exact property key from the current instance. Property suffixes are instance/component-specific; do not reuse IDs from a past example.
 
 ## Verified workflow
 
@@ -28,17 +29,6 @@ instance.setProperties({
 4. Find the exact component property key.
 5. Apply `setProperties()`.
 6. Validate the new value after mutation.
-
-## Example
-
-Node:
-`11635:134641`
-
-Property:
-`Center Picture#3143:11`
-
-Result:
-`false → true`
 
 ## Important
 

@@ -15,11 +15,15 @@ This project is designed to work with Figma files through MCP and automate desig
 
 ## Structure
 
-- `figma/` — Figma-related workflows and audits
+- `AGENTS.md` — project instructions and skill routing
 - `skills/` — reusable AI workflows and rules
 - `docs/` — project documentation
-- `config/` — project settings
+- `lib/` — imported design-system code and assets
 
 ## Workflow
 
 Figma → MCP → AI analysis → GitHub documentation and automation
+
+## Loading instructions
+
+Codex reads `AGENTS.md` when working inside this checkout. Skills remain in the existing `skills/` paths and are routed by `AGENTS.md`; keeping them on GitHub alone does not automatically install them into ChatGPT Work. Load only the relevant skill.
