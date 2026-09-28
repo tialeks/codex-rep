@@ -11,6 +11,7 @@
 | User flows and interaction states | `skills/ux-analysis/SKILL.md` |
 | Accessibility review or requested fixes | `skills/accessibility/SKILL.md` |
 | Прототип в вёрстке / Figma → React + TypeScript | `skills/figma-automation/figma-exact-react/SKILL.md` |
+| Лого-шайба / объёмная иконка сервиса | `skills/figma-automation/service-shaiba/SKILL.md` |
 | Instance component-property edits | `skills/figma-automation/SKILL.md` |
 | Alphabetical variant sorting / Letter grouping | `skills/ux-analysis/icn-var-sort/SKILL.md` |
 
