@@ -1,0 +1,6 @@
+interface:
+  display_name: "Figma Exact React"
+  short_description: "Точный React-экран из Figma с QA"
+  default_prompt: "Используй $figma-exact-react, чтобы точно собрать этот Figma node в React + TypeScript и проверить anatomy, assets, responsive, interactions и build: [Figma URL]."
+policy:
+  allow_implicit_invocation: true

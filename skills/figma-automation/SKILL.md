@@ -1,6 +1,6 @@
 ---
 name: figma-automation
-description: Inspect and modify exposed component properties on Figma instances, including boolean properties such as Center Picture; use for instance-property edits.
+description: Inspect and modify exposed component properties on Figma instances, including boolean properties such as Center Picture; use for instance-property edits. For requests to build a prototype in markup (собрать прототип в вёрстке) or implement Figma in React/TypeScript, load the nested figma-exact-react skill.
 ---
 
 # Figma Automation Skill
@@ -35,3 +35,7 @@ Resolve the exact property key from the current instance. Property suffixes are 
 A component property is not the same as a layer visibility state.
 Changing `.visible` may break component logic.
 Prefer changing the property exposed by the component API.
+
+## Прототип в вёрстке
+
+Когда пользователь просит собрать прототип в вёрстке, сверстать прототип или перенести макет Figma в React/TypeScript, читать [figma-exact-react/SKILL.md](figma-exact-react/SKILL.md) и применять его workflow.
