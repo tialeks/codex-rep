@@ -1,0 +1,227 @@
+[
+  {
+    "name": "Чистый матовый",
+    "ids": [
+      "matte-polymer",
+      "silver-satin",
+      "thin-glass"
+    ]
+  },
+  {
+    "name": "Мягкий сатин",
+    "ids": [
+      "satin-polymer",
+      "ceramic",
+      "paper"
+    ]
+  },
+  {
+    "name": "Яркий глянец",
+    "ids": [
+      "gloss-polymer",
+      "colored-glass",
+      "silver-polished"
+    ]
+  },
+  {
+    "name": "Прозрачное стекло",
+    "ids": [
+      "thick-glass",
+      "silver-satin",
+      "satin-polymer"
+    ]
+  },
+  {
+    "name": "Перламутровый",
+    "ids": [
+      "pearl-coating",
+      "thin-glass",
+      "silver-polished"
+    ]
+  },
+  {
+    "name": "Бумажный",
+    "ids": [
+      "paper",
+      "cardboard",
+      "coated-paper"
+    ]
+  },
+  {
+    "name": "Крафт и дерево",
+    "ids": [
+      "kraft",
+      "wood",
+      "dry-fibre"
+    ]
+  },
+  {
+    "name": "Тёплая керамика",
+    "ids": [
+      "ceramic",
+      "wood",
+      "copper"
+    ]
+  },
+  {
+    "name": "Домашний текстиль",
+    "ids": [
+      "weave",
+      "wood",
+      "ceramic"
+    ]
+  },
+  {
+    "name": "Кожа и металл",
+    "ids": [
+      "leather",
+      "silver-satin",
+      "thin-fabric"
+    ]
+  },
+  {
+    "name": "Бархат и золото",
+    "ids": [
+      "velvet",
+      "gold",
+      "wood"
+    ]
+  },
+  {
+    "name": "Надувной",
+    "ids": [
+      "inflatable-pvc",
+      "soft-polymer",
+      "silver-satin"
+    ]
+  },
+  {
+    "name": "Ледяная оптика",
+    "ids": [
+      "ice",
+      "faceted-crystal",
+      "silver-polished",
+      "liquid"
+    ]
+  },
+  {
+    "name": "Мягкий металл",
+    "ids": [
+      "flexible-pearl",
+      "soft-polymer"
+    ]
+  },
+  {
+    "name": "Ботаническая оболочка",
+    "ids": [
+      "leaf-surface",
+      "eggshell",
+      "soft-organic",
+      "thin-glass",
+      "dry-fibre"
+    ]
+  },
+  {
+    "name": "Тактильный механизм",
+    "ids": [
+      "molded-polymer",
+      "fine-pores",
+      "copper",
+      "laminate",
+      "thin-glass",
+      "soft-polymer"
+    ]
+  },
+  {
+    "name": "Пена и свет",
+    "ids": [
+      "foam",
+      "colored-glass",
+      "silver-polished"
+    ]
+  },
+  {
+    "name": "Ворс и прозрачность",
+    "ids": [
+      "short-pile",
+      "thick-glass",
+      "satin-polymer",
+      "silver-satin"
+    ]
+  },
+  {
+    "name": "Архив будущего",
+    "ids": [
+      "laminate",
+      "cardboard",
+      "coated-paper",
+      "leather",
+      "silver-satin",
+      "thin-glass"
+    ]
+  },
+  {
+    "name": "Хрупкая упаковка",
+    "ids": [
+      "eggshell",
+      "kraft",
+      "thin-fabric",
+      "pearl-coating"
+    ]
+  },
+  {
+    "name": "Жидкий витраж",
+    "ids": [
+      "liquid",
+      "colored-glass",
+      "faceted-crystal",
+      "copper",
+      "ceramic"
+    ]
+  },
+  {
+    "name": "Текстильная механика",
+    "ids": [
+      "weave",
+      "short-pile",
+      "thin-fabric",
+      "leather",
+      "wood",
+      "silver-satin",
+      "molded-polymer",
+      "soft-polymer"
+    ]
+  },
+  {
+    "name": "Ботаническая мастерская",
+    "ids": [
+      "soft-organic",
+      "leaf-surface",
+      "dry-fibre",
+      "wood",
+      "eggshell",
+      "ceramic",
+      "thin-glass",
+      "liquid",
+      "kraft",
+      "copper"
+    ]
+  },
+  {
+    "name": "Тактильная коллекция",
+    "ids": [
+      "satin-polymer",
+      "molded-polymer",
+      "foam",
+      "fine-pores",
+      "inflatable-pvc",
+      "soft-polymer",
+      "flexible-pearl",
+      "short-pile",
+      "colored-glass",
+      "faceted-crystal",
+      "silver-satin",
+      "coated-paper"
+    ]
+  }
+]

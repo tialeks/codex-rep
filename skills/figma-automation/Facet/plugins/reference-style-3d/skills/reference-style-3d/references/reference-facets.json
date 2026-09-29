@@ -1,0 +1,116 @@
+[
+  {
+    "id": "structure",
+    "label": "Сложность",
+    "hint": "Число предметов и насыщенность",
+    "prompt": "Match the number of semantic subjects and visual density within one reference composition, not the number of cells in a sheet.",
+    "controls": [
+      "graphicType"
+    ],
+    "prefixes": [
+      "Structure:"
+    ]
+  },
+  {
+    "id": "composition",
+    "label": "Композиция",
+    "hint": "Иерархия, расположение и перекрытия",
+    "prompt": "Transfer hierarchy, relative scale, spacing and overlap inside each composition, adapting to the requested subjects. Keep every object fully inside the output cell.",
+    "controls": [
+      "arrangement"
+    ],
+    "prefixes": [
+      "Arrangement:"
+    ]
+  },
+  {
+    "id": "palette",
+    "label": "Цвета",
+    "hint": "Палитра и соотношение акцентов",
+    "prompt": "Transfer dominant colors and accent proportions to appropriate surfaces, preserving optical behavior.",
+    "controls": [
+      "palette",
+      "colors",
+      "whiteBase"
+    ],
+    "prefixes": [
+      "Palette:",
+      "Suitable large surfaces"
+    ]
+  },
+  {
+    "id": "ornament",
+    "label": "Орнамент",
+    "hint": "Рисунок, мотив и масштаб повторения",
+    "prompt": "Transfer decorative motifs, pattern placement and repeat scale onto appropriate surfaces of the new subjects. Adapt the motifs to the active palette; do not copy text or brands.",
+    "controls": [],
+    "prefixes": []
+  },
+  {
+    "id": "detail",
+    "label": "Детализация",
+    "hint": "Конструкция и масштаб фактуры",
+    "prompt": "Match the selection and scale of construction and surface details; do not add subjects.",
+    "controls": [
+      "detailLevel"
+    ],
+    "prefixes": [
+      "Detail:"
+    ]
+  },
+  {
+    "id": "materials",
+    "label": "Материалы",
+    "hint": "Основа, покрытия и фактура",
+    "prompt": "Transfer visible surface identities and their main/accent roles to the requested objects. Do not infer unseen materials or copy sample geometry.",
+    "controls": [
+      "materials"
+    ],
+    "prefixes": [
+      "Main body material:",
+      "Materials:"
+    ]
+  },
+  {
+    "id": "camera",
+    "label": "Ракурс",
+    "hint": "Направление, перспектива и крупность",
+    "prompt": "Match camera elevation, viewing direction, projection and relative composition size within the cell. Keep every subject fully contained; never copy cropping.",
+    "controls": [
+      "camera",
+      "shot"
+    ],
+    "prefixes": [
+      "Camera:",
+      "Shot:"
+    ]
+  },
+  {
+    "id": "shape",
+    "label": "Пластика формы",
+    "hint": "Пропорции, округлость и кромки",
+    "prompt": "Transfer proportions, rounding and bevel character to new subjects, preserving their identity and selected construction detail.",
+    "controls": [],
+    "prefixes": []
+  },
+  {
+    "id": "lighting",
+    "label": "Свет",
+    "hint": "Направление, мягкость и блики",
+    "prompt": "Transfer light direction, softness and highlight character, within our stylized editorial 3D language; do not copy the background.",
+    "controls": [],
+    "prefixes": []
+  },
+  {
+    "id": "effects",
+    "label": "Приём",
+    "hint": "Деформация или взаимодействие",
+    "prompt": "Transfer the visible creative treatment to the requested subjects, keeping unselected material, color, camera and layout settings authoritative.",
+    "controls": [
+      "effects"
+    ],
+    "prefixes": [
+      "Effect (priority"
+    ]
+  }
+]

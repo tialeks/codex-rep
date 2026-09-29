@@ -1,0 +1,122 @@
+[
+  {
+    "id": "wallet-commerce",
+    "path": "assets/originals/wallet-commerce.png",
+    "origin": "User attachment in source design discussion",
+    "attachmentId": "dface6e7-bde6-44db-af3c-2bbfc85ef718",
+    "sha256": "4e9e08508e59edd879844dd5cdc48347ad94cbd5d8665e0b0bfc848a88b39ea6",
+    "size": [
+      750,
+      1624
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "id": "shopping",
+    "path": "assets/originals/shopping.png",
+    "origin": "User attachment in source design discussion",
+    "attachmentId": "8c8635b4-9a67-456a-9b1b-fd607c966e24",
+    "sha256": "1a6556d5e21a93fe828003a4588697fba0b6500341b56caf50c0b044850e47a9",
+    "size": [
+      400,
+      241
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "id": "flamingo",
+    "path": "assets/originals/flamingo.png",
+    "origin": "User attachment in source design discussion",
+    "attachmentId": "0ffc8e5f-4d80-436b-b4e4-74cfbe8b7363",
+    "sha256": "f48237794958f8deb4be036eab4a3477e06d7acbf5dc68eb73938052c73eb8c4",
+    "size": [
+      240,
+      240
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "id": "pearl-card",
+    "path": "assets/originals/pearl-card.png",
+    "origin": "User attachment in source design discussion",
+    "attachmentId": "dd1e2f14-7c79-4042-87f6-d2649c24c5b7",
+    "sha256": "98ec916d9ef3c2d93ac096c4533e43b792557c73a012f4997431d5d397039a30",
+    "size": [
+      590,
+      208
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "id": "burger-kraft",
+    "path": "assets/originals/burger-kraft.png",
+    "origin": "User attachment in source design discussion",
+    "attachmentId": "5c517c4a-01ad-471e-b8f0-edd82c37edb7",
+    "sha256": "6f80071036e9c1993f8a3996544697134755f2d90fe09516e5fcfd818281d295",
+    "size": [
+      1008,
+      1008
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "id": "jewelry",
+    "path": "assets/originals/jewelry.png",
+    "origin": "User attachment in source design discussion",
+    "attachmentId": "3fbf1522-87dc-48b3-be55-5dc08ca843e5",
+    "sha256": "8a35ab0e5170192de511e7881cf99a1c7019cdb8ffbf8b7b102f3aa6190194d1",
+    "size": [
+      1008,
+      1008
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "id": "payment-device",
+    "path": "assets/originals/payment-device.png",
+    "origin": "User attachment in source design discussion",
+    "attachmentId": "11199498-e805-432e-a55a-6c9299cb506e",
+    "sha256": "7c7ca85cc5c54e84b43093a86ca811de41ca4433f2455aad7b08bed209ae64f7",
+    "size": [
+      1008,
+      1008
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "id": "paint-roller",
+    "path": "assets/originals/paint-roller.png",
+    "origin": "User attachment in source design discussion",
+    "attachmentId": "522a648b-f932-403c-8e71-8c3394c7db52",
+    "sha256": "48fac9292c55bd242f370e02d7912bc04ea8ecf8effd3270108ed60e8fd1ab65",
+    "size": [
+      1008,
+      1008
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "id": "coin",
+    "path": "assets/originals/coin.png",
+    "origin": "User attachment in source design discussion",
+    "attachmentId": "21424eb8-186d-43d0-bd1b-58d11ad8b438",
+    "sha256": "c41253670af4d1d28b9f7bb6143b3284c26926928217e1861f4b75efa823eb87",
+    "size": [
+      224,
+      224
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "id": "pack-strip",
+    "path": "assets/originals/pack-strip.png",
+    "origin": "User attachment in source design discussion",
+    "attachmentId": "ef65baf3-a260-4603-968c-042de9373b11",
+    "sha256": "3673aeb2588688178426c8bf994969ba2fcd44ea76400a0b5701c7430cf1a28e",
+    "size": [
+      7808,
+      496
+    ],
+    "mode": "RGBA"
+  }
+]

@@ -1,0 +1,184 @@
+{
+  "version": 1,
+  "types": [
+    {
+      "id": "icon",
+      "label": "Иконка",
+      "hint": "Один знак · крупные узнаваемые формы",
+      "maxSubjects": 1,
+      "mode": "icon",
+      "prompt": "One recognizable subject; functional parts allowed. No detached explanatory props. Put symbols on the subject itself. Include a plinth only when explicitly requested."
+    },
+    {
+      "id": "object",
+      "label": "Предмет",
+      "hint": "Один главный образ · видна конструкция",
+      "maxSubjects": 1,
+      "mode": "object",
+      "prompt": "One hero object or functional set, such as a cup with its saucer; no unrelated props."
+    },
+    {
+      "id": "group",
+      "label": "Композиция",
+      "hint": "2–5 предметов · один главный",
+      "maxSubjects": 5,
+      "mode": "illustration-simple",
+      "prompt": "A compact group of 2–5 semantic subjects, one dominant hero and meaningful supports."
+    },
+    {
+      "id": "scene",
+      "label": "Насыщенная сцена",
+      "hint": "6–12 предметов · несколько планов",
+      "maxSubjects": 12,
+      "mode": "illustration-complex",
+      "prompt": "A rich ensemble of 6–12 semantic subjects: dominant hero, medium supports and small accents across several depths."
+    }
+  ],
+  "details": [
+    {
+      "id": "minimal",
+      "label": "Лаконично",
+      "hint": "Крупные формы, без мелкой фактуры",
+      "level": 2
+    },
+    {
+      "id": "balanced",
+      "label": "Умеренно",
+      "hint": "Конструкция и заметные свойства материалов",
+      "level": 3
+    },
+    {
+      "id": "rich",
+      "label": "Подробно",
+      "hint": "Швы, плетение, рельеф — выборочно",
+      "level": 5
+    }
+  ],
+  "arrangements": [
+    {
+      "id": "auto",
+      "label": "Автоматически",
+      "prompt": "Choose a clear arrangement appropriate to the subjects."
+    },
+    {
+      "id": "cluster",
+      "label": "Компактная группа",
+      "prompt": "A compact layered cluster with purposeful overlap."
+    },
+    {
+      "id": "container",
+      "label": "Внутри и вокруг",
+      "prompt": "Related contents inside and around a meaningful container; the container counts as a subject."
+    },
+    {
+      "id": "orbit",
+      "label": "Вокруг главного",
+      "prompt": "One central hero with smaller related subjects spaced around it."
+    },
+    {
+      "id": "horizontal",
+      "label": "В ряд",
+      "prompt": "A wide horizontal ensemble with varied heights and one dominant hero."
+    },
+    {
+      "id": "diagonal",
+      "label": "По диагонали",
+      "prompt": "Arrange subjects along one clear diagonal with purposeful overlap and one dominant hero."
+    },
+    {
+      "id": "pyramid",
+      "label": "Пирамидой",
+      "prompt": "Build a stable triangular ensemble: a broad base of supporting subjects and a single dominant apex; no extra pedestal."
+    },
+    {
+      "id": "vertical",
+      "label": "Вертикально",
+      "prompt": "A narrow upright ensemble arranged along one vertical axis; use readable overlap and keep every subject fully visible within the cell."
+    },
+    {
+      "id": "radial",
+      "label": "Лучами",
+      "prompt": "Arrange elongated subject directions as outward spokes from a shared empty focal point; no central hero surrounded by an orbital ring."
+    },
+    {
+      "id": "depth",
+      "label": "В глубину",
+      "prompt": "Arrange subjects on a receding depth axis: a clear foreground hero, middle supports and smaller distant accents, with controlled overlap."
+    },
+    {
+      "id": "symmetric",
+      "label": "Симметрично",
+      "prompt": "Arrange balanced matching masses on both sides of a vertical centerline; keep one visual focus and do not duplicate subjects beyond the requested content."
+    }
+  ],
+  "cameras": [
+    {
+      "id": "front",
+      "label": "Спереди",
+      "hint": "На уровне предмета",
+      "prompt": "frontal view, camera level and square to the front face; no elevated view exposing top planes except surfaces visible from the object geometry itself"
+    },
+    {
+      "id": "three-quarter",
+      "label": "Три четверти",
+      "hint": "Спереди и сбоку",
+      "prompt": "three-quarter view"
+    },
+    {
+      "id": "isometric",
+      "label": "Изометрия",
+      "hint": "Параллельные оси без перспективного схождения",
+      "prompt": "isometric view, orthographic projection with parallel edges and equal axis foreshortening"
+    },
+    {
+      "id": "top",
+      "label": "Сверху",
+      "hint": "Строго вертикально вниз",
+      "prompt": "top-down view, true 90-degree overhead camera pointing straight down, not an oblique elevated view; keep objects in their normal upright orientation instead of laying their front faces toward the camera"
+    },
+    {
+      "id": "low-angle",
+      "label": "Снизу",
+      "hint": "Низкая точка съёмки; предмет целиком",
+      "prompt": "low-angle view from below the subject midpoint, looking gently upward; visible undersides and rising verticals, complete silhouettes"
+    },
+    {
+      "id": "high-angle",
+      "label": "Под углом сверху",
+      "hint": "Высокая камера, видны верх и передняя грань",
+      "prompt": "high-angle view looking diagonally downward, with both top and front planes visible; not a vertical overhead view"
+    },
+    {
+      "id": "side",
+      "label": "Сбоку",
+      "hint": "Профиль без поворота к камере",
+      "prompt": "true side-profile view, camera level and square to the subject side; preserve recognizable profile, no three-quarter turn"
+    }
+  ],
+  "shots": [
+    {
+      "id": "auto",
+      "label": "Авто",
+      "hint": "План по содержанию",
+      "prompt": "Choose a readable distance; keep the entire composition inside its cell."
+    },
+    {
+      "id": "close",
+      "label": "Крупно",
+      "hint": "Предметы крупнее, целиком в ячейке",
+      "prompt": "Close framing: enlarge the entire composition within its cell, leaving a clear safety margin around every extremity. Fully contained; no cropping or detail-only cut-ins."
+    },
+    {
+      "id": "medium",
+      "label": "Средний",
+      "hint": "Умеренный размер и свободные поля",
+      "prompt": "Medium framing: balance subject size with visible breathing room on every side. Keep the entire composition fully contained, without cropping."
+    },
+    {
+      "id": "wide",
+      "label": "Общий",
+      "hint": "Больше свободного места вокруг",
+      "prompt": "Wide framing: use a smaller complete composition with generous negative space on every side. Keep all subjects together and readable; no added surroundings or cropping."
+    }
+  ]
+}

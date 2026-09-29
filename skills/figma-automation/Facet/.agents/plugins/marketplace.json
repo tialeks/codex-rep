@@ -1,0 +1,20 @@
+{
+  "name": "facet-team",
+  "interface": {
+    "displayName": "Facet Team"
+  },
+  "plugins": [
+    {
+      "name": "reference-style-3d",
+      "source": {
+        "source": "local",
+        "path": "./plugins/reference-style-3d"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "originals": {
+    "base": [
+      "pack-strip",
+      "payment-device"
+    ],
+    "materials": {
+      "leather": "wallet-commerce",
+      "velvet": "jewelry",
+      "metal": "jewelry",
+      "glass": "jewelry",
+      "pvc": "flamingo",
+      "paper": "burger-kraft",
+      "cardboard": "burger-kraft",
+      "pearl": "pearl-card",
+      "textile": "paint-roller"
+    }
+  }
+}

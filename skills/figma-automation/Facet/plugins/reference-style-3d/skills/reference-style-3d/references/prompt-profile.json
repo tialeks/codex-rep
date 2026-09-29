@@ -1,0 +1,12 @@
+{
+  "id": "reference-style-text",
+  "version": "1.0.2",
+  "status": "limitations-observed",
+  "styleBlock": "skills/reference-style-3d/references/style.txt",
+  "evidence": "VALIDATION.md",
+  "limits": [
+    "Prompt compliance and style fidelity require visual review of each output.",
+    "Corrective edits may change other surfaces or details; review the entire result.",
+    "Programmatic checks verify evidence and selected controls, not artistic quality."
+  ]
+}

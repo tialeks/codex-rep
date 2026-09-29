@@ -1,0 +1,15 @@
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
+const html=fs.readFileSync(path.join(__dirname,'../ui/controls.html'),'utf8');
+const start=html.indexOf('let historyQueueSignature=null;'),end=html.indexOf('renderQueue(window.referenceBrowser?.queue)',start);
+assert.ok(start>0&&end>start);
+let update,loads=0,inHistory=true;const focusedCard={id:'current-card'};
+const context={window:{addEventListener:(name,handler)=>{assert.equal(name,'reference-queue-updated');update=handler}},historyState:{loaded:true,page:3},renderQueue(){},isHistoryView:()=>inHistory,loadHistoryPage:page=>{assert.equal(page,3);loads++},document:{activeElement:focusedCard}};
+vm.runInNewContext(html.slice(start,end),context);
+const emit=(historyRevision,status='queued',extra={})=>update({detail:{historyRevision,requests:[{id:'job',status}],...extra}});
+emit('first');emit('first','running');assert.equal(loads,0);assert.equal(context.historyState.loaded,true);assert.equal(context.document.activeElement,focusedCard);
+emit('second','running');assert.equal(loads,1);
+emit('third','running',{offline:true});assert.equal(loads,1);
+inHistory=false;context.historyState.loaded=true;emit('third');assert.equal(loads,1);assert.equal(context.historyState.loaded,false);
+inHistory=true;emit(null);const before=loads;emit(undefined);assert.equal(loads,before);emit(null,'running');assert.equal(loads,before+1);
+assert.equal((html.match(/if\(b\.dataset\.presetScope\)/g)||[]).length,1);
+console.log('PASS history refresh: stable revision preserves grid/focus; new revision invalidates; offline ignored; null/absent revision uses queue fallback.');

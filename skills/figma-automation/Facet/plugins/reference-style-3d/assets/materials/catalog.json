@@ -1,0 +1,510 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "cards": [
+    {
+      "id": "matte-polymer",
+      "label": "Матовый полимер",
+      "family": "polymer",
+      "recolorable": true,
+      "sha256": "366b06dbc999229d2b876ec9529142d7dffd21b0488fa83e3280eab374e99b50",
+      "sourceRefs": [
+        "payment-device"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/matte-polymer.png",
+      "prompt": "smooth opaque polymer with diffuse matte reflection and no grain"
+    },
+    {
+      "id": "satin-polymer",
+      "label": "Сатиновый полимер",
+      "family": "polymer",
+      "recolorable": true,
+      "sha256": "1006d28f63c7904e014c5be06124b69b56f857d39a2979eb8404e39b2f0a437a",
+      "sourceRefs": [
+        "payment-device"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/satin-polymer.png",
+      "prompt": "smooth nonporous polymer with restrained satin sheen and no grain"
+    },
+    {
+      "id": "gloss-polymer",
+      "label": "Глянцевый полимер",
+      "family": "polymer",
+      "recolorable": true,
+      "sha256": "cd358759795386ecfb1f954d0cc546015e7c922b59c2ccfe1f09b892092a3dff",
+      "sourceRefs": [
+        "payment-device"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/gloss-polymer.png",
+      "prompt": "smooth opaque polymer with glossy clearcoat and crisp reflections"
+    },
+    {
+      "id": "molded-polymer",
+      "label": "Формованный полимер",
+      "family": "polymer",
+      "recolorable": true,
+      "sha256": "4fb0401984bdda2755a718595b1be22bb85b5131fbe7bf750ac107a99c81dbd9",
+      "sourceRefs": [
+        "payment-device"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/molded-polymer.png",
+      "prompt": "opaque polymer with uniform fine molding texture and low sheen"
+    },
+    {
+      "id": "laminate",
+      "label": "Ламинат",
+      "family": "polymer",
+      "recolorable": true,
+      "sha256": "6943abeb9e071e0615f7925df4dbc1a61d2a6178302ad14db14253f85f9cb065",
+      "sourceRefs": [
+        "pearl-card"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/laminate.png",
+      "prompt": "sealed layered surface with smooth satin coating and restrained reflections"
+    },
+    {
+      "id": "pearl-coating",
+      "label": "Перламутровое покрытие",
+      "family": "coating",
+      "recolorable": true,
+      "sha256": "997ed441d8d452ebfafbba68609767e15b805d8ef7bcacd13a1a52dd718bded6",
+      "sourceRefs": [
+        "pearl-card"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/pearl-coating.png",
+      "prompt": "pearlescent coating with smooth iridescent sheen varying by viewing angle"
+    },
+    {
+      "id": "silver-polished",
+      "label": "Полированное серебро",
+      "family": "metal",
+      "recolorable": false,
+      "sha256": "e9a271d18144851ac5b41aa59ba0b6079281b26e7f5f6b702b39ddc0827be426",
+      "sourceRefs": [
+        "jewelry"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/silver-polished.png",
+      "prompt": "polished metal with mirror reflections and no diffuse surface grain"
+    },
+    {
+      "id": "silver-satin",
+      "label": "Сатиновое серебро",
+      "family": "metal",
+      "recolorable": false,
+      "sha256": "e463750ea734da4273668e66761f2bb04de9bb998dad44c9bad2ba5d2892aba5",
+      "sourceRefs": [
+        "coin"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/silver-satin.png",
+      "prompt": "brushed metal with fine directional grain and softened metallic reflections"
+    },
+    {
+      "id": "gold",
+      "label": "Золото",
+      "family": "metal",
+      "recolorable": false,
+      "sha256": "67e24177561ae99f4aa46feff72b71833f56d01dd23b144a3404c4074ab066fa",
+      "sourceRefs": [
+        "jewelry"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/gold.png",
+      "prompt": "dense polished metal with rich specular reflection and smooth finish"
+    },
+    {
+      "id": "copper",
+      "label": "Медь",
+      "family": "metal",
+      "recolorable": false,
+      "sha256": "3db4cbb4e5a8ac6c021db7d116fca4c7515f4ce861a5903251133327469ca879",
+      "sourceRefs": [
+        "coin"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/copper.png",
+      "prompt": "polished metal with gentle brushed texture and strong specular reflection"
+    },
+    {
+      "id": "thin-glass",
+      "label": "Тонкое стекло",
+      "family": "glass",
+      "recolorable": false,
+      "sha256": "44dee5a94971f1749a34fb7dce31429dedf39912effd64c078cd02e40502bc53",
+      "sourceRefs": [
+        "jewelry"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/thin-glass.png",
+      "prompt": "transparent polished glass with clean reflections and faint refractive distortion"
+    },
+    {
+      "id": "thick-glass",
+      "label": "Толстое стекло",
+      "family": "glass",
+      "recolorable": false,
+      "sha256": "a4f7c282cc5d11c29f857668e0109606c133b818b6cac7641ebf5af70f3f4b95",
+      "sourceRefs": [
+        "jewelry"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/thick-glass.png",
+      "prompt": "transparent glass with pronounced refraction and dense internal optical distortion"
+    },
+    {
+      "id": "colored-glass",
+      "label": "Цветное стекло",
+      "family": "optical",
+      "recolorable": true,
+      "sha256": "b74aed70e287f5f6c47cbf429eed376e0004a3d7f1cb8ba9187921c1924af54c",
+      "sourceRefs": [
+        "jewelry"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/colored-glass.png",
+      "prompt": "translucent glass with selective absorption and glossy refractive highlights"
+    },
+    {
+      "id": "faceted-crystal",
+      "label": "Гранёный кристалл",
+      "family": "optical",
+      "recolorable": true,
+      "sha256": "8fdfecd89e89810833f71edf74c88932669f148317543b756d1c2300bfb741ae",
+      "sourceRefs": [
+        "jewelry"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/faceted-crystal.png",
+      "prompt": "clear crystalline material with crisp refractive separation and prismatic dispersion"
+    },
+    {
+      "id": "ice",
+      "label": "Лёд",
+      "family": "optical",
+      "recolorable": true,
+      "sha256": "155a40da23efd5dc8146bbc10eee9a67e1ce01e9f202d0c476f288fbe1bb7387",
+      "sourceRefs": [
+        "jewelry"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/ice.png",
+      "prompt": "translucent frozen material with cloudy inclusions and restrained internal scattering"
+    },
+    {
+      "id": "liquid",
+      "label": "Жидкость",
+      "family": "optical",
+      "recolorable": true,
+      "sha256": "ae9530f2a0386ff305b56e6c76246df8bcd58b546b5f01b889763b45165c8796",
+      "sourceRefs": [
+        "flamingo"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/liquid.png",
+      "prompt": "smooth fluid surface with glossy reflections and continuous refractive distortion"
+    },
+    {
+      "id": "ceramic",
+      "label": "Керамика",
+      "family": "solid",
+      "recolorable": true,
+      "sha256": "8d90b7bfef7af8740a7b2766e72106180dea18eeb209023d8bb27a3bbb2b8199",
+      "sourceRefs": [
+        "flamingo"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/ceramic.png",
+      "prompt": "opaque fired ceramic with smooth glaze and broad dielectric sheen"
+    },
+    {
+      "id": "wood",
+      "label": "Дерево",
+      "family": "solid",
+      "recolorable": true,
+      "sha256": "5bfa17db31b075f23772c9c134a11696c2e47f494761a632429461828357c2dd",
+      "sourceRefs": [
+        "wallet-commerce"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/wood.png",
+      "prompt": "natural timber with directional grain and a restrained satin finish"
+    },
+    {
+      "id": "leather",
+      "label": "Кожа",
+      "family": "soft",
+      "recolorable": true,
+      "sha256": "1e2accf46a49d72a8efb84a50bf91a8e43993f6b9414f9bece47126963f9361d",
+      "sourceRefs": [
+        "wallet-commerce"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/leather.png",
+      "prompt": "supple leather with fine irregular grain and a soft satin sheen"
+    },
+    {
+      "id": "velvet",
+      "label": "Бархат",
+      "family": "soft",
+      "recolorable": true,
+      "sha256": "a80ebe2d34bb6f73cb2ce88f6b20699133819e3fdcec0bf3682746e74a7c6916",
+      "sourceRefs": [
+        "jewelry"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/velvet.png",
+      "prompt": "dense fine textile pile with deep absorption and directional sheen"
+    },
+    {
+      "id": "short-pile",
+      "label": "Короткий ворс",
+      "family": "soft",
+      "recolorable": true,
+      "sha256": "0039bbcf88debe6fd4aea23b822ce97c120d1b151b4465f242abee57e4969bfb",
+      "sourceRefs": [
+        "paint-roller"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/short-pile.png",
+      "prompt": "dense short textile fibers with soft directional sheen and uniform nap"
+    },
+    {
+      "id": "weave",
+      "label": "Плетёная ткань",
+      "family": "soft",
+      "recolorable": true,
+      "sha256": "15a7ec0e5edd74fae830989e75e8a665edc5c9e048486fe621097805ac642a0d",
+      "sourceRefs": [
+        "jewelry"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/weave.png",
+      "prompt": "interlaced textile fibers with visible weave and soft diffuse reflection"
+    },
+    {
+      "id": "thin-fabric",
+      "label": "Тонкая ткань",
+      "family": "soft",
+      "recolorable": true,
+      "sha256": "be521a3c835de6c376188c39f5c288ee9576ac69a6633a9be896ffb555f519a5",
+      "sourceRefs": [
+        "jewelry"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/thin-fabric.png",
+      "prompt": "fine textile weave with slight translucency and soft diffuse reflection"
+    },
+    {
+      "id": "paper",
+      "label": "Бумага",
+      "family": "soft",
+      "recolorable": true,
+      "sha256": "4d2966d019f069e5d2a450d3cacb0d40818215e3f5ba8737b12638937e947797",
+      "sourceRefs": [
+        "wallet-commerce"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/paper.png",
+      "prompt": "dry paper fibers with subtle grain and diffuse matte reflection"
+    },
+    {
+      "id": "kraft",
+      "label": "Крафт",
+      "family": "soft",
+      "recolorable": true,
+      "sha256": "7a5ba05b75a72680551319eacb3e5b0db38afac2c84f3038c067db1942955a59",
+      "sourceRefs": [
+        "wallet-commerce"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/kraft.png",
+      "prompt": "uncoated coarse paper fibers with dry irregular texture and matte reflection"
+    },
+    {
+      "id": "cardboard",
+      "label": "Картон",
+      "family": "soft",
+      "recolorable": true,
+      "sha256": "5bb10a526831ce4816659175ea3423bb29eb610c3eaa8901c65c0697532ffd6c",
+      "sourceRefs": [
+        "wallet-commerce"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/cardboard.png",
+      "prompt": "dense compressed paper fibers with dry texture and subdued matte reflection"
+    },
+    {
+      "id": "coated-paper",
+      "label": "Мелованная бумага",
+      "family": "soft",
+      "recolorable": true,
+      "sha256": "ceb5050a1ae39ede7c37ce1380d6cbc8fe8da6fbe26447cdd85b8a697c3ce7aa",
+      "sourceRefs": [
+        "wallet-commerce"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/coated-paper.png",
+      "prompt": "smooth coated paper with restrained gloss and subtle fibrous substrate"
+    },
+    {
+      "id": "inflatable-pvc",
+      "label": "Надувной ПВХ",
+      "family": "soft",
+      "recolorable": true,
+      "sha256": "e4cb52bf0d8a593a797db8f19543f7499ab6813c79f1408c95308258f12c1d21",
+      "sourceRefs": [
+        "flamingo"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/inflatable-pvc.png",
+      "prompt": "smooth flexible vinyl with clean gloss and soft specular reflections"
+    },
+    {
+      "id": "foam",
+      "label": "Пена",
+      "family": "soft",
+      "recolorable": true,
+      "sha256": "19ea45919f08b0465f730712245e91ae79ee875752b1f52b13488723e5b28ea5",
+      "sourceRefs": [
+        "paint-roller"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/foam.png",
+      "prompt": "soft cellular material with fine open pores and diffuse reflection"
+    },
+    {
+      "id": "flexible-pearl",
+      "label": "Гибкий перламутр",
+      "family": "soft",
+      "recolorable": true,
+      "sha256": "89f73cb0a0d2e8e79f3ff790668ceb669e41d1ac19332894200821abf2063213",
+      "sourceRefs": [
+        "pearl-card"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/flexible-pearl.png",
+      "prompt": "flexible pearlescent film with smooth iridescence varying by viewing angle"
+    },
+    {
+      "id": "soft-organic",
+      "label": "Мягкая органика",
+      "family": "organic",
+      "recolorable": true,
+      "sha256": "d28d677c79cd99170261b91cc5d7a05173e5140bb76c3a3928380fbc7d61a70a",
+      "sourceRefs": [
+        "flamingo"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/soft-organic.png",
+      "prompt": "soft organic surface with subtle translucency and gentle diffuse scattering"
+    },
+    {
+      "id": "fine-pores",
+      "label": "Мелкие поры",
+      "family": "organic",
+      "recolorable": true,
+      "sha256": "a82f88935bdd3e0454f931a5ecaa4fd025e13eaec990d41f0cb68e814013161a",
+      "sourceRefs": [
+        "paint-roller"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/fine-pores.png",
+      "prompt": "uniform fine porous texture with dry matte reflection and subtle roughness"
+    },
+    {
+      "id": "soft-polymer",
+      "label": "Мягкая пластика",
+      "family": "solid",
+      "recolorable": true,
+      "sha256": "cb52a8ebb127a1438edb9abb7b14cda97be1dfc2545b1b659444052d8fdf43a2",
+      "sourceRefs": [
+        "flamingo"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/soft-polymer.png",
+      "prompt": "soft opaque polymer with smooth skin and broad satin reflections"
+    },
+    {
+      "id": "dry-fibre",
+      "label": "Сухое волокно",
+      "family": "organic",
+      "recolorable": true,
+      "sha256": "6f3875c105f1a3078daf90546efeec88be1aaf055b6230c9191908c1917bd2ce",
+      "sourceRefs": [
+        "wallet-commerce"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/dry-fibre.png",
+      "prompt": "dry interlocking fibers with irregular fine texture and diffuse matte reflection"
+    },
+    {
+      "id": "eggshell",
+      "label": "Скорлупа",
+      "family": "organic",
+      "recolorable": true,
+      "sha256": "bcbf51d8e6b20b993c89d5ea7eff38adf7bd80ec02a6f44b79ee61a41bff624c",
+      "sourceRefs": [
+        "wallet-commerce"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/eggshell.png",
+      "prompt": "fine mineral shell texture with subtle pores and low satin sheen"
+    },
+    {
+      "id": "leaf-surface",
+      "label": "Листовая поверхность",
+      "family": "organic",
+      "recolorable": true,
+      "sha256": "57253993252a0149003cb6fd9cddb9f8f88bb571754ff8db67904a4fb6d75b01",
+      "sourceRefs": [
+        "flamingo"
+      ],
+      "candidate": true,
+      "status": "limited",
+      "path": "cards/leaf-surface.png",
+      "prompt": "waxy botanical surface with fine veins and restrained specular sheen"
+    }
+  ]
+}

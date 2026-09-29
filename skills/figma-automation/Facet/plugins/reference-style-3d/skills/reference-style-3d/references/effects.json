@@ -1,0 +1,610 @@
+[
+  {
+    "id": "explode",
+    "label": "Разобрать на части",
+    "group": "Форма",
+    "prompt": "Create an exploded view with a few separated structural parts; preserve alignment and reassembly logic.",
+    "description": "Части раздвинуты, но порядок сборки остаётся понятным.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "scatter",
+    "label": "Рассыпать",
+    "group": "Форма",
+    "prompt": "Let a controlled portion of the subject scatter into clear, material-matched pieces; keep its main silhouette readable.",
+    "description": "Небольшая часть рассыпается, основной силуэт сохраняется.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "assemble",
+    "label": "Собрать из модулей",
+    "group": "Форма",
+    "prompt": "Build the subject from a small rhythm of interlocking modules, structurally plausible.",
+    "description": "Предмет складывается из нескольких ясных модулей.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "fold",
+    "label": "Сложить как оригами",
+    "group": "Форма",
+    "prompt": "Construct the main subject from thin folded sheets: readable creases, connected planar panels, visible thin cut edges and occasional open overlaps define its silhouette. Preserve the subject identity through this sheet construction. Triangular color patches or facets on a solid manufactured body do not express folding. Folded sheets replace the ordinary solid shell; use the selected palette.",
+    "description": "Форма построена из складок с логичной толщиной бумаги.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "slice",
+    "label": "Разрезать на слои",
+    "group": "Форма",
+    "prompt": "Create clean parallel slices with consistent thickness and subtle separation.",
+    "description": "Крупные слои показывают строение предмета.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "cutaway",
+    "label": "Показать внутри",
+    "group": "Форма",
+    "prompt": "Use one clean cutaway exposing a logical interior without clutter.",
+    "description": "Один аккуратный разрез открывает внутреннее устройство.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "inflate",
+    "label": "Надуть",
+    "group": "Форма",
+    "prompt": "Inflate the main subject into visibly pressure-filled volumes: bulging broad faces, swollen edges and taut surface transitions. Preserve identifying parts; ordinary rounded bevels alone do not express inflation. Scale the deformation with intensity.",
+    "description": "Мягкий объём с сохранением характерных деталей.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "stretch",
+    "label": "Растянуть",
+    "group": "Форма",
+    "prompt": "Use one playful elastic stretch; preserve a clear beginning and end and physical material continuity.",
+    "description": "Одна часть упруго вытягивается, остальные держат форму.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "ribbon",
+    "label": "Свернуть из ленты",
+    "group": "Форма",
+    "prompt": "Construct a readable silhouette with one continuous ribbon; trace its two ends and avoid impossible intersections.",
+    "description": "Непрерывная лента образует узнаваемый силуэт.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "morph",
+    "label": "Превратить в другой предмет",
+    "group": "Превращения",
+    "prompt": "Show one continuous, elegant transition from the source into TARGET; two identities must remain legible.",
+    "description": "Один предмет постепенно превращается в указанный вами.",
+    "needsTarget": true,
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "hybrid",
+    "label": "Объединить два предмета",
+    "group": "Превращения",
+    "prompt": "Fuse the main subject with TARGET into one continuous object. Integrate at least two characteristic structural features of TARGET into the source silhouette so both identities are immediately readable. Do not merely place TARGET alongside the source, add its picture or substitute the source entirely.",
+    "description": "Два предмета объединяются в одну осмысленную форму.",
+    "needsTarget": true,
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "grow",
+    "label": "Прорастить",
+    "group": "Превращения",
+    "prompt": "Let one living organic accent emerge naturally from a designed opening of the subject.",
+    "description": "Из предмета появляется один живой растительный акцент.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "melt",
+    "label": "Мягко растопить",
+    "group": "Превращения",
+    "prompt": "Let a small portion melt into a material-appropriate pool while most of the original shape stays crisp.",
+    "description": "Небольшой участок плавится, основа остаётся цельной.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "peel",
+    "label": "Снять оболочку",
+    "group": "Превращения",
+    "prompt": "Peel a single continuous outer layer to reveal contrasting material; make the connection unambiguous.",
+    "description": "Внешний слой отходит и открывает другой материал.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "flow",
+    "label": "Пустить поток",
+    "group": "Превращения",
+    "prompt": "Show a controlled stream passing through the object and changing material or shape once.",
+    "description": "Через предмет проходит один понятный поток.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "levitate",
+    "label": "Поднять в воздух",
+    "group": "Композиция",
+    "prompt": "Use deliberate levitation with clear air gaps and very soft aligned shadows.",
+    "description": "Предмет или его части парят с ясными промежутками.",
+    "needsTarget": false,
+    "scope": "composition",
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "balance",
+    "label": "Сбалансировать",
+    "group": "Композиция",
+    "prompt": "Arrange a surprising but comprehensible balance on a clearly visible contact point.",
+    "description": "Необычное равновесие с понятной точкой опоры.",
+    "needsTarget": false,
+    "scope": "composition",
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "nest",
+    "label": "Вложить один в другой",
+    "group": "Композиция",
+    "prompt": "Use nested shapes with legible clearance, scale hierarchy and contrasting surfaces.",
+    "description": "Один предмет помещён внутрь другого.",
+    "needsTarget": false,
+    "scope": "composition",
+    "minObjects": 2,
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "orbit",
+    "label": "Пустить по орбите",
+    "group": "Композиция",
+    "prompt": "Arrange a small number of useful supporting elements in an orbital arc; no glass halo.",
+    "description": "Несколько значимых деталей расположены по дуге.",
+    "needsTarget": false,
+    "scope": "composition",
+    "minObjects": 2,
+    "settingsVersions": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "domino",
+    "label": "Цепная реакция",
+    "group": "Композиция",
+    "prompt": "Show a simple causal chain; every leaning or moving object must point toward the next.",
+    "description": "Предметы запускают короткую цепочку действий.",
+    "needsTarget": false,
+    "scope": "composition",
+    "minObjects": 2,
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "scale",
+    "label": "Поиграть с масштабом",
+    "group": "Композиция",
+    "prompt": "Use one intentional scale reversal between hero and support, not random oversized clutter.",
+    "description": "Главный предмет и деталь меняются привычным масштабом.",
+    "needsTarget": false,
+    "scope": "composition",
+    "minObjects": 2,
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "bridge",
+    "label": "Соединить мостом",
+    "group": "Композиция",
+    "prompt": "Make two readable objects connected by one meaningful arch or continuous bridge.",
+    "description": "Два предмета соединены одной выразительной перемычкой.",
+    "needsTarget": false,
+    "scope": "composition",
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "frame",
+    "label": "Вписать в силуэт",
+    "group": "Композиция",
+    "prompt": "Arrange supporting parts to echo the main silhouette while keeping clean negative space.",
+    "description": "Детали повторяют общий силуэт, сохраняя свободное место.",
+    "needsTarget": false,
+    "scope": "composition",
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "pearl",
+    "label": "Перламутровый акцент",
+    "group": "Материалы",
+    "prompt": "Apply pearlescent interference to suitable local edges or insets. The nacre material budget guides how extensively these local accents are used; effect intensity controls how pronounced their optical response appears. Neither control is a measured surface percentage or physical shader value.",
+    "description": "Мягкий перелив на небольшой кромке или вставке.",
+    "needsTarget": false,
+    "requiresBudget": "pearl",
+    "settingsVersions": [
+      1
+    ]
+  },
+  {
+    "id": "ceramic",
+    "label": "Керамика и эмаль",
+    "group": "Материалы",
+    "prompt": "Use ceramic and a local enamel accent, fine grain and moderate highlights, respecting the chosen color settings.",
+    "description": "Светлая керамическая основа и локальная цветная эмаль.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1
+    ]
+  },
+  {
+    "id": "paper",
+    "label": "Бумага и картон",
+    "group": "Материалы",
+    "prompt": "Use folded paper and cardboard with visible thin sections and minimal fibre detail, respecting the chosen color settings.",
+    "description": "Складки, толщина бумаги и естественный картон.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1
+    ]
+  },
+  {
+    "id": "textile",
+    "label": "Ткань и мягкие части",
+    "group": "Материалы",
+    "prompt": "Introduce one tactile textile part with believable stitching; preserve crisp non-textile parts.",
+    "description": "Одна тканевая часть с уместной фактурой и швами.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1
+    ]
+  },
+  {
+    "id": "wood",
+    "label": "Дерево и металл",
+    "group": "Материалы",
+    "prompt": "Use natural wood with restrained grain and small satin metal fittings, respecting the chosen color settings.",
+    "description": "Тёплое дерево и небольшие функциональные крепления.",
+    "needsTarget": false,
+    "requiresBudget": "metal",
+    "settingsVersions": [
+      1
+    ]
+  },
+  {
+    "id": "rubber",
+    "label": "Матовая резина",
+    "group": "Материалы",
+    "prompt": "Use tactile matte rubber selectively, avoiding sticky toy-like uniform plastic.",
+    "description": "Локальная матовая поверхность с мягкими краями.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1
+    ]
+  },
+  {
+    "id": "inlay",
+    "label": "Цветная инкрустация",
+    "group": "Материалы",
+    "prompt": "Add one precisely inset contrasting colour element flush to the surface.",
+    "description": "Одна точная цветная вставка заподлицо с поверхностью.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1
+    ]
+  },
+  {
+    "id": "contrast",
+    "label": "Контраст мягкого и твёрдого",
+    "group": "Материалы",
+    "prompt": "Contrast one soft flexible part with one precise rigid form using plausible joints.",
+    "description": "Мягкая часть сочетается с чёткой жёсткой формой.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1
+    ]
+  },
+  {
+    "id": "metaphor",
+    "label": "Неожиданная метафора",
+    "group": "Идея",
+    "prompt": "Choose a fresh concrete visual metaphor derived from the requested benefit. Every supporting prop must explain that benefit, not merely decorate the scene.",
+    "description": "Новый предметный образ вместо привычного символа.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "double",
+    "label": "Двойное прочтение",
+    "group": "Идея",
+    "prompt": "Design one silhouette that reads as two related concepts, keeping recognition immediate.",
+    "description": "Один силуэт читается как два связанных образа.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "functional",
+    "label": "Необычная функция",
+    "group": "Идея",
+    "prompt": "Give a familiar object one surprising but intelligible new function tied to the brief.",
+    "description": "Знакомый предмет получает неожиданную понятную функцию.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "tiny-world",
+    "label": "Маленькая сцена внутри",
+    "group": "Идея",
+    "prompt": "Place a restrained miniature scene within a clear opening in the hero, obey the size/detail budget.",
+    "description": "Внутри предмета размещена небольшая связная сцена.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "rhythm",
+    "label": "Ритм и повтор",
+    "group": "Идея",
+    "prompt": "Use a deliberate sequence of related units with a single meaningful variation.",
+    "description": "Повторяющиеся детали с одним осмысленным отличием.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "negative",
+    "label": "Идея в пустоте",
+    "group": "Идея",
+    "prompt": "Use purposeful negative space in the main object to reveal the secondary concept.",
+    "description": "Второй образ читается в просвете основного предмета.",
+    "needsTarget": false,
+    "settingsVersions": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "twist",
+    "label": "Скрутить",
+    "group": "Форма",
+    "description": "Единая осевая скрутка корпуса",
+    "prompt": "Twist one continuous region around its own longitudinal axis; show a readable rotational transition between stable ends. Keep the original material and connected body, not a spiral of separate objects.",
+    "needsTarget": false,
+    "scope": "subject",
+    "minObjects": 1,
+    "settingsVersions": [
+      3
+    ]
+  },
+  {
+    "id": "compress",
+    "label": "Сжать",
+    "group": "Форма",
+    "description": "Укоротить и уплотнить форму",
+    "prompt": "Compress one region along a clear axis: shorten it and broaden its cross-section with a legible compressed transition. Preserve connected volume and material; no slicing or added folds.",
+    "needsTarget": false,
+    "scope": "subject",
+    "minObjects": 1,
+    "settingsVersions": [
+      3
+    ]
+  },
+  {
+    "id": "weave-form",
+    "label": "Переплести форму",
+    "group": "Форма",
+    "description": "Конструкция из пересекающихся полос",
+    "prompt": "Construct the subject from several broad interlaced structural bands with legible alternating over-under crossings and openings. Bands retain selected materials; a printed weave texture or fabric finish alone does not express this construction.",
+    "needsTarget": false,
+    "scope": "subject",
+    "minObjects": 1,
+    "settingsVersions": [
+      3
+    ]
+  },
+  {
+    "id": "bend",
+    "label": "Согнуть",
+    "group": "Форма",
+    "description": "Один плавный изгиб корпуса",
+    "prompt": "Bend one connected body along a single smooth arc with stable thickness and two readable ends. Keep its original material and solid construction; no sharp folding, twisting or ribbon replacement.",
+    "needsTarget": false,
+    "scope": "subject",
+    "minObjects": 1,
+    "settingsVersions": [
+      3
+    ]
+  },
+  {
+    "id": "wrap",
+    "label": "Обернуть",
+    "group": "Форма",
+    "description": "Полоса охватывает сохранённую основу",
+    "prompt": "Wind one broad attached band around an intact recognizable core, leaving enough exposed core to show the encircling relationship. Preserve selected surfaces; do not replace the whole object with a ribbon or peel its skin away.",
+    "needsTarget": false,
+    "scope": "subject",
+    "minObjects": 1,
+    "settingsVersions": [
+      3
+    ]
+  },
+  {
+    "id": "erode",
+    "label": "Выветрить",
+    "group": "Форма",
+    "description": "Локальные углубления и разрушение кромки",
+    "prompt": "Erode a localized outer edge into a few broad irregular recesses while retaining most of the solid silhouette. Keep the removed region empty and the material recognizable; no flying fragments, melting or dense micro-pitting.",
+    "needsTarget": false,
+    "scope": "subject",
+    "minObjects": 1,
+    "settingsVersions": [
+      3
+    ]
+  },
+  {
+    "id": "suspended",
+    "label": "Подвесить",
+    "group": "Композиция",
+    "description": "Предметы держатся на видимых нитях",
+    "prompt": "Suspend subjects from a few clearly visible taut threads connected to a fully contained meaningful support within the same composition. The threads explain the support; no unsupported levitation. Keep every attachment and thread inside the cell and preserve the subject budget.",
+    "needsTarget": false,
+    "scope": "composition",
+    "minObjects": 1,
+    "settingsVersions": [
+      3
+    ]
+  },
+  {
+    "id": "cascade",
+    "label": "Каскадом",
+    "group": "Композиция",
+    "description": "Ступенчатое движение вниз",
+    "prompt": "Arrange related subjects in a descending staggered cascade with clear lateral offsets and air gaps. Each step leads visibly downward to the next; keep a single coherent sequence and a dominant hero.",
+    "needsTarget": false,
+    "scope": "composition",
+    "minObjects": 3,
+    "settingsVersions": [
+      3
+    ]
+  },
+  {
+    "id": "vortex",
+    "label": "Вихрем",
+    "group": "Композиция",
+    "description": "Спираль уходит в глубину",
+    "prompt": "Arrange subjects along one spiral receding into depth with a clear near-to-far scale progression and readable gaps. Keep every subject identifiable; no flat orbit, enclosing halo or random swirl of fragments.",
+    "needsTarget": false,
+    "scope": "composition",
+    "minObjects": 3,
+    "settingsVersions": [
+      3
+    ]
+  },
+  {
+    "id": "ascending",
+    "label": "Восходящей цепочкой",
+    "group": "Композиция",
+    "description": "Ступени с опорами ведут вверх",
+    "prompt": "Build a rising sequence of subjects on visibly connected steps or mutual supports. Each level leads upward with readable contacts and one destination hero; no floating cascade, random pile or added stage unrelated to the topic.",
+    "needsTarget": false,
+    "scope": "composition",
+    "minObjects": 3,
+    "settingsVersions": [
+      3
+    ]
+  }
+]
