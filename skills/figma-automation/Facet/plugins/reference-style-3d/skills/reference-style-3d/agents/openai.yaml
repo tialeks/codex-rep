@@ -1,6 +1,6 @@
 interface:
   display_name: "Facet"
   short_description: "Студия 3D-иконок и иллюстраций"
-  default_prompt: "Используй $reference-style-3d и создай графику по моей теме в стиле встроенных оригинальных референсов."
+  default_prompt: "Открой плагин Саши — студию Facet с пресетами и параметрами генерации."
 policy:
   allow_implicit_invocation: true

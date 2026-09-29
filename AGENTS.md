@@ -23,3 +23,5 @@
 - Do not copy API model parameters into instruction files as if they changed the chat's selected model. Use the host's actual model settings when available.
 
 - Когда пользователь просит «собрать прототип в вёрстке», «сверстать прототип» или реализовать макет Figma в коде, сначала читать `skills/figma-automation/figma-exact-react/SKILL.md`. Если Figma node/selection или целевой стек не определены, уточнить недостающие данные; не менять существующий стек автоматически.
+
+- Facet: по командам «открой плагин с генерацией», «открой плагин Саши», «давай сгенерируем иллюстрацию в плагине Саши» и смысловым производным читать `skills/figma-automation/Facet/plugins/reference-style-3d/skills/reference-style-3d/SKILL.md`. В браузерном чате открывать встроенную форму Facet; подтверждённые задания выполнять без повторной формы.
