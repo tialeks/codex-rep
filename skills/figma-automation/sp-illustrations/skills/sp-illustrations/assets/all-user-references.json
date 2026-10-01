@@ -1,0 +1,514 @@
+[
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-5c2e8c44-3769-4302-9b93-b201b1ed24cb.png",
+    "name": "gift-box-rejected-1",
+    "role": "rejected_generation",
+    "status": "PRESERVED",
+    "plugin_path": "assets/user-sources/gift-box-rejected-1.png",
+    "sha256": "16b67b810873a8ccd840f68c2cd98802aae8dc671631991b6770f593f676dc46",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-068b1f57-45f8-4668-8f8b-ad1efd69d935.png",
+    "name": "gift-box-rejected-2",
+    "role": "rejected_generation",
+    "status": "PRESERVED",
+    "plugin_path": "assets/user-sources/gift-box-rejected-2.png",
+    "sha256": "0c17cc4b30e7cccfd32df81d562f54b63875444973b28d6af989f88facd3e4b5",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-a6f92740-5c10-4589-973b-000ca17d36db.png",
+    "name": "gift-box-purple-original",
+    "role": "pack_original",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/gift-box-purple-original.png",
+    "sha256": "4ef760e877eb7d4ccbdc755f0846813af7116fca53c93e509430b184c7a45349",
+    "size": [
+      336,
+      280
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-f3187ca9-6084-4356-8766-1c249a39864c.png",
+    "name": "gift-box-variants",
+    "role": "pack_original",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/gift-box-variants-sheet.png",
+    "sha256": "e5105dd85f1afa504b551fe1c717f521912abe2085c6784b4d200630770b5db8",
+    "size": [
+      2240,
+      1952
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-6a6afede-c2d5-47b9-a806-bd63d86413a2.png",
+    "name": "logo-pucks-01",
+    "role": "pack_original",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/logo-pucks-sheet-01.png",
+    "sha256": "1ee77320864a6817426a4fbe3738f534800131bbcb5769ea0936e87605f778f6",
+    "size": [
+      2380,
+      928
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-86bb3050-c9c6-4022-b873-f4b57f3b5b25.png",
+    "name": "logo-pucks-02",
+    "role": "pack_original",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/logo-pucks-sheet-02.png",
+    "sha256": "14bdbaabb00b18b43e2996b5420478c49d11eb65035a30a4d7f608afe35069fd",
+    "size": [
+      2380,
+      352
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-85087e6e-e29f-4001-be8e-b2bba9783fa9.png",
+    "name": "metal-materials",
+    "role": "pack_original",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/metals-gold-silver-bronze-sheet.png",
+    "sha256": "c513c23abb2d467b62b5dc799c5fe6b14c257ea343380726317df758c9a00755",
+    "size": [
+      1986,
+      3044
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-8dda5d90-5136-494d-8395-f740e32fb45f.png",
+    "name": "food-burger-eggs",
+    "role": "pack_original",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/food-drinks/burger-eggs.png",
+    "sha256": "c5e15754cac8534186b38b879518527caf730c0156cb543c672e5440f49f4492",
+    "size": [
+      246,
+      117
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-528e304b-4933-460a-a523-6e6372d99c07.png",
+    "name": "food-cheese-salad-tomato",
+    "role": "pack_original",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/food-drinks/cheese-salad-tomato.png",
+    "sha256": "51b255275d9d652d3932d1635490d94b4eacb01263cd9c337d2a6c07c17d7389",
+    "size": [
+      130,
+      95
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-fc855cc0-1602-41a0-859f-9fb68806618e.png",
+    "name": "food-popcorn",
+    "role": "pack_original",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/food-drinks/popcorn.png",
+    "sha256": "ac69f8f121657a503a0203f6848bef45e9a4184194fc81d967e07b497e3091d1",
+    "size": [
+      238,
+      268
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-48fe85ae-1a3f-43bf-8036-48d364c50625.png",
+    "name": "food-bananas",
+    "role": "pack_original",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/food-drinks/bananas.png",
+    "sha256": "54f7e8a6b1f9c90391be76298fc5c3665923e0e3d0e323b83aeddc85240cc4bf",
+    "size": [
+      168,
+      114
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-61cee254-264f-41ea-84b3-126447ddd841.png",
+    "name": "food-takeaway-cup",
+    "role": "pack_original",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/food-drinks/takeaway-cup.png",
+    "sha256": "b2fb3ecd7928b163f01e395718b973f0dbba0ec45c2d5d309070e99140da84de",
+    "size": [
+      82,
+      111
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-0e5150eb-5da3-4d9d-b111-d3902076194a.png",
+    "name": "food-grocery-bag",
+    "role": "pack_original",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/food-drinks/grocery-bag.png",
+    "sha256": "ea47bc1719162e63c75852d600320aaa5656e2796519f0e53f9dec781a32c654",
+    "size": [
+      168,
+      236
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-b496cbcc-78f8-4203-b1bd-4b7d445b97df.png",
+    "name": "transport-taxi",
+    "role": "pack_original_partial_object",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/transport/taxi-detail.png",
+    "sha256": "258534e5f7e28c187fd06b2600c5553008182e5dce43ecd257eddf4f7c67c5aa",
+    "size": [
+      214,
+      181
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-1e909f12-f564-4715-9fcb-ef6970b4ecb2.png",
+    "name": "transport-carsharing",
+    "role": "pack_original_partial_object",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/transport/carsharing-detail.png",
+    "sha256": "b0a0caa6d3fdb6646c98585d5b4bf21527bf8c85f804ff80f3fcbc73afd10659",
+    "size": [
+      214,
+      159
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-a80e7049-8aea-4aef-9e1a-d65c0ac35269.png",
+    "name": "transport-scooter",
+    "role": "pack_original_partial_object",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/transport/scooter-detail.png",
+    "sha256": "81b4f6b9706439f0c9e77e53629cd1bb8e5801d81dfbcbe68fd512443a6a6547",
+    "size": [
+      101,
+      66
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-2f094fc8-8bc8-4a89-a1ec-2e086afbce7a.png",
+    "name": "transport-car-previews",
+    "role": "pack_original",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/transport/cars-round-previews.png",
+    "sha256": "a54b944edb70980a9283a076c026e8dbd025f007f452e33c351658883a004b63",
+    "size": [
+      224,
+      80
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-92722a28-80cb-45b4-99d2-72507f97861c.png",
+    "name": "transport-cars-lineup",
+    "role": "pack_original",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/transport/cars-lineup.png",
+    "sha256": "a80530df379577368ad9e935deb15f07f1f4052c3b7f86858cdc2da5c1d4eb3b",
+    "size": [
+      320,
+      64
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-a11bfd6d-bc46-41b8-b79c-4d0b680fb0bd.png",
+    "name": "locks-soft",
+    "role": "pack_original",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/locks/soft-locks-and-badge.png",
+    "sha256": "c5338b16a3a1d20829dade8c3d525fcbb4d34c50e18b7ee0e2d05cc0cac4afa2",
+    "size": [
+      368,
+      80
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-14196066-ffa4-46e6-94a9-b30c23914c3c.png",
+    "name": "locks-hardware",
+    "role": "pack_original",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/locks/hardware-locks.png",
+    "sha256": "f15f7cb114bf61fdd266b46f44c13007cdc828ebae0f6e200bd72b497eb4b0fe",
+    "size": [
+      320,
+      64
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-24d4796c-b2a3-4eb2-a932-8f2057f936d1.png",
+    "name": "locks-dark",
+    "role": "pack_original",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/locks/dark-lock.png",
+    "sha256": "373c33787113c0417a3e25abe75b375fe819cf615979ae9cc77c314207fd0a77",
+    "size": [
+      64,
+      64
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-47e7268b-f89f-473d-8de1-ad798fb94206.png",
+    "name": "cards-wallets",
+    "role": "pack_original",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/cards-wallets-sheet.png",
+    "sha256": "6a5104dc5a84537ddf635d08ef1b9e3c305d07e9aa947ccf9559ade8be2549c0",
+    "size": [
+      2241,
+      704
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-5dd2a5a6-744a-4792-9bfb-cdb1696dfcc2.png",
+    "name": "boxes-bags",
+    "role": "pack_original_sparse_sheet",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/boxes-bags-sheet.png",
+    "sha256": "cf5a4fead128cc3f7b6021abca180d209485e4401872958a3e6f8240f6a9a13a",
+    "size": [
+      2240,
+      18648
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-ef56bad4-05bb-4e9a-ba33-c49ffdac0df9.png",
+    "name": "burger-cup-close-generation",
+    "role": "calibration_positive_generation",
+    "status": "PRESERVED",
+    "plugin_path": "assets/user-sources/burger-cup-close-generation.png",
+    "sha256": "009402cc9372753febde275500e86ad42ca29047e243d2891f85ab3c267d034e",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-be1c92f7-ee0d-442f-90a3-e74b847dff3f.png",
+    "name": "lamp-clock-plant-generation",
+    "role": "calibration_mixed_generation",
+    "status": "PRESERVED",
+    "plugin_path": "assets/user-sources/lamp-clock-plant-generation.png",
+    "sha256": "d087d5b86cfeaf4d728e9d867d31eb96dd9520e76a17cfe8a47c9c3c9b907624",
+    "size": [
+      1388,
+      1133
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-73c5e96b-cda3-4021-9a34-97eb08e6208f.png",
+    "name": "teapot-cup-generation",
+    "role": "calibration_positive_generation",
+    "status": "PRESERVED",
+    "plugin_path": "assets/user-sources/teapot-cup-generation.png",
+    "sha256": "9fe9af1b5e16179aa10d246068557a2bc968b2e4e3f5309e3b607488ab9dc190",
+    "size": [
+      1393,
+      1129
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-bc63b86e-11ce-4ba9-8ff1-1bb32fc74319.png",
+    "name": "ice-cream-generation",
+    "role": "calibration_mixed_generation",
+    "status": "PRESERVED",
+    "plugin_path": "assets/user-sources/ice-cream-generation.png",
+    "sha256": "4493b08c584748d97d2baf9bff203e0099918553abc3b28712b5039dd1e561fc",
+    "size": [
+      1215,
+      1295
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-94bfebbe-67de-4d17-8512-851d4087f7bc.png",
+    "name": "thumbtack-rejected-generation",
+    "role": "rejected_generation",
+    "status": "PRESERVED",
+    "plugin_path": "assets/user-sources/thumbtack-rejected-generation.png",
+    "sha256": "aaf159f190bd04b60019fafe0043edf1c061f8771de233488755da995824f35b",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-e9596528-cbaf-426b-96fe-7db209c5ae81.png",
+    "name": "tote-straps-towel-closeup",
+    "role": "calibration_positive_material_crop",
+    "status": "PRESERVED",
+    "plugin_path": "assets/user-sources/tote-straps-towel-closeup.png",
+    "sha256": "92a9fcc39c0993d4eca485b2c11c59c7ad43c5644b038d79bf194aae39a8892c",
+    "size": [
+      1780,
+      883
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-e0e54bd7-8819-4cf7-92d9-b663dc706485.png",
+    "name": "beach-bag-glasses-generation",
+    "role": "calibration_mixed_generation",
+    "status": "PRESERVED",
+    "plugin_path": "assets/user-sources/beach-bag-glasses-generation.png",
+    "sha256": "f6f9a5e3e4a5bf30ee5cb14911b59521a3453c48044733e9c484c44f7800a4c4",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-ebd15d72-5fc0-45c5-a82c-223e9ba0c3e1.png",
+    "name": "luggage-wallet-glasses-generation",
+    "role": "calibration_mixed_generation",
+    "status": "PRESERVED",
+    "plugin_path": "assets/user-sources/luggage-wallet-glasses-generation.png",
+    "sha256": "84d196ecb1da19564a9a9eddd30d6d59218d47cc9151e38690aca1204c37ed8b",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-c87bdf6d-b795-4a8d-b756-86fcbd8773c9.png",
+    "name": "sports-towel-generation",
+    "role": "calibration_mixed_generation",
+    "status": "PRESERVED",
+    "plugin_path": "assets/user-sources/sports-towel-generation.png",
+    "sha256": "31f94f7c3c3b80645ab121fc5c6c5641e7e85b65787bad1ec13b4d327631446b",
+    "size": [
+      1333,
+      1180
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-07b2768f-280a-448d-9274-dcfa36971b08.png",
+    "name": "tools-blur-rejected-crop",
+    "role": "rejected_material_crop",
+    "status": "PRESERVED",
+    "plugin_path": "assets/user-sources/tools-blur-rejected-crop.png",
+    "sha256": "794e83a7640e783bbd3f8f9d4281260b0658bb57884c18ed453548542664890e",
+    "size": [
+      358,
+      372
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "original-source/service-shaiba.zip",
+    "name": "colleague-service-shaiba-project",
+    "role": "original_project_archive_untrusted_data",
+    "status": "PRESERVED",
+    "plugin_path": "assets/user-sources/service-shaiba.zip",
+    "sha256": "8bfdad5b785eedf759baf6111e4848f1c472a6786a084a9b0807ad191a536f95"
+  },
+  {
+    "name": "designer-geometry-qc",
+    "role": "designer_explicitly_adopted_requirements",
+    "status": "PRESERVED",
+    "plugin_path": "assets/user-sources/designer-geometry-qc.txt",
+    "sha256": "722602d5ca32193adfceacc01cfada381b7dd0a19113b027f6235c7a08d6889d"
+  },
+  {
+    "name": "approved-sneaker",
+    "role": "designer_style_approved",
+    "status": "PRESERVED",
+    "plugin_path": "assets/calibration/approved-sneaker.png",
+    "sha256": "4bd04d9b8a36e7f62987c5a43434972f009715dd208b62247002a4fb7590a91c",
+    "scope": "specific case only; not permanent STYLE; export approval separate"
+  },
+  {
+    "name": "approved-van",
+    "role": "designer_style_approved",
+    "status": "PRESERVED",
+    "plugin_path": "assets/calibration/approved-van.png",
+    "sha256": "cbd45a54fe09ef79cea7179570f8185f107891822ca00f42b39822f95df8a362",
+    "scope": "specific case only; not permanent STYLE; export approval separate"
+  },
+  {
+    "name": "approved-trophy",
+    "role": "designer_style_approved",
+    "status": "PRESERVED",
+    "plugin_path": "assets/calibration/approved-trophy.png",
+    "sha256": "527a9803c396fbc6fe28efc44c6a9f2cf046d9649c922cab890245dd2764d9c6",
+    "scope": "specific case only; not permanent STYLE; export approval separate"
+  },
+  {
+    "name": "rejected-tools-blur",
+    "role": "designer_material_rejected",
+    "status": "PRESERVED",
+    "plugin_path": "assets/calibration/rejected-tools-blur.png",
+    "sha256": "6235953969e88e4c0d757cac22df3a9b19b9dd1a113568dc7ef228bc8c15c2c6",
+    "scope": "specific case only; not permanent STYLE; export approval separate"
+  },
+  {
+    "name": "designer-approved-cherries",
+    "role": "designer_approved_presented_main_calibration",
+    "status": "PRESERVED",
+    "plugin_path": "assets/calibration/designer-approved-cherries.png",
+    "source": "original-source/75-cherries-export/main.png",
+    "sha256": "b08789e911fb80e509ae2a90d87aaff8594b4fe8f17875166db8adff0960bdf8",
+    "scope": "Quiet fruit skin, leaf/intervein detail, stem/socket appearance; naturalfoodcolors only. Specific accepted main only; not permanent STYLE; alpha QA separately by critic."
+  },
+  {
+    "name": "designer-approved-screwdriver",
+    "role": "designer_approved_presented_main_calibration",
+    "status": "PRESERVED",
+    "plugin_path": "assets/calibration/designer-approved-screwdriver.png",
+    "source": "original-source/77-screwdriver-export/main.png",
+    "sha256": "01a81f311966c8bc4af9f04a028d04bdeb344770b26a266bbee8bc083fbae309",
+    "scope": "Quiet metal and violet grip, clear collar/shaft/blade, no material blur; this tool geometry only. Specific accepted main only; not permanent STYLE; alpha QA separately by critic."
+  },
+  {
+    "name": "designer-approved-paper-bag",
+    "role": "designer_approved_presented_main_calibration",
+    "status": "PRESERVED",
+    "plugin_path": "assets/calibration/designer-approved-paper-bag.png",
+    "source": "original-source/79-paper-bag-export/main.png",
+    "sha256": "85430bb87850d0215abe32a92cb4471e0b2e8d833250a786ad5648ef0136973b",
+    "scope": "Quiet cream paper/folds and fine lowcontrast violet cylindrical cords; 2loops/4attachments appearance. Specific accepted main only; not permanent STYLE; alpha QA separately by critic."
+  },
+  {
+    "name": "designer-approved-hairdryer",
+    "role": "designer_approved_presented_main_calibration",
+    "status": "PRESERVED",
+    "plugin_path": "assets/calibration/designer-approved-hairdryer.png",
+    "source": "original-source/81-hairdryer-export-v2/main.png",
+    "sha256": "a8c9c4dd9b010a7d5721bbcfe9ab0100247fdef38ec50e2030f28c55fb731b68",
+    "scope": "Quiet cream/violet molded polymer, grille/rim/grip joints and midtones; no wholecategory geometry promise. Specific accepted main only; not permanent STYLE; alpha QA separately by critic."
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "kind": "validated derived CONTENT raster master, not STYLE or authored3Dscene",
+  "original": "geometry.png",
+  "original_size": [
+    954,
+    954
+  ],
+  "review": "evaluation/audit-round5/critic-canonical-blank-final.json",
+  "sha256": "f903e6faf401f6b9b9afe68ad5b83dfcf829d27ce7583573bd3c47fba4d39fb5",
+  "status": "base_only_PASS",
+  "camera_constraint": "reuse unchanged original alpha, silhouette, bevel and side; any graphic mapping separately reviewed"
+}

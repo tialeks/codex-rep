@@ -1,0 +1,70 @@
+GEOMETRY & SPATIAL CONSISTENCY — STRICT QUALITY CONTROL:
+
+Preserve strict geometric, spatial, and structural correctness throughout the entire illustration.
+
+All objects must obey real-world geometry, Euclidean spatial relationships, perspective projection, proportional scaling, symmetry, and basic trigonometric consistency.
+
+Before rendering, internally resolve the scene as a coherent 3D construction with clearly defined positions, dimensions, orientations, distances, angles, planes, axes, and depth relationships.
+
+GEOMETRY:
+• Maintain mathematically coherent shapes, angles, curves, circles, ellipses, parallel lines, perpendicular lines, tangencies, and intersections.
+• Straight structural elements must remain straight unless intentionally curved.
+• Parallel edges in 3D space must follow the same perspective system and converge consistently toward appropriate vanishing points.
+• Perpendicular and angled structures must maintain believable spatial relationships after perspective projection.
+• Circular objects viewed at an angle must become geometrically correct ellipses rather than distorted or irregular shapes.
+• Repeated geometric elements must preserve consistent dimensions, spacing, alignment, rhythm, and orientation.
+• Symmetrical structures must remain genuinely symmetrical in 3D construction unless asymmetry is explicitly requested.
+
+PERSPECTIVE & SPACE:
+• Use one internally consistent perspective system for the entire scene.
+• Maintain a coherent horizon line, camera position, camera height, viewing direction, field of view, and vanishing points.
+• Do not combine incompatible perspectives within the same object or scene.
+• Near objects must scale correctly relative to distant objects.
+• Foreshortening must correspond to the actual orientation of objects in 3D space.
+• Maintain consistent depth, overlap, occlusion, and relative positioning.
+• Objects occupying the same physical space must not intersect unless an intersection is structurally intended.
+
+TRIGONOMETRY & ANGULAR CONSISTENCY:
+• Respect angular relationships between connected elements.
+• Rotated, tilted, radial, triangular, polygonal, mechanical, and architectural elements must remain mathematically plausible.
+• Preserve consistent slopes and corresponding angles across connected structures.
+• Radial elements must originate from the correct center and maintain coherent angular spacing.
+• Perspective shortening must remain consistent with the object's angle relative to the camera.
+
+STRUCTURAL INTEGRITY:
+• Every connected part must have a clear and physically plausible attachment point.
+• No floating, disconnected, accidentally fused, duplicated, twisted, bent, melted, broken, or impossible geometry.
+• Avoid impossible joints, contradictory overlaps, unexplained gaps, misaligned edges, and topology errors.
+• Preserve continuity of surfaces and structural elements when they pass behind other objects.
+• Hidden portions should be mentally reconstructed so visible sections align correctly on both sides of an occluder.
+
+PROPORTIONS:
+• Preserve realistic and internally consistent proportions.
+• The same object must not unexpectedly change width, thickness, diameter, scale, or orientation along its length.
+• Identical components must have identical dimensions unless perspective naturally changes their apparent size.
+• Maintain believable ratios between all major and minor elements.
+
+CONTACT & PHYSICS:
+• Objects resting on surfaces must make convincing physical contact with those surfaces.
+• Feet, wheels, columns, furniture, buildings, mechanical parts, and other load-bearing elements must connect correctly to the ground or supporting structure.
+• Shadows, contact points, and object orientation must agree with the underlying geometry.
+• Gravity and balance must remain physically plausible unless explicitly overridden by the concept.
+
+PRIORITY ORDER:
+1. Geometric correctness
+2. Spatial and perspective consistency
+3. Structural integrity
+4. Correct proportions
+5. Correct topology and connections
+6. Subject identity and composition
+7. Fine decorative detail
+
+If decorative detail conflicts with geometry, simplify the detail rather than distort the underlying structure.
+
+Perform a final geometry pass before rendering:
+check perspective → vanishing points → proportions → angles → symmetry → alignments → intersections → attachments → occlusions → repeated elements → contact points → structural continuity.
+
+The final illustration must look intentionally constructed, spatially coherent, stable, clean, and physically possible — never warped, crooked, melted, accidentally asymmetric, structurally broken, or geometrically ambiguous.
+
+NEGATIVE CONSTRAINTS:
+warped geometry, broken perspective, inconsistent vanishing points, impossible angles, crooked straight lines, malformed circles, irregular ellipses, accidental asymmetry, inconsistent scale, incorrect foreshortening, impossible intersections, floating objects, disconnected parts, fused objects, duplicated structural elements, broken topology, twisted surfaces, melted structures, misaligned edges, inconsistent thickness, impossible joints, contradictory depth, spatial ambiguity.

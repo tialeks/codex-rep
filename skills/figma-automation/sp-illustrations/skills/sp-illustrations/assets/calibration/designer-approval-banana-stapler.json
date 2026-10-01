@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-29",
+  "user_statement": "устраивает",
+  "scope": "Both attached main images explicitly approved. Reconciles contrary critic material style judgment for banana; no alpha or hidden engineering certification. No streak credit. Exact attachment files preserved.",
+  "images": [
+    {
+      "id": "89",
+      "path": "assets/calibration/designer-approved-banana.png",
+      "sha256": "175118d8d74c8411e6d319169f4acd1272c33c9d6b772bb12b84270ee0660c7a",
+      "source_attachment": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-7946e1f6-c29d-4d18-96b6-3b2ccb0c1897.png",
+      "scope": "Approved exact displayed textured cream flesh/inner peel and yellow rind. Does not mean all cellular patterns on any food are approved.",
+      "exact_rgba_matches": [
+        "89-peeled-banana-correction1.png"
+      ],
+      "size": [
+        1315,
+        1196
+      ],
+      "mode": "RGB"
+    },
+    {
+      "id": "86",
+      "path": "assets/calibration/designer-approved-stapler.png",
+      "sha256": "a50cbb55bbbee0e86b313493186a4a4003e45f2f59e7fab37d73e73b229df77e",
+      "source_attachment": "/var/folders/ks/z7xyy8ds0yz3fjgwh35wc0t00000gn/T/codex-clipboard-10a95f57-3879-43ce-a11a-c0e8d0f8695f.png",
+      "scope": "Approved exact displayed stapler, quiet cream/violet polymer and silver finish, visible appearance. Hidden bearing endface is not a designer requirement.",
+      "exact_rgba_matches": [
+        "86-stapler-baseline.png"
+      ],
+      "size": [
+        1402,
+        1122
+      ],
+      "mode": "RGB"
+    }
+  ]
+}

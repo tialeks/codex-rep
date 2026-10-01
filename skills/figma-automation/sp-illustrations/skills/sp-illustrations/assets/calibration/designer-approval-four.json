@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-29",
+  "user_statement": "все варианты меня полностью устраивают",
+  "presented_preview_sha256": "ca4c593affaf82c94b043cec732bce380a1111c9ac2326be149711e0c8ff601e",
+  "interpretation": "Acceptance of all four presented main illustrations on style/appearance question. No approval inferred for hidden3D or unseen alpha backgrounds. Independent full PNG export gates already passed. Not new generations or streak credits.",
+  "images": [
+    {
+      "id": "75",
+      "path": "assets/calibration/designer-approved-cherries.png",
+      "sha256": "b08789e911fb80e509ae2a90d87aaff8594b4fe8f17875166db8adff0960bdf8",
+      "source_main": "original-source/75-cherries-export/main.png",
+      "scope": "Quiet fruit skin, leaf/intervein detail, stem/socket appearance; naturalfoodcolors only. Specific accepted main only; not permanent STYLE; alpha QA separately by critic."
+    },
+    {
+      "id": "77",
+      "path": "assets/calibration/designer-approved-screwdriver.png",
+      "sha256": "01a81f311966c8bc4af9f04a028d04bdeb344770b26a266bbee8bc083fbae309",
+      "source_main": "original-source/77-screwdriver-export/main.png",
+      "scope": "Quiet metal and violet grip, clear collar/shaft/blade, no material blur; this tool geometry only. Specific accepted main only; not permanent STYLE; alpha QA separately by critic."
+    },
+    {
+      "id": "79",
+      "path": "assets/calibration/designer-approved-paper-bag.png",
+      "sha256": "85430bb87850d0215abe32a92cb4471e0b2e8d833250a786ad5648ef0136973b",
+      "source_main": "original-source/79-paper-bag-export/main.png",
+      "scope": "Quiet cream paper/folds and fine lowcontrast violet cylindrical cords; 2loops/4attachments appearance. Specific accepted main only; not permanent STYLE; alpha QA separately by critic."
+    },
+    {
+      "id": "81",
+      "path": "assets/calibration/designer-approved-hairdryer.png",
+      "sha256": "a8c9c4dd9b010a7d5721bbcfe9ab0100247fdef38ec50e2030f28c55fb731b68",
+      "source_main": "original-source/81-hairdryer-export-v2/main.png",
+      "scope": "Quiet cream/violet molded polymer, grille/rim/grip joints and midtones; no wholecategory geometry promise. Specific accepted main only; not permanent STYLE; alpha QA separately by critic."
+    }
+  ]
+}

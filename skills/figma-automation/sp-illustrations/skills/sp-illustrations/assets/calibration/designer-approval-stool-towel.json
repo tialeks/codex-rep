@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-29",
+  "id": "88",
+  "user_statement": "Принимаю",
+  "question_scope": "Stool with towel: pack similarity, wood, fabric texture and violet",
+  "path": "assets/calibration/designer-approved-stool-towel.png",
+  "source_main": "original-source/88-stool-towel-export/main.png",
+  "sha256": "bab8e8930156898d9e446aabdad324918b9c77fe40dd1a1721160cdf64c93511",
+  "scope": "Approved wood grain, terry textile scale and cloth violet for these material roles only; not polymer violet, hidden construction or a replacement for the three original STYLE inputs.",
+  "alpha": "Independently full PASS; designer approved presented main only",
+  "count": 0
+}

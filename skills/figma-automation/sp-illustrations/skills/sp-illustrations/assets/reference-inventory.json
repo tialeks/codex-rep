@@ -1,0 +1,943 @@
+{
+  "purpose": "Full source asset inventory, including earlier pack and colleague assets; not a list of globally approved STYLEs",
+  "entries": [
+    {
+      "path": "assets/calibration/approved-sneaker.png",
+      "sha256": "4bd04d9b8a36e7f62987c5a43434972f009715dd208b62247002a4fb7590a91c",
+      "role": "designer_style_approved",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "approved-sneaker",
+      "size": [
+        1393,
+        1129
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/calibration/approved-trophy.png",
+      "sha256": "527a9803c396fbc6fe28efc44c6a9f2cf046d9649c922cab890245dd2764d9c6",
+      "role": "designer_style_approved",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "approved-trophy",
+      "size": [
+        1214,
+        1295
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/calibration/approved-van.png",
+      "sha256": "cbd45a54fe09ef79cea7179570f8185f107891822ca00f42b39822f95df8a362",
+      "role": "designer_style_approved",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "approved-van",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/calibration/rejected-tools-blur.png",
+      "sha256": "6235953969e88e4c0d757cac22df3a9b19b9dd1a113568dc7ef228bc8c15c2c6",
+      "role": "designer_material_rejected",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "rejected-tools-blur",
+      "size": [
+        1393,
+        1129
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/figma-food-object-bananas.png",
+      "sha256": "7f9aacdf0053f237e358b85c3f884ed47a454c9626fa22c1cecc2b9f1ef671f4",
+      "role": "CATEGORY",
+      "origin": "original_figma_food",
+      "scope": "food material only, not universal style",
+      "size": [
+        554,
+        381
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/figma-food-object-burger.png",
+      "sha256": "7e42f8fbe38b5f61decf70fac499632290354627029f629999bbb6896203c2c9",
+      "role": "CATEGORY",
+      "origin": "original_figma_food",
+      "scope": "food material only, not universal style",
+      "size": [
+        428,
+        327
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/figma-food-object-grocery-bag.png",
+      "sha256": "0a48127e8f46f36c6595ddc230686f9dba20466be77f0ff1e98f72943937365d",
+      "role": "CATEGORY",
+      "origin": "original_figma_food",
+      "scope": "food material only, not universal style",
+      "size": [
+        583,
+        813
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/figma-food-object-salad.png",
+      "sha256": "55034cf529427724f3675977f63641226c7f9f34307f393d741759e884daa078",
+      "role": "CATEGORY",
+      "origin": "original_figma_food",
+      "scope": "food material only, not universal style",
+      "size": [
+        688,
+        502
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/figma-food-object-tomato.png",
+      "sha256": "6a7d2da46ed462de933c358111bfa0eba884ce8762d7f172993c7527deda47bf",
+      "role": "CATEGORY",
+      "origin": "original_figma_food",
+      "scope": "food material only, not universal style",
+      "size": [
+        607,
+        583
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/01-burger-bag.png",
+      "sha256": "969c1ebd7993c799fa032a82aa569e9cf8113dc872c0d4391b425fcc25cbf29e",
+      "role": "CONTENT_OR_CATEGORY",
+      "origin": "original_12_pack",
+      "scope": "select object or material, preserve original role",
+      "size": [
+        808,
+        804
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/02-grocery.png",
+      "sha256": "24656e3b4218c11987a91e9ecb6332ef6a1211da9cc449fbf7bf33cba35d6c60",
+      "role": "CONTENT_OR_CATEGORY",
+      "origin": "original_12_pack",
+      "scope": "select object or material, preserve original role",
+      "size": [
+        824,
+        804
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/03-packaging.png",
+      "sha256": "3d7d750a23c2bd1f86868252fcbb3a29cb3b7ddc139a7939c14b197ed83c3bd1",
+      "role": "CONTENT_OR_CATEGORY",
+      "origin": "original_12_pack",
+      "scope": "select object or material, preserve original role",
+      "size": [
+        825,
+        804
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/04-bell.png",
+      "sha256": "90897172803a677a6816db015b25166ef477c053078afa5c3885ea0a9b9cd5e1",
+      "role": "CONTENT_OR_CATEGORY",
+      "origin": "original_12_pack",
+      "scope": "select object or material, preserve original role",
+      "size": [
+        803,
+        804
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/05-tickets.png",
+      "sha256": "2dea4148fb2348460a1452d37c772510a30a1ffa20b55280289ea14650b6afc1",
+      "role": "CONTENT_OR_CATEGORY",
+      "origin": "original_12_pack",
+      "scope": "select object or material, preserve original role",
+      "size": [
+        808,
+        824
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/06-popcorn.png",
+      "sha256": "8bb859ff8a81317be8de5fe30cab30d2e7f5ea9f45b84e12b246b76aecc5cbf5",
+      "role": "CONTENT_OR_CATEGORY",
+      "origin": "original_12_pack",
+      "scope": "select object or material, preserve original role",
+      "size": [
+        824,
+        824
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/07-controllers.png",
+      "sha256": "bebb514e30122e648032b9f34d2f307a177741e16561fd8ac6c59ebd15486e16",
+      "role": "CONTENT_OR_CATEGORY",
+      "origin": "original_12_pack",
+      "scope": "select object or material, preserve original role",
+      "size": [
+        825,
+        824
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/08-chair.png",
+      "sha256": "9a259f8792048edb07c880296c5b43c21649dc0d9f437b15bf6dfb9970910c58",
+      "role": "CONTENT_OR_CATEGORY",
+      "origin": "original_12_pack",
+      "scope": "select object or material, preserve original role",
+      "size": [
+        803,
+        824
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/09-spa.png",
+      "sha256": "1c7974770bc3fb69ef98e7640f78e51ff616137b1da31045deda4c16ed675db3",
+      "role": "CONTENT_OR_CATEGORY",
+      "origin": "original_12_pack",
+      "scope": "select object or material, preserve original role",
+      "size": [
+        808,
+        808
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/10-basket.png",
+      "sha256": "4f015935f9b13e8130e69c16d37eb8ce13195941f8847296cb7c710f0bbbd5da",
+      "role": "CONTENT_OR_CATEGORY",
+      "origin": "original_12_pack",
+      "scope": "select object or material, preserve original role",
+      "size": [
+        824,
+        808
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/11-sports.png",
+      "sha256": "34a91dba591e6db7ef2da4a1f16285a7b9a913d3b805e4d737185179e75d3d6f",
+      "role": "CONTENT_OR_CATEGORY",
+      "origin": "original_12_pack",
+      "scope": "select object or material, preserve original role",
+      "size": [
+        825,
+        808
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/12-box.png",
+      "sha256": "d924ec5f97231059c1f90b5a338fa6298917fb6d934a27271f6dc9b656272a2e",
+      "role": "CONTENT_OR_CATEGORY",
+      "origin": "original_12_pack",
+      "scope": "select object or material, preserve original role",
+      "size": [
+        803,
+        808
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/boxes-bags-sheet.png",
+      "sha256": "cf5a4fead128cc3f7b6021abca180d209485e4401872958a3e6f8240f6a9a13a",
+      "role": "pack_original_sparse_sheet",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "boxes-bags",
+      "size": [
+        2240,
+        18648
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/cards-wallets-sheet.png",
+      "sha256": "6a5104dc5a84537ddf635d08ef1b9e3c305d07e9aa947ccf9559ade8be2549c0",
+      "role": "pack_original",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "cards-wallets",
+      "size": [
+        2241,
+        704
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/food-drinks/bananas.png",
+      "sha256": "54f7e8a6b1f9c90391be76298fc5c3665923e0e3d0e323b83aeddc85240cc4bf",
+      "role": "pack_original",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "food-bananas",
+      "size": [
+        168,
+        114
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/food-drinks/burger-eggs.png",
+      "sha256": "c5e15754cac8534186b38b879518527caf730c0156cb543c672e5440f49f4492",
+      "role": "pack_original",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "food-burger-eggs",
+      "size": [
+        246,
+        117
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/food-drinks/cheese-salad-tomato.png",
+      "sha256": "51b255275d9d652d3932d1635490d94b4eacb01263cd9c337d2a6c07c17d7389",
+      "role": "pack_original",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "food-cheese-salad-tomato",
+      "size": [
+        130,
+        95
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/food-drinks/grocery-bag.png",
+      "sha256": "ea47bc1719162e63c75852d600320aaa5656e2796519f0e53f9dec781a32c654",
+      "role": "pack_original",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "food-grocery-bag",
+      "size": [
+        168,
+        236
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/food-drinks/popcorn.png",
+      "sha256": "ac69f8f121657a503a0203f6848bef45e9a4184194fc81d967e07b497e3091d1",
+      "role": "pack_original",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "food-popcorn",
+      "size": [
+        238,
+        268
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/food-drinks/takeaway-cup.png",
+      "sha256": "b2fb3ecd7928b163f01e395718b973f0dbba0ec45c2d5d309070e99140da84de",
+      "role": "pack_original",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "food-takeaway-cup",
+      "size": [
+        82,
+        111
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/gift-box-purple-original.png",
+      "sha256": "4ef760e877eb7d4ccbdc755f0846813af7116fca53c93e509430b184c7a45349",
+      "role": "pack_original",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "gift-box-purple-original",
+      "size": [
+        336,
+        280
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/gift-box-variants-sheet.png",
+      "sha256": "e5105dd85f1afa504b551fe1c717f521912abe2085c6784b4d200630770b5db8",
+      "role": "pack_original",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "gift-box-variants",
+      "size": [
+        2240,
+        1952
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/locks/dark-lock.png",
+      "sha256": "373c33787113c0417a3e25abe75b375fe819cf615979ae9cc77c314207fd0a77",
+      "role": "pack_original",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "locks-dark",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/locks/hardware-locks.png",
+      "sha256": "f15f7cb114bf61fdd266b46f44c13007cdc828ebae0f6e200bd72b497eb4b0fe",
+      "role": "pack_original",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "locks-hardware",
+      "size": [
+        320,
+        64
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/locks/soft-locks-and-badge.png",
+      "sha256": "c5338b16a3a1d20829dade8c3d525fcbb4d34c50e18b7ee0e2d05cc0cac4afa2",
+      "role": "pack_original",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "locks-soft",
+      "size": [
+        368,
+        80
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/logo-pucks-sheet-01.png",
+      "sha256": "1ee77320864a6817426a4fbe3738f534800131bbcb5769ea0936e87605f778f6",
+      "role": "pack_original",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "logo-pucks-01",
+      "size": [
+        2380,
+        928
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/logo-pucks-sheet-02.png",
+      "sha256": "14bdbaabb00b18b43e2996b5420478c49d11eb65035a30a4d7f608afe35069fd",
+      "role": "pack_original",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "logo-pucks-02",
+      "size": [
+        2380,
+        352
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/metals-gold-silver-bronze-sheet.png",
+      "sha256": "c513c23abb2d467b62b5dc799c5fe6b14c257ea343380726317df758c9a00755",
+      "role": "pack_original",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "metal-materials",
+      "size": [
+        1986,
+        3044
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/transport/cars-lineup.png",
+      "sha256": "a80530df379577368ad9e935deb15f07f1f4052c3b7f86858cdc2da5c1d4eb3b",
+      "role": "pack_original",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "transport-cars-lineup",
+      "size": [
+        320,
+        64
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/transport/cars-round-previews.png",
+      "sha256": "a54b944edb70980a9283a076c026e8dbd025f007f452e33c351658883a004b63",
+      "role": "pack_original",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "transport-car-previews",
+      "size": [
+        224,
+        80
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/transport/carsharing-detail.png",
+      "sha256": "b0a0caa6d3fdb6646c98585d5b4bf21527bf8c85f804ff80f3fcbc73afd10659",
+      "role": "pack_original_partial_object",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "transport-carsharing",
+      "size": [
+        214,
+        159
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/transport/scooter-detail.png",
+      "sha256": "81b4f6b9706439f0c9e77e53629cd1bb8e5801d81dfbcbe68fd512443a6a6547",
+      "role": "pack_original_partial_object",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "transport-scooter",
+      "size": [
+        101,
+        66
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/transport/taxi-detail.png",
+      "sha256": "258534e5f7e28c187fd06b2600c5553008182e5dce43ecd257eddf4f7c67c5aa",
+      "role": "pack_original_partial_object",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "transport-taxi",
+      "size": [
+        214,
+        181
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/reference-12-sheet.png",
+      "sha256": "76f80e13b587b0cb205132d2843313d3e4c6ea134a6af807ce40fb198b74190d",
+      "role": "CONTENT_OR_CATEGORY",
+      "origin": "original_12_pack",
+      "scope": "select object or material, preserve original role",
+      "size": [
+        3320,
+        2480
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/service-shaiba/canonical-blank.png",
+      "sha256": "f903e6faf401f6b9b9afe68ad5b83dfcf829d27ce7583573bd3c47fba4d39fb5",
+      "role": "DERIVED_FIXED_MASTER",
+      "origin": "derived_reviewed",
+      "scope": "frozen master only",
+      "size": [
+        954,
+        954
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/service-shaiba/center-logo.png",
+      "sha256": "0aa8db489f935975f6285c0ea0ffee325e342b194f9719fd2e3a0fb08459f275",
+      "role": "PUCK_GEOMETRY_PLACEMENT",
+      "origin": "colleague_project",
+      "scope": "geometry/light/placement, not universal STYLE",
+      "size": [
+        40,
+        40
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/service-shaiba/full-illustration.png",
+      "sha256": "fd337d23c379f137ed85eddde1f653db5651694f7cf8ad809a2e87fb1e22420c",
+      "role": "PUCK_GEOMETRY_PLACEMENT",
+      "origin": "colleague_project",
+      "scope": "geometry/light/placement, not universal STYLE",
+      "size": [
+        40,
+        40
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/service-shaiba/full-surface.png",
+      "sha256": "3806c7b49cf8598e47e3b2a4b5b54ca908ed9d1fc28265b3307704df6606a388",
+      "role": "PUCK_GEOMETRY_PLACEMENT",
+      "origin": "colleague_project",
+      "scope": "geometry/light/placement, not universal STYLE",
+      "size": [
+        40,
+        40
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/service-shaiba/geometry.png",
+      "sha256": "be5ae7cb657ab67d6983931f3cf611715a156ef5aeac13ef3ef52ab277e20f22",
+      "role": "PUCK_GEOMETRY_PLACEMENT",
+      "origin": "colleague_project",
+      "scope": "geometry/light/placement, not universal STYLE",
+      "size": [
+        954,
+        954
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/service-shaiba/lighting.png",
+      "sha256": "f0d191f979ac7147e269cba80ff45d7514d3bdb0c7bfd64238d767eb4ac56e63",
+      "role": "PUCK_GEOMETRY_PLACEMENT",
+      "origin": "colleague_project",
+      "scope": "geometry/light/placement, not universal STYLE",
+      "size": [
+        40,
+        40
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/service-shaiba/size-l.png",
+      "sha256": "5d8aab230221d3cf6830dfa31b43e5e803d7138e5a59d6809adba819598fe8fc",
+      "role": "PUCK_GEOMETRY_PLACEMENT",
+      "origin": "colleague_project",
+      "scope": "geometry/light/placement, not universal STYLE",
+      "size": [
+        40,
+        40
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/service-shaiba/size-m.png",
+      "sha256": "df2013ba64e38b5f51e684caa0e2959384179008775289351a97411aafd369c8",
+      "role": "PUCK_GEOMETRY_PLACEMENT",
+      "origin": "colleague_project",
+      "scope": "geometry/light/placement, not universal STYLE",
+      "size": [
+        40,
+        40
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/service-shaiba/size-s.png",
+      "sha256": "d8233b6c6bb7fc111609af0a9ef29961a1a4df7b45d66c30a9e24d296f623a26",
+      "role": "PUCK_GEOMETRY_PLACEMENT",
+      "origin": "colleague_project",
+      "scope": "geometry/light/placement, not universal STYLE",
+      "size": [
+        40,
+        40
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/service-shaiba/wrap-afisha.png",
+      "sha256": "ecebffa2d87d193653616393860f9af4c68224357e02a8729b16e9973106992e",
+      "role": "PUCK_GEOMETRY_PLACEMENT",
+      "origin": "colleague_project",
+      "scope": "geometry/light/placement, not universal STYLE",
+      "size": [
+        40,
+        40
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/service-shaiba/wrap-outline.png",
+      "sha256": "e4ca0631f2f4c0034d9a507c39e4bdd7092f581b49f4aaea4aadf3ea63ff0ced",
+      "role": "PUCK_GEOMETRY_PLACEMENT",
+      "origin": "colleague_project",
+      "scope": "geometry/light/placement, not universal STYLE",
+      "size": [
+        40,
+        40
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/service-shaiba/wrap-symbol.png",
+      "sha256": "1b93642609a101fe9651569e192fc698799de0474b1dcac5e160536320808753",
+      "role": "PUCK_GEOMETRY_PLACEMENT",
+      "origin": "colleague_project",
+      "scope": "geometry/light/placement, not universal STYLE",
+      "size": [
+        40,
+        40
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/style-01-packaging.png",
+      "sha256": "bbce12794450a5c03b21704c91f707bec067bff4b758491299b0014c74b33ce4",
+      "role": "STYLE",
+      "origin": "original_weavy",
+      "scope": "mandatory constant style input",
+      "size": [
+        1306,
+        1059
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/style-02-spa.png",
+      "sha256": "e9304f8259259b24c14a26d2c29a62e2ca3a3c68795bfdfb257bd270b005af69",
+      "role": "STYLE",
+      "origin": "original_weavy",
+      "scope": "mandatory constant style input",
+      "size": [
+        1194,
+        1273
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/style-03-basket.png",
+      "sha256": "528ca6a53095a66a242c376e8f1f5d9eae1127d6c80cd021f5793ca3d1c0b970",
+      "role": "STYLE",
+      "origin": "original_weavy",
+      "scope": "mandatory constant style input",
+      "size": [
+        862,
+        840
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/user-sources/beach-bag-glasses-generation.png",
+      "sha256": "f6f9a5e3e4a5bf30ee5cb14911b59521a3453c48044733e9c484c44f7800a4c4",
+      "role": "calibration_mixed_generation",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "beach-bag-glasses-generation",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/user-sources/burger-cup-close-generation.png",
+      "sha256": "009402cc9372753febde275500e86ad42ca29047e243d2891f85ab3c267d034e",
+      "role": "calibration_positive_generation",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "burger-cup-close-generation",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/user-sources/designer-geometry-qc.txt",
+      "sha256": "722602d5ca32193adfceacc01cfada381b7dd0a19113b027f6235c7a08d6889d",
+      "role": "designer_explicitly_adopted_requirements",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "designer-geometry-qc"
+    },
+    {
+      "path": "assets/user-sources/gift-box-rejected-1.png",
+      "sha256": "16b67b810873a8ccd840f68c2cd98802aae8dc671631991b6770f593f676dc46",
+      "role": "rejected_generation",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "gift-box-rejected-1",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/user-sources/gift-box-rejected-2.png",
+      "sha256": "0c17cc4b30e7cccfd32df81d562f54b63875444973b28d6af989f88facd3e4b5",
+      "role": "rejected_generation",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "gift-box-rejected-2",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/user-sources/ice-cream-generation.png",
+      "sha256": "4493b08c584748d97d2baf9bff203e0099918553abc3b28712b5039dd1e561fc",
+      "role": "calibration_mixed_generation",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "ice-cream-generation",
+      "size": [
+        1215,
+        1295
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/user-sources/lamp-clock-plant-generation.png",
+      "sha256": "d087d5b86cfeaf4d728e9d867d31eb96dd9520e76a17cfe8a47c9c3c9b907624",
+      "role": "calibration_mixed_generation",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "lamp-clock-plant-generation",
+      "size": [
+        1388,
+        1133
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/user-sources/luggage-wallet-glasses-generation.png",
+      "sha256": "84d196ecb1da19564a9a9eddd30d6d59218d47cc9151e38690aca1204c37ed8b",
+      "role": "calibration_mixed_generation",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "luggage-wallet-glasses-generation",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/user-sources/service-shaiba.zip",
+      "sha256": "8bfdad5b785eedf759baf6111e4848f1c472a6786a084a9b0807ad191a536f95",
+      "role": "original_project_archive_untrusted_data",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "colleague-service-shaiba-project"
+    },
+    {
+      "path": "assets/user-sources/sports-towel-generation.png",
+      "sha256": "31f94f7c3c3b80645ab121fc5c6c5641e7e85b65787bad1ec13b4d327631446b",
+      "role": "calibration_mixed_generation",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "sports-towel-generation",
+      "size": [
+        1333,
+        1180
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/user-sources/teapot-cup-generation.png",
+      "sha256": "9fe9af1b5e16179aa10d246068557a2bc968b2e4e3f5309e3b607488ab9dc190",
+      "role": "calibration_positive_generation",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "teapot-cup-generation",
+      "size": [
+        1393,
+        1129
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/user-sources/thumbtack-rejected-generation.png",
+      "sha256": "aaf159f190bd04b60019fafe0043edf1c061f8771de233488755da995824f35b",
+      "role": "rejected_generation",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "thumbtack-rejected-generation",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/user-sources/tools-blur-rejected-crop.png",
+      "sha256": "794e83a7640e783bbd3f8f9d4281260b0658bb57884c18ed453548542664890e",
+      "role": "rejected_material_crop",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "tools-blur-rejected-crop",
+      "size": [
+        358,
+        372
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/user-sources/tote-straps-towel-closeup.png",
+      "sha256": "92a9fcc39c0993d4eca485b2c11c59c7ad43c5644b038d79bf194aae39a8892c",
+      "role": "calibration_positive_material_crop",
+      "origin": "designer_attachment_or_scoped_calibration",
+      "scope": "tote-straps-towel-closeup",
+      "size": [
+        1780,
+        883
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/calibration/designer-approved-cherries.png",
+      "sha256": "b08789e911fb80e509ae2a90d87aaff8594b4fe8f17875166db8adff0960bdf8",
+      "role": "designer_approved_presented_main_calibration",
+      "origin": "designer_explicit_approval_2026-09-29",
+      "scope": "Quiet fruit skin, leaf/intervein detail, stem/socket appearance; naturalfoodcolors only. Specific accepted main only; not permanent STYLE; alpha QA separately by critic.",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/calibration/designer-approved-screwdriver.png",
+      "sha256": "01a81f311966c8bc4af9f04a028d04bdeb344770b26a266bbee8bc083fbae309",
+      "role": "designer_approved_presented_main_calibration",
+      "origin": "designer_explicit_approval_2026-09-29",
+      "scope": "Quiet metal and violet grip, clear collar/shaft/blade, no material blur; this tool geometry only. Specific accepted main only; not permanent STYLE; alpha QA separately by critic.",
+      "size": [
+        1214,
+        1295
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/calibration/designer-approved-paper-bag.png",
+      "sha256": "85430bb87850d0215abe32a92cb4471e0b2e8d833250a786ad5648ef0136973b",
+      "role": "designer_approved_presented_main_calibration",
+      "origin": "designer_explicit_approval_2026-09-29",
+      "scope": "Quiet cream paper/folds and fine lowcontrast violet cylindrical cords; 2loops/4attachments appearance. Specific accepted main only; not permanent STYLE; alpha QA separately by critic.",
+      "size": [
+        1359,
+        1157
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/calibration/designer-approved-hairdryer.png",
+      "sha256": "a8c9c4dd9b010a7d5721bbcfe9ab0100247fdef38ec50e2030f28c55fb731b68",
+      "role": "designer_approved_presented_main_calibration",
+      "origin": "designer_explicit_approval_2026-09-29",
+      "scope": "Quiet cream/violet molded polymer, grille/rim/grip joints and midtones; no wholecategory geometry promise. Specific accepted main only; not permanent STYLE; alpha QA separately by critic.",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/calibration/designer-approved-stool-towel.png",
+      "sha256": "bab8e8930156898d9e446aabdad324918b9c77fe40dd1a1721160cdf64c93511",
+      "role": "designer_approved_presented_main_calibration",
+      "origin": "designer_explicit_approval_2026-09-29",
+      "scope": "Approved wood grain, terry textile scale and cloth violet for these material roles only; not polymer violet, hidden construction or a replacement for the three original STYLE inputs.",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/calibration/designer-approved-banana.png",
+      "sha256": "175118d8d74c8411e6d319169f4acd1272c33c9d6b772bb12b84270ee0660c7a",
+      "scope": "Approved exact displayed textured cream flesh/inner peel and yellow rind. Does not mean all cellular patterns on any food are approved.",
+      "size": [
+        1315,
+        1196
+      ],
+      "mode": "RGB",
+      "role": "designer_approved_presented_main_calibration",
+      "origin": "designer_explicit_approval_2026-09-29"
+    },
+    {
+      "path": "assets/calibration/designer-approved-stapler.png",
+      "sha256": "a50cbb55bbbee0e86b313493186a4a4003e45f2f59e7fab37d73e73b229df77e",
+      "scope": "Approved exact displayed stapler, quiet cream/violet polymer and silver finish, visible appearance. Hidden bearing endface is not a designer requirement.",
+      "size": [
+        1402,
+        1122
+      ],
+      "mode": "RGB",
+      "role": "designer_approved_presented_main_calibration",
+      "origin": "designer_explicit_approval_2026-09-29"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-30",
+  "source": "direct designer feedback after displayed new cases; original three STYLE remain authoritative",
+  "scope": "case-specific visible approval/rejection only, no hidden geometry or alpha approval",
+  "images": [
+    {
+      "id": "90",
+      "path": "assets/calibration/approved-funnel.png",
+      "sha256": "d362d88c690c199f2622dae04f0b5866868c92a1a938683907a9af0824921ba8",
+      "scope": "approved main; independent full export PASS"
+    },
+    {
+      "id": "93",
+      "path": "assets/calibration/approved-oven-mitt.png",
+      "sha256": "473bc35bcd7b20caab4ee8a2c43f129394cbc15c7210c7d9a32974b5da83e430",
+      "scope": "approved main; independent full export PASS"
+    },
+    {
+      "id": "96",
+      "path": "assets/calibration/approved-c-clamp-main-only.png",
+      "sha256": "a92e3fb25cb29fa90986f55b45df3fe997652adfa54e271980005cada057bcbd",
+      "scope": "approved main; export alpha HELD"
+    },
+    {
+      "id": "94",
+      "path": "assets/calibration/rejected-suitcase-stains-wheel.png",
+      "sha256": "544d090c53ea58124d06051935b6d005e98ba4c245f29972d745a5085c9c58f0",
+      "scope": "rejected main: material spots and wheel missing/perceived"
+    },
+    {
+      "id": "94-crop",
+      "path": "assets/calibration/rejected-suitcase-handle-crop.png",
+      "sha256": "d80334146ac3f6a1a8c0488d448a7a0db411aca1367f67ee90ca9d04f951bb41",
+      "scope": "exact designer negative crop; inspection evidence, not STYLE"
+    },
+    {
+      "id": "94-crop",
+      "path": "assets/calibration/rejected-suitcase-wheel-crop.png",
+      "sha256": "02564788b2901cafca36c307a34cfe3980291b1e0f3888abaa85978f00efbc8c",
+      "scope": "exact designer negative crop; inspection evidence, not STYLE"
+    }
+  ]
+}
