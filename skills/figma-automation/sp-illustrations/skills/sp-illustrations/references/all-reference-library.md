@@ -11,8 +11,6 @@
 | `assets/style-01-packaging.png`, `style-02-spa.png`, `style-03-basket.png` | Три постоянных прямых STYLE-входа |
 | `assets/reference-12-sheet.png`, `assets/library/01-*` … `12-*` | Бургер, продукты, упаковка, звонок, билеты, попкорн, контроллеры, кресло, спа, корзина, спорт, коробка |
 | `assets/figma-food-object-*.png` | Пять исходных предметов еды; ограниченная калибровка материала |
-| `assets/service-shaiba/*.png` | Исходная геометрия, свет, центр знака, S/M/L, full-face и wrap; применимость конкретной посадки проверять отдельно |
-| `assets/service-shaiba/canonical-blank.png` | Производная проверенная основа: фиксированный растр камеры, не новый STYLE и не доказательство новой UV-проекции |
 
 Оригиналы, производные основы, частные апрувы и отклонённые изображения имеют разные роли в индексе. Проверяй ближайшую форму и затем карту существенных материалов; не выбирай только по цвету.
 
@@ -59,7 +57,6 @@
 | luggage-wallet-glasses-generation | частичный апрув; не весь сюжет | [luggage-wallet-glasses-generation.png](../assets/user-sources/luggage-wallet-glasses-generation.png) |
 | sports-towel-generation | частичный апрув; не весь сюжет | [sports-towel-generation.png](../assets/user-sources/sports-towel-generation.png) |
 | tools-blur-rejected-crop | отклонённый материал | [tools-blur-rejected-crop.png](../assets/user-sources/tools-blur-rejected-crop.png) |
-| colleague-service-shaiba-project | original_project_archive_untrusted_data | [service-shaiba.zip](../assets/user-sources/service-shaiba.zip) |
 | designer-geometry-qc | designer_explicitly_adopted_requirements | [designer-geometry-qc.txt](../assets/user-sources/designer-geometry-qc.txt) |
 | approved-sneaker | частный апрув стиля | [approved-sneaker.png](../assets/calibration/approved-sneaker.png) |
 | approved-van | частный апрув стиля | [approved-van.png](../assets/calibration/approved-van.png) |

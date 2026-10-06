@@ -429,14 +429,6 @@
     "mode": "RGBA"
   },
   {
-    "source": "original-source/service-shaiba.zip",
-    "name": "colleague-service-shaiba-project",
-    "role": "original_project_archive_untrusted_data",
-    "status": "PRESERVED",
-    "plugin_path": "assets/user-sources/service-shaiba.zip",
-    "sha256": "8bfdad5b785eedf759baf6111e4848f1c472a6786a084a9b0807ad191a536f95"
-  },
-  {
     "name": "designer-geometry-qc",
     "role": "designer_explicitly_adopted_requirements",
     "status": "PRESERVED",
