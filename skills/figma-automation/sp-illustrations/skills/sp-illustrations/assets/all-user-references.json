@@ -502,5 +502,89 @@
     "source": "original-source/81-hairdryer-export-v2/main.png",
     "sha256": "a8c9c4dd9b010a7d5721bbcfe9ab0100247fdef38ec50e2030f28c55fb731b68",
     "scope": "Quiet cream/violet molded polymer, grille/rim/grip joints and midtones; no wholecategory geometry promise. Specific accepted main only; not permanent STYLE; alpha QA separately by critic."
+  },
+  {
+    "name": "yandex-plus-01",
+    "source": "designer_attachment_2026-10-06/image-01.png",
+    "role": "designer_approved_brand_reference",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/yandex-plus/plus-01.png",
+    "sha256": "bfcb0b7c991913fcded016eefba0607d0d29e8cc6af6555661e61a0f5aa79b7c",
+    "size": [
+      328,
+      328
+    ],
+    "mode": "RGBA",
+    "scope": "Preserve Plus glyph shape and source color family; material/light adaptation only."
+  },
+  {
+    "name": "yandex-plus-02",
+    "source": "designer_attachment_2026-10-06/image-02.png",
+    "role": "designer_approved_brand_reference",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/yandex-plus/plus-02.png",
+    "sha256": "1cb169d5913514869f44b0b5c74ffe1db18a5de63f460619756422c207c2033b",
+    "size": [
+      328,
+      328
+    ],
+    "mode": "RGBA",
+    "scope": "Preserve Plus glyph shape and source color family; material/light adaptation only."
+  },
+  {
+    "name": "yandex-plus-03",
+    "source": "designer_attachment_2026-10-06/image-03.png",
+    "role": "designer_approved_brand_reference",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/yandex-plus/plus-03.png",
+    "sha256": "39aff1052fd6ea099e1b181f6f0dd4ef5d6b4551b3966c03909ce6f283210e31",
+    "size": [
+      328,
+      328
+    ],
+    "mode": "RGBA",
+    "scope": "Preserve Plus glyph shape and source color family; material/light adaptation only."
+  },
+  {
+    "name": "yandex-plus-04",
+    "source": "designer_attachment_2026-10-06/image-04.png",
+    "role": "designer_approved_brand_reference",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/yandex-plus/plus-04.png",
+    "sha256": "235a7ce723621a6a3cb291d7aeba0d7d7e0bb46313874942aae7516b6e4baab7",
+    "size": [
+      328,
+      328
+    ],
+    "mode": "RGBA",
+    "scope": "Preserve Plus glyph shape and source color family; material/light adaptation only."
+  },
+  {
+    "name": "yandex-plus-05",
+    "source": "designer_attachment_2026-10-06/image-05.png",
+    "role": "designer_approved_brand_reference",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/yandex-plus/plus-05.png",
+    "sha256": "385ff19ce8cbffcb36eaad0c7f3ff2498c12f39cc032f5fdade64441929e96c1",
+    "size": [
+      328,
+      328
+    ],
+    "mode": "RGBA",
+    "scope": "Preserve Plus glyph shape and source color family; material/light adaptation only."
+  },
+  {
+    "name": "yandex-plus-06",
+    "source": "designer_attachment_2026-10-06/image-06.png",
+    "role": "designer_approved_brand_reference",
+    "status": "PRESERVED",
+    "plugin_path": "assets/library/yandex-plus/plus-06.png",
+    "sha256": "077686b21a17f0bb0f4d9b96f54aadfd1a82772cd76d331e2f6dbdd40cbd3479",
+    "size": [
+      328,
+      328
+    ],
+    "mode": "RGBA",
+    "scope": "Preserve Plus glyph shape and source color family; material/light adaptation only."
   }
 ]

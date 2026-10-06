@@ -787,6 +787,78 @@
       "mode": "RGB",
       "role": "designer_approved_presented_main_calibration",
       "origin": "designer_explicit_approval_2026-09-29"
+    },
+    {
+      "path": "assets/library/yandex-plus/plus-01.png",
+      "sha256": "bfcb0b7c991913fcded016eefba0607d0d29e8cc6af6555661e61a0f5aa79b7c",
+      "role": "designer_approved_brand_reference",
+      "origin": "designer_attachment_2026-10-06",
+      "scope": "Yandex Plus glyph/disc/icon/reward points: preserve white edge-reaching cross and coral-pink-magenta-violet gradient; adapt material/light to existing STYLE, no radical recoloring.",
+      "size": [
+        328,
+        328
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/yandex-plus/plus-02.png",
+      "sha256": "1cb169d5913514869f44b0b5c74ffe1db18a5de63f460619756422c207c2033b",
+      "role": "designer_approved_brand_reference",
+      "origin": "designer_attachment_2026-10-06",
+      "scope": "Yandex Plus glyph/disc/icon/reward points: preserve white edge-reaching cross and coral-pink-magenta-violet gradient; adapt material/light to existing STYLE, no radical recoloring.",
+      "size": [
+        328,
+        328
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/yandex-plus/plus-03.png",
+      "sha256": "39aff1052fd6ea099e1b181f6f0dd4ef5d6b4551b3966c03909ce6f283210e31",
+      "role": "designer_approved_brand_reference",
+      "origin": "designer_attachment_2026-10-06",
+      "scope": "Yandex Plus glyph/disc/icon/reward points: preserve white edge-reaching cross and coral-pink-magenta-violet gradient; adapt material/light to existing STYLE, no radical recoloring.",
+      "size": [
+        328,
+        328
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/yandex-plus/plus-04.png",
+      "sha256": "235a7ce723621a6a3cb291d7aeba0d7d7e0bb46313874942aae7516b6e4baab7",
+      "role": "designer_approved_brand_reference",
+      "origin": "designer_attachment_2026-10-06",
+      "scope": "Yandex Plus glyph/disc/icon/reward points: preserve white edge-reaching cross and coral-pink-magenta-violet gradient; adapt material/light to existing STYLE, no radical recoloring.",
+      "size": [
+        328,
+        328
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/yandex-plus/plus-05.png",
+      "sha256": "385ff19ce8cbffcb36eaad0c7f3ff2498c12f39cc032f5fdade64441929e96c1",
+      "role": "designer_approved_brand_reference",
+      "origin": "designer_attachment_2026-10-06",
+      "scope": "Yandex Plus glyph/disc/icon/reward points: preserve white edge-reaching cross and coral-pink-magenta-violet gradient; adapt material/light to existing STYLE, no radical recoloring.",
+      "size": [
+        328,
+        328
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/library/yandex-plus/plus-06.png",
+      "sha256": "077686b21a17f0bb0f4d9b96f54aadfd1a82772cd76d331e2f6dbdd40cbd3479",
+      "role": "designer_approved_brand_reference",
+      "origin": "designer_attachment_2026-10-06",
+      "scope": "Yandex Plus glyph/disc/icon/reward points: preserve white edge-reaching cross and coral-pink-magenta-violet gradient; adapt material/light to existing STYLE, no radical recoloring.",
+      "size": [
+        328,
+        328
+      ],
+      "mode": "RGBA"
     }
   ]
 }

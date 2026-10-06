@@ -74,3 +74,7 @@
 | [designer-approved-screwdriver.png](../assets/calibration/designer-approved-screwdriver.png) | Принятый основной вариант; metal/polymer/clearjoint calibration |
 | [designer-approved-paper-bag.png](../assets/calibration/designer-approved-paper-bag.png) | Принятый основной вариант; paper/quietcord calibration |
 | [designer-approved-hairdryer.png](../assets/calibration/designer-approved-hairdryer.png) | Принятый основной вариант; polymer/violet/coaxialjoint calibration |
+
+## Референсы Плюса — 6 октября 2026
+
+Шесть утверждённых дизайнером PNG: `assets/library/yandex-plus/plus-01.png` … `plus-06.png`. Роль — BRAND/CATEGORY для глифа, иконки, шайбы и баллов Плюса; исходные файлы сохранены без изменений. Прочитай [форму знака и обязательное правило цвета](yandex-plus.md); выбери ближайший ракурс и передай его напрямую вместе с тремя STYLE. Это не универсальный новый стиль и не копия навыка service-shaiba.
