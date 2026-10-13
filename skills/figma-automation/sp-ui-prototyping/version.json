@@ -1,0 +1,6 @@
+{
+  "name": "sp-ui-prototyping",
+  "description": "Use when a product manager wants an interactive SP UI prototype in a standalone React project using npm or pnpm and published @yandex-adtech-int/sp-ui-core, sp-ui-theme, sp-ui-tokens, sp-ui-assets, and sp-ui-fonts packages. Includes component setup, responsive layouts, user flows, and browser verification. Not for changing or publishing the component library.",
+  "version": "3.0.0",
+  "author": "danilamesh"
+}

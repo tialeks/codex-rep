@@ -1,0 +1,27 @@
+service: skillstore_skills_maintainers
+title: sp-ui-prototyping
+arcanum:
+  review:
+    disabling_policy: denied
+    skip_review_for: "skillstore_skills_maintainers:skillstore_skills_maintainers_robot_reviewer"
+    groups:
+      - name: skill-sp-ui-prototyping-maintainers
+        roles:
+          - "skillstore_skills_maintainers:skill_skill-store_sp_ui_prototyping_maintainer"
+      - name: skill-sp-ui-prototyping-policy-reviewers
+        roles:
+          - "skillstore_skills_maintainers:skillstore_skills_maintainers_robot_reviewer"
+          - "skillstore:@scope=development"
+    rules:
+      - subpaths: "**, !a.yaml"
+        reviewers:
+          - name: skill-sp-ui-prototyping-maintainers
+            assign: 2
+            ship: 1
+            ignore_self_ship: false
+      - subpaths: "a.yaml"
+        reviewers:
+          - name: skill-sp-ui-prototyping-policy-reviewers
+            assign: 2
+            ship: 0
+            ignore_self_ship: false
