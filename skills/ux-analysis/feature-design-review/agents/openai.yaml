@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ревью дизайна фичи"
+  short_description: "Ревью Figma по задаче, компонентам и переменным"
+  default_prompt: "Используй $feature-design-review: сверь макет Figma с задачей Tracker, проверь сценарий, визуальные проблемы, компоненты, detaches и переменные перед передачей в разработку."
