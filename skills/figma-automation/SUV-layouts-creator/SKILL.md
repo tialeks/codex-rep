@@ -393,3 +393,7 @@ description: 'Генерация экранов СУВ в Figma по катег�
 - Каждый блок List-item variants содержит Accent Bar и Benefit block, внутренний gap **−20 px**, высота HUG.
 - Контекстные инструкции, если требуются, могут идти после предложений в том же wrapper. Не фиксировать высоты по эталону.
 - Проверенная пара ADAMAS: ячейка `2538:100057`, шторка `2549:101786`. Подробные измерения и границы проверки — в [partner-category-wording.md](references/partner-category-wording.md).
+
+## Бейдж QR-оплаты в ячейке
+
+Для CP-QR / MP-QR писать **«через QR Яндекс Пэй»** и ставить слева **Qr / Size=12 / Style=Outline** вместо YandexFilled из сценария кнопки Пэй. Проверенный пример MP-QR: `2564:40064`. Параметры Badge и ключ иконки — в [suv-list-cells.md](references/suv-list-cells.md). Это отличие ячейки не отменяет разных инструкций CP-QR и MP-QR в деталках.
