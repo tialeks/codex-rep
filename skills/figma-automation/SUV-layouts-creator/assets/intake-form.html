@@ -1,0 +1,107 @@
+<div id="suv-intake-v1">
+  <div class="intro">
+    <span class="text-small text-muted">СУВ · подготовка макетов</span>
+    <h2>Как вам удобнее передать условия?</h2>
+    <p class="text-muted">Используйте готовую таблицу или заполните данные категорий вручную.</p>
+  </div>
+  <div class="viz-grid">
+    <div class="card"><div class="intro"><i data-lucide="table-2" aria-hidden="true"></i><h3>У меня есть таблица</h3><p class="text-muted">Файл, скриншоты или ссылка через Стефанию. Разберём условия и подготовим категории.</p><button type="button" class="btn btn-block" data-route="table" aria-pressed="false">Передать таблицу</button></div></div>
+    <div class="card"><div class="intro"><i data-lucide="list-plus" aria-hidden="true"></i><h3>Хочу заполнить вручную</h3><p class="text-muted">Укажите категории, выгоды и способы оплаты. Можно добавить несколько предложений.</p><button type="button" class="btn btn-block" data-route="manual" aria-pressed="false">Заполнить форму</button></div></div>
+  </div>
+  <section id="suv-table" hidden>
+    <hr>
+    <h3>Условия из таблицы</h3>
+    <p class="text-muted">Прикрепите файл или скриншоты в чате. Также можно передать ссылку на таблицу, доступную через Стефанию.</p>
+    <label class="form-label">Ссылка на таблицу, если есть<input class="form-control" type="url" id="suv-table-url" placeholder="https://…"></label>
+    <label class="form-label">Куда поставить макеты в Figma<input class="form-control" type="url" id="suv-table-target" placeholder="Ссылка на страницу или секшен"></label>
+    <button class="btn btn-primary" type="button" id="suv-table-send">Продолжить с таблицей</button>
+  </section>
+  <form id="suv-manual" hidden>
+    <hr>
+    <div class="intro"><h3>Данные для макетов</h3><p class="text-muted">Добавьте категории и отдельное предложение для каждого способа оплаты. Неизвестные необязательные условия оставляйте пустыми.</p></div>
+    <label class="form-label">Куда поставить макеты в Figma *<input class="form-control" name="destination" type="url" required placeholder="Ссылка на страницу или секшен"></label>
+    <label class="form-label">Языки<select class="form-select" name="languages"><option value="RU+EN">Русский и английский</option value="RU">Только русский</option><option value="EN">Только английский</option></select></label>
+    <div id="suv-categories"></div>
+    <div class="viz-row"><button class="btn" type="button" id="suv-add-category"><i data-lucide="plus" aria-hidden="true"></i>Добавить категорию</button></div>
+    <hr>
+    <label class="form-label">Общие пожелания<textarea class="form-control" name="notes" rows="2" placeholder="Если есть особенности размещения или материалы для всех категорий"></textarea></label>
+    <div class="viz-row"><button class="btn btn-primary" type="button" id="suv-manual-send">Проверить и передать условия</button><button class="btn" type="button" id="suv-copy">Скопировать условия</button></div>
+  </form>
+  <p id="suv-status" role="status" aria-live="polite"></p>
+  <div id="suv-result" hidden><hr><h3>Условия подготовлены</h3><textarea class="form-control" id="suv-result-text" rows="10" readonly aria-label="Подготовленные условия"></textarea></div>
+</div>
+<style>
+#suv-intake-v1{display:grid;gap:calc(var(--font-size-base)*1.25);color:var(--foreground)}
+#suv-intake-v1 .intro,#suv-intake-v1 section,#suv-intake-v1 form,#suv-intake-v1 .category,#suv-intake-v1 .offer{display:grid;gap:calc(var(--font-size-base)*.8)}
+#suv-intake-v1 [hidden]{display:none!important}
+#suv-intake-v1 .intro{gap:calc(var(--font-size-base)*.5)}
+#suv-intake-v1 .fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:calc(var(--font-size-base)*.8)}
+#suv-intake-v1 .wide{grid-column:1/-1}
+#suv-intake-v1 .section-title{display:flex;align-items:center;justify-content:space-between;gap:var(--font-size-base);flex-wrap:wrap}
+#suv-intake-v1 fieldset{min-width:0;border:0;padding:0;margin:0;display:grid;gap:calc(var(--font-size-base)*.7)}
+#suv-intake-v1 legend{font-weight:500;margin-bottom:calc(var(--font-size-base)*.5)}
+#suv-intake-v1 .offer{border-left:2px solid var(--border);padding-left:var(--font-size-base)}
+#suv-intake-v1 .offers{display:grid;gap:calc(var(--font-size-base)*1.5)}
+#suv-intake-v1 .help{color:var(--muted-foreground)}
+@media(max-width:520px){#suv-intake-v1 .fields{grid-template-columns:1fr}}
+</style>
+<script>
+(()=>{
+const root=document.getElementById('suv-intake-v1');
+const q=s=>root.querySelector(s);
+const emptyOffer=()=>({method:'',benefit:'cashback',rate:'',object:'purchase',threshold:'',cap:'',capPeriod:'month',purchaseCap:'',channels:[],extra:''});
+const emptyCategory=()=>({name:'',type:'',description:'',double:false,secondBrand:'',tariffs:'',duration:'',durationUnit:'months',delay:'',delayUnit:'days',delayFrom:'purchase',exclusions:'',cellNote:'',cta:'',extra:'',offers:[emptyOffer()]});
+let state={route:'',destination:'',languages:'RU+EN',notes:'',tableUrl:'',tableTarget:'',categories:[emptyCategory()]};
+const saved=window.openai?.widgetState;
+if(saved?.privateContent?.version===1&&Array.isArray(saved.privateContent.state?.categories))state=saved.privateContent.state;
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const opts=(items,value)=>items.map(([v,t])=>`<option value="${esc(v)}" ${v===value?'selected':''}>${esc(t)}</option>`).join('');
+function input(label,key,value,extra=''){return `<label class="form-label">${label}<input class="form-control" data-key="${key}" value="${esc(value)}" ${extra}></label>`;}
+function select(label,key,value,items){return `<label class="form-label">${label}<select class="form-select" data-key="${key}">${opts(items,value)}</select></label>`;}
+function area(label,key,value,placeholder=''){return `<label class="form-label wide">${label}<textarea class="form-control" data-key="${key}" rows="2" placeholder="${esc(placeholder)}">${esc(value)}</textarea></label>`;}
+const methods=[['','Выберите способ оплаты'],['pay_card','Карта Пэй'],['any_card','Любая карта'],['pay_button','Любая карта через кнопку Яндекс Пэй'],['cp_qr','QR-код Пэй в приложении магазина (CP-QR)'],['mp_qr','QR-код Пэй на кассе (MP-QR)'],['split','Сплит']];
+function offerHTML(o,i,j){return `<fieldset class="offer" data-offer="${j}"><div class="section-title"><legend>Предложение ${j+1}</legend>${j?'<button type="button" class="btn btn-ghost" data-action="remove-offer">Удалить предложение</button>':''}</div><div class="fields">
+${select('Способ оплаты *','method',o.method,methods).replace('data-key="method"','data-key="method" required')}
+${select('Тип выгоды','benefit',o.benefit,[['cashback','Кешбэк баллами Плюса'],['discount','Скидка']])}
+${input('Размер выгоды, % *','rate',o.rate,'type="number" min="0.01" max="100" step="any" required placeholder="8"')}
+${o.benefit==='discount'?select('На что скидка','object',o.object,[['purchase','На покупку'],['delivery','На доставку'],['split','На покупку в Сплит'],['other','Другое — уточню ниже']]):''}
+${input('Минимальная сумма покупки, ₽','threshold',o.threshold,'type="number" min="0" step="any" placeholder="Если есть порог"')}
+${o.benefit==='cashback'?input('Общий лимит, баллов','cap',o.cap,'type="number" min="0" step="1" placeholder="Если задан"')+select('Период общего лимита','capPeriod',o.capPeriod,[['month','За месяц'],['order','За один заказ'],['purchase','За одну покупку'],['period','За весь период'],['other','Другой — уточню ниже']])+input('Отдельный лимит за покупку, баллов','purchaseCap',o.purchaseCap,'type="number" min="0" step="1" placeholder="Если задан дополнительно"'):''}
+<fieldset class="wide"><legend>Где действует предложение</legend><div class="viz-row">${[['website','На сайте'],['app','В приложении'],['checkout','На кассе']].map(([v,t])=>`<label class="form-check"><input class="form-check-input" type="checkbox" data-channel="${v}" ${o.channels.includes(v)?'checked':''}><span class="form-check-label">${t}</span></label>`).join('')}</div></fieldset>
+${area('Уточнения к этому предложению','extra',o.extra,'Например, только в приложении ресторана или только на определённые тарифы')}
+</div></fieldset>`;}
+function render(){q('#suv-categories').innerHTML=state.categories.map((c,i)=>`<section class="category" data-category="${i}"><hr><div class="section-title"><h3>Категория ${i+1}</h3>${i?'<button type="button" class="btn btn-ghost" data-action="remove-category">Удалить категорию</button>':''}</div><div class="fields">
+${input('Название категории *','name',c.name,'required placeholder="Как в исходных условиях, с тем же регистром"')}
+${select('Тип категории *','type',c.type,[['','Выберите тип'],['external','External — общая категория'],['internal','Internal — сервис Яндекса'],['partner','Партнёр — сторонний бренд']]).replace('data-key="type"','data-key="type" required')}
+${area('Описание под названием в шторке','description',c.description,'Если неизвестно, оставьте пустым — проверим согласованный справочник')}
+<label class="form-check wide"><input class="form-check-input" type="checkbox" data-key="double" ${c.double?'checked':''}><span class="form-check-label">Объединяет две категории или два бренда</span></label>
+${c.double?input('Вторая категория / бренд *','secondBrand',c.secondBrand,'required placeholder="Например, Деливери"'):''}
+${input('Тарифы или особый охват','tariffs',c.tariffs,'placeholder="Для Такси: все тарифы или их список"')}
+${input('Срок предоставления категории','duration',c.duration,'type="number" min="1" step="1" placeholder="Если категория даётся на срок"')}
+${select('Единица срока','durationUnit',c.durationUnit,[['months','Месяцев'],['days','Дней'],['years','Лет']])}
+${c.type!=='partner'?input('Короткое уточнение для ячейки','cellNote',c.cellNote,'placeholder="Например, Скидка на доставку"'):''}
+</div><div class="offers">${c.offers.map((o,j)=>offerHTML(o,i,j)).join('')}</div><div class="viz-row"><button class="btn" type="button" data-action="add-offer">Добавить способ оплаты / предложение</button></div>
+<details><summary>Начисление, ограничения и другие условия</summary><div class="fields">
+${input('Отложка начисления','delay',c.delay,'type="number" min="0" step="1" placeholder="Например, 21"')}
+${select('Какие дни','delayUnit',c.delayUnit,[['days','Календарные дни'],['business_days','Рабочие дни']])}
+${select('От какого события считать','delayFrom',c.delayFrom,[['purchase','После покупки'],['policy_start','После начала действия полиса'],['other','Другое — укажу в примечаниях']])}
+${input('Текст основной кнопки','cta',c.cta,'placeholder="Если отличается от «За покупками»"')}
+${area('Исключения','exclusions',c.exclusions,'Например, не действует при оплате СБП, сертификатом или при самовывозе')}
+${area('Остальные условия и материалы','extra',c.extra,'Подарочная категория, условия первого месяца, инструкция QR, ссылка на логотип или особый вариант — укажите здесь')}
+</div></details></section>`).join('');}
+function persist(){window.openai?.setWidgetState?.({modelContent:{inputMode:state.route,categoryNames:state.categories.map(c=>c.name).filter(Boolean)},privateContent:{version:1,state}})?.catch(()=>{});}
+function route(value){state.route=value;for(const b of root.querySelectorAll('[data-route]'))b.setAttribute('aria-pressed',String(b.dataset.route===value));q('#suv-table').hidden=value!=='table';q('#suv-manual').hidden=value!=='manual';q('#suv-result').hidden=true;q('#suv-status').textContent='';}
+root.addEventListener('click',e=>{const btn=e.target.closest('button');if(!btn)return;if(btn.dataset.route){route(btn.dataset.route);persist();return;}const ci=btn.closest('[data-category]')?.dataset.category;if(ci===undefined)return;const c=state.categories[Number(ci)];if(btn.dataset.action==='add-offer')c.offers.push(emptyOffer());if(btn.dataset.action==='remove-offer')c.offers.splice(Number(btn.closest('[data-offer]').dataset.offer),1);if(btn.dataset.action==='remove-category')state.categories.splice(Number(ci),1);if(btn.dataset.action){render();persist();}});
+root.addEventListener('input',e=>{const el=e.target;const cat=el.closest('[data-category]');if(cat){const c=state.categories[Number(cat.dataset.category)];const oi=el.closest('[data-offer]')?.dataset.offer;const target=oi===undefined?c:c.offers[Number(oi)];if(el.dataset.channel){const v=el.dataset.channel;target.channels=el.checked?[...new Set([...target.channels,v])]:target.channels.filter(x=>x!==v);}else if(el.dataset.key)target[el.dataset.key]=el.type==='checkbox'?el.checked:el.value;}else if(el.name)state[el.name]=el.value;else if(el.id==='suv-table-url')state.tableUrl=el.value;else if(el.id==='suv-table-target')state.tableTarget=el.value;persist();});
+root.addEventListener('change',e=>{if(['benefit','double','type'].includes(e.target.dataset.key))render();});
+q('#suv-add-category').addEventListener('click',()=>{state.categories.push(emptyCategory());render();persist();});
+function payload(){const cleaned=state.categories.map(c=>{const v=JSON.parse(JSON.stringify(c));if(!v.double)v.secondBrand='';if(v.type==='partner')v.cellNote='';for(const o of v.offers){if(o.benefit!=='discount')delete o.object;if(o.benefit==='discount'){delete o.cap;delete o.capPeriod;delete o.purchaseCap;}}return v;});return {schema:'suv-intake/v1',destination:state.destination,languages:state.languages,categories:cleaned,notes:state.notes};}
+function prepare(){if(!q('#suv-manual').reportValidity())return null;const data=payload();const lines=['Подготовь макеты СУВ по согласованным правилам.', 'Место в Figma: '+data.destination,'Языки: '+data.languages];const kind={external:'External',internal:'Internal',partner:'Партнёр'};const periods={month:'за месяц',order:'за один заказ',purchase:'за одну покупку',period:'за весь период',other:'другой период — см. уточнения'};const channel={website:'на сайте',app:'в приложении',checkout:'на кассе'};for(const [i,c] of data.categories.entries()){lines.push('',`Категория ${i+1}: ${c.name}`, 'Тип: '+kind[c.type]);if(c.description)lines.push('Описание: '+c.description);if(c.double)lines.push('Двойная категория. Второй бренд: '+c.secondBrand);if(c.tariffs)lines.push('Тарифы / охват: '+c.tariffs);if(c.duration)lines.push('Срок категории: '+c.duration+' '+({months:'мес.',days:'дн.',years:'лет'}[c.durationUnit]));if(c.cellNote)lines.push('Уточнение в ячейке: '+c.cellNote);for(const [j,o]of c.offers.entries()){lines.push(`Предложение ${j+1}: `+methods.find(x=>x[0]===o.method)[1],(o.benefit==='cashback'?'Кешбэк баллами Плюса: ':'Скидка: ')+o.rate+'%');if(o.benefit==='discount')lines.push('Объект скидки: '+({purchase:'покупка',delivery:'доставка',split:'покупка в Сплит',other:'см. уточнения'}[o.object]));if(o.threshold)lines.push('От '+o.threshold+' ₽');if(o.cap)lines.push('До '+o.cap+' баллов '+periods[o.capPeriod]);if(o.purchaseCap)lines.push('Дополнительный лимит: '+o.purchaseCap+' баллов за покупку');if(o.channels.length)lines.push('Каналы: '+o.channels.map(x=>channel[x]).join(', '));if(o.extra)lines.push('Уточнения предложения: '+o.extra);}if(c.delay!=='')lines.push('Отложка: '+c.delay+' '+(c.delayUnit==='business_days'?'рабочих дней':'календарных дней')+', '+({purchase:'после покупки',policy_start:'после начала действия полиса',other:'от события из примечаний'}[c.delayFrom]));if(c.exclusions)lines.push('Исключения: '+c.exclusions);if(c.cta)lines.push('Кнопка: '+c.cta);if(c.extra)lines.push('Прочие условия: '+c.extra);}if(data.notes)lines.push('','Общие пожелания: '+data.notes);const text=lines.join('\n');q('#suv-result').hidden=false;q('#suv-result-text').value=text;return text;}
+async function send(prompt){if(window.openai?.sendFollowUpMessage){await window.openai.sendFollowUpMessage({prompt,title:'Передать условия для СУВ'});q('#suv-status').textContent='Запрос подготовлен для передачи в чат.';}else{q('#suv-result').hidden=false;q('#suv-result-text').value=prompt;q('#suv-status').textContent='Скопируйте подготовленные условия и отправьте их в чат.';}}
+q('#suv-manual').addEventListener('submit',e=>e.preventDefault());
+q('#suv-manual-send').addEventListener('click',async()=>{const text=prepare();if(!text)return;try{await send(text);}catch{q('#suv-status').textContent='Не удалось передать автоматически. Условия сохранены ниже — скопируйте их в чат.';}});
+q('#suv-copy').addEventListener('click',async()=>{const text=prepare();if(!text)return;try{await navigator.clipboard.writeText(text);q('#suv-status').textContent='Условия скопированы. Отправьте их в чат.';}catch{q('#suv-result-text').focus();q('#suv-result-text').select();q('#suv-status').textContent='Выделил условия: скопируйте их и отправьте в чат.';}});
+q('#suv-table-send').addEventListener('click',async()=>{if(!q('#suv-table-url').reportValidity()||!q('#suv-table-target').reportValidity())return;const prompt='Хочу подготовить СУВ по таблице. '+(state.tableUrl?'Таблица: '+state.tableUrl+'. ':'Пришлю файл таблицы или скриншоты в чат. ')+(state.tableTarget?'Место в Figma: '+state.tableTarget+'. ':'');try{await send(prompt);}catch{q('#suv-result').hidden=false;q('#suv-result-text').value=prompt;q('#suv-status').textContent='Скопируйте запрос и прикрепите таблицу в чате.';}});
+q('[name="destination"]').value=state.destination;q('[name="languages"]').value=state.languages;q('[name="notes"]').value=state.notes;q('#suv-table-url').value=state.tableUrl;q('#suv-table-target').value=state.tableTarget;render();route(state.route);
+})();
+</script>
