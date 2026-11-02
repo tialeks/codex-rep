@@ -80,7 +80,7 @@ ${input('Тарифы или особый охват','tariffs',c.tariffs,'place
 ${input('Срок предоставления категории','duration',c.duration,'type="number" min="1" step="1" placeholder="Если категория даётся на срок"')}
 ${select('Единица срока','durationUnit',c.durationUnit,[['months','Месяцев'],['days','Дней'],['years','Лет']])}
 ${c.type!=='partner'?input('Короткое уточнение для ячейки','cellNote',c.cellNote,'placeholder="Например, Скидка на доставку"'):''}
-</div><div class="offers">${c.offers.map((o,j)=>offerHTML(o,i,j)).join('')}</div><div class="viz-row"><button class="btn" type="button" data-action="add-offer">Добавить способ оплаты / предложение</button></div>
+</div><div class="offers">${c.offers.map((o,j)=>offerHTML(o,i,j)).join('')}</div><div class="viz-row"><button class="btn" type="button" data-action="add-offer">Добавить способ оплаты</button></div>
 <details><summary>Начисление, ограничения и другие условия</summary><div class="fields">
 ${input('Отложка начисления','delay',c.delay,'type="number" min="0" step="1" placeholder="Например, 21"')}
 ${select('Какие дни','delayUnit',c.delayUnit,[['days','Календарные дни'],['business_days','Рабочие дни']])}
