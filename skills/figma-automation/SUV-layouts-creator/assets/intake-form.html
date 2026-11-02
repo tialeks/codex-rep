@@ -16,12 +16,15 @@
         <label>Куда поставить макеты в Figma *<input name="destination" type="url" required placeholder="Ссылка на страницу или секшен"></label>
         <label>Языки<select name="languages"><option value="RU+EN">Русский и английский</option><option value="RU">Только русский</option><option value="EN">Только английский</option></select></label>
       </div></section>
-      <div class="suv-category-tools"><span id="suv-category-count"></span><button type="button" id="suv-add-category"><i data-lucide="plus" aria-hidden="true"></i>Добавить категорию</button></div>
+      <div class="suv-category-tools"><span id="suv-category-count"></span></div>
       <div id="suv-category-progress" hidden><div class="suv-progress" role="progressbar" aria-label="Текущая категория"><span></span></div></div>
       <div id="suv-categories"></div>
-      <nav id="suv-category-nav" aria-label="Переключение категорий" hidden><button type="button" id="suv-prev">Назад</button><span id="suv-nav-position"></span><button type="button" id="suv-next">Далее</button></nav>
       <section class="suv-section"><label>Общие пожелания<textarea name="notes" rows="2" placeholder="Особенности размещения или материалы для всех категорий"></textarea></label></section>
-      <div class="suv-actions"><button type="button" id="suv-copy">Скопировать условия</button><button class="suv-primary" type="button" id="suv-manual-send">Проверить и передать</button></div>
+      <footer class="suv-footer">
+        <div class="suv-category-actions"><button type="button" id="suv-add-category"><i data-lucide="plus" aria-hidden="true"></i>Добавить ещё категорию</button><button type="button" id="suv-duplicate"><i data-lucide="copy" aria-hidden="true"></i>Продублировать категорию</button></div>
+        <nav id="suv-category-nav" aria-label="Переключение категорий" hidden><button type="button" id="suv-prev">Назад</button><span id="suv-nav-position"></span><button type="button" id="suv-next">Далее</button></nav>
+        <div class="suv-actions"><button class="suv-primary" type="button" id="suv-manual-send">Проверить и передать</button></div>
+      </footer>
     </form>
     <p id="suv-status" role="status" aria-live="polite"></p>
     <section id="suv-result" hidden><h3>Условия подготовлены</h3><label>Текст для передачи в чат<textarea id="suv-result-text" rows="10" readonly></textarea></label></section>
@@ -60,6 +63,11 @@
 #suv-intake-v2 input::placeholder,#suv-intake-v2 textarea::placeholder{color:var(--suv-muted);opacity:1}
 #suv-intake-v2 .suv-wide{grid-column:1/-1}
 #suv-intake-v2 .suv-category-tools,#suv-intake-v2 .suv-section-row,#suv-intake-v2 #suv-category-nav,#suv-intake-v2 .suv-actions{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+#suv-intake-v2 .suv-footer{display:grid;gap:20px;border-top:1px solid var(--suv-line);padding-top:24px}
+#suv-intake-v2 .suv-category-actions{display:flex;flex-wrap:wrap;gap:10px}
+#suv-intake-v2 .suv-category-actions button{flex:1 1 230px}
+#suv-intake-v2 .suv-footer .suv-actions{justify-content:flex-end}
+#suv-intake-v2 #suv-nav-position{color:var(--suv-muted);font-size:13px}
 #suv-intake-v2 #suv-category-count{font-weight:500}
 #suv-intake-v2 .suv-category,#suv-intake-v2 .suv-offers{display:grid;gap:24px}
 #suv-intake-v2 fieldset{min-width:0;margin:0;padding:0;border:0;display:grid;gap:12px}
@@ -142,6 +150,7 @@ root.addEventListener('input',update);
 root.addEventListener('change',e=>{update(e);if(['benefit','double','type','instructionType'].includes(e.target.dataset.key)){const c=state.categories[state.active];if(c.instructionType&&!c.bullets.length)c.bullets=[''];render();}});
 root.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.dataset.route){route(b.dataset.route);persist();return;}const action=b.dataset.action;if(!action)return;const c=state.categories[state.active];if(action==='add-offer')c.offers.push(emptyOffer());if(action==='remove-offer')c.offers.splice(Number(b.closest('[data-offer]').dataset.offer),1);if(action==='remove-category'){state.categories.splice(state.active,1);state.active=Math.min(state.active,state.categories.length-1);}if(action==='add-bullet')c.bullets.push('');if(action==='remove-bullet')c.bullets.splice(Number(b.dataset.index),1);render();persist();});
 q('#suv-add-category').addEventListener('click',()=>{state.categories.push(emptyCategory());state.active=state.categories.length-1;render();persist();});
+q('#suv-duplicate').addEventListener('click',()=>{const copy=JSON.parse(JSON.stringify(state.categories[state.active]));state.categories.splice(state.active+1,0,copy);state.active++;render();persist();status('Создана копия категории со всеми заполненными полями.');});
 q('#suv-prev').addEventListener('click',()=>{if(state.active>0){state.active--;render();persist();}});
 q('#suv-next').addEventListener('click',()=>{if(state.active<state.categories.length-1){state.active++;render();persist();}});
 function payload(){return {schema:'suv-intake/v2',destination:state.destination,languages:state.languages,notes:state.notes,categories:state.categories.map(c=>{const v=JSON.parse(JSON.stringify(c));delete v.delayUnit;if(!v.double)v.secondBrand='';if(v.type==='partner')v.cellNote='';if(v.instructionType!=='cp_qr')v.instructionApp='';if(v.instructionType!=='custom')v.instructionTitle='';if(!v.instructionType)v.bullets=[];for(const o of v.offers){delete o.purchaseCap;if(o.benefit!=='discount')delete o.object;else{delete o.cap;delete o.capPeriod;delete o.additionalCap;delete o.additionalPeriod;}}return v;})};}
@@ -152,7 +161,6 @@ function prepare(){if(!validate())return null;const d=payload(),lines=['Подг
 async function send(prompt){if(window.openai?.sendFollowUpMessage){await window.openai.sendFollowUpMessage({prompt,title:'Передать условия для СУВ'});status('Условия подготовлены для передачи в чат.');}else{q('#suv-result').hidden=false;q('#suv-result-text').value=prompt;status('Скопируйте подготовленные условия и отправьте их в чат.');}}
 q('#suv-manual').addEventListener('submit',e=>e.preventDefault());
 q('#suv-manual-send').addEventListener('click',async()=>{const text=prepare();if(!text)return;try{await send(text);}catch{status('Автоматическая передача недоступна. Скопируйте условия ниже и отправьте в чат.');}});
-q('#suv-copy').addEventListener('click',async()=>{const text=prepare();if(!text)return;try{await navigator.clipboard.writeText(text);status('Условия скопированы. Отправьте их в чат.');}catch{q('#suv-result-text').focus();q('#suv-result-text').select();status('Условия выделены — скопируйте их и отправьте в чат.');}});
 q('#suv-table-send').addEventListener('click',async()=>{if(!q('#suv-table-url').reportValidity()||!q('#suv-table-target').reportValidity())return;const prompt='Хочу подготовить СУВ по таблице. '+(state.tableUrl?'Таблица: '+state.tableUrl+'. ':'Пришлю файл или скриншоты в чат. ')+(state.tableTarget?'Место в Figma: '+state.tableTarget+'. ':'');try{await send(prompt);}catch{q('#suv-result').hidden=false;q('#suv-result-text').value=prompt;status('Скопируйте запрос и прикрепите таблицу в чате.');}});
 function hydrate(){q('[name=destination]').value=state.destination;q('[name=languages]').value=state.languages;q('[name=notes]').value=state.notes;q('#suv-table-url').value=state.tableUrl;q('#suv-table-target').value=state.tableTarget;render();route(state.route);}
 window.addEventListener('openai:set_globals',e=>{const snapshot=e.detail?.globals?.widgetState;if(snapshot){restore(snapshot);hydrate();}});
