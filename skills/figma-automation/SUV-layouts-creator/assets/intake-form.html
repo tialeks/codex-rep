@@ -6,8 +6,16 @@
       <button type="button" data-route="manual" aria-pressed="false"><i data-lucide="list-plus" aria-hidden="true"></i><strong>Заполню вручную</strong><span>Категории, способы оплаты и условия</span></button>
     </div>
     <section id="suv-table" hidden>
-      <div class="suv-heading"><h3>Условия из таблицы</h3><p>Прикрепите файл или скриншоты в чате. Если есть доступная через Стефанию ссылка, укажите её ниже.</p></div>
-      <label>Ссылка на таблицу <span class="suv-optional">если есть</span><input type="url" id="suv-table-url" placeholder="https://…"></label>
+      <div class="suv-heading"><h3>Условия из таблицы</h3><p>Укажите ссылку или подготовьте скриншоты таблицы.</p></div>
+      <label>Ссылка на таблицу (через Стефанию)<input type="url" id="suv-table-url" placeholder="https://…"></label>
+      <div class="suv-screenshots">
+        <label for="suv-image-picker">Скриншоты таблицы</label>
+        <input id="suv-image-picker" type="file" accept="image/png,image/jpeg,image/webp,image/gif,image/avif" multiple>
+        <div class="suv-paste-area"><label>Вставить из буфера обмена<textarea id="suv-image-paste" rows="2" placeholder="Нажмите здесь и вставьте скриншот: Ctrl+V или ⌘V" aria-describedby="suv-image-note"></textarea></label></div>
+        <div id="suv-image-previews" class="suv-image-previews" aria-label="Предпросмотр скриншотов"></div>
+        <p id="suv-image-feedback" class="suv-optional" role="status" aria-live="polite"></p>
+        <p id="suv-image-note" class="suv-optional">Здесь доступен предпросмотр. Чтобы я смог прочитать скриншоты, прикрепите их также к сообщению в чате: форма пока передаёт только текст. При перезапуске предпросмотр очищается.</p>
+      </div>
       <label>Куда поставить макеты в Figma<input type="url" id="suv-table-target" placeholder="Ссылка на страницу или секшен"></label>
       <div class="suv-actions"><button class="suv-primary" type="button" id="suv-table-send">Передать условия</button></div>
     </section>
@@ -78,6 +86,15 @@
 #suv-intake-v2 input[type=checkbox]{width:16px;height:16px;accent-color:var(--suv-green);margin:0}
 #suv-intake-v2 .suv-progress{height:4px;background:var(--suv-line);border-radius:4px;overflow:hidden}
 #suv-intake-v2 .suv-progress span{height:100%;display:block;background:var(--suv-green);transition:width .18s}
+#suv-intake-v2 .suv-screenshots{display:grid;gap:12px}
+#suv-intake-v2 #suv-image-picker{font-size:13px;padding:10px;min-height:46px;white-space:normal}
+#suv-intake-v2 #suv-image-picker::file-selector-button{font:inherit;color:var(--suv-text);background:var(--suv-panel);border:1px solid var(--suv-line);border-radius:10px;padding:8px 10px;margin-right:10px}
+#suv-intake-v2 .suv-image-previews{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(180px,100%),1fr));gap:12px}
+#suv-intake-v2 .suv-image-previews:empty,#suv-intake-v2 #suv-image-feedback:empty{display:none}
+#suv-intake-v2 .suv-image-previews figure{margin:0;min-width:0;display:grid;gap:8px}
+#suv-intake-v2 .suv-image-previews img{width:100%;height:150px;object-fit:contain;background:var(--suv-field);border:1px solid var(--suv-line);border-radius:12px}
+#suv-intake-v2 .suv-image-previews figcaption{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:12px;color:var(--suv-muted);overflow-wrap:anywhere}
+#suv-intake-v2 .suv-image-previews button{min-width:44px;padding:8px;flex-shrink:0}
 #suv-intake-v2 .suv-bullets{display:grid;gap:10px;list-style:none;padding:0;margin:0;counter-reset:bullet}
 #suv-intake-v2 .suv-bullets li{display:grid;grid-template-columns:24px minmax(0,1fr) auto;align-items:start;gap:8px;counter-increment:bullet}
 #suv-intake-v2 .suv-bullets li:before{content:counter(bullet) ".";padding-top:12px;color:var(--suv-muted)}
@@ -92,6 +109,13 @@
 <script>
 (()=>{
 const root=document.getElementById('suv-intake-v2'),q=s=>root.querySelector(s);
+// Images stay in memory for local preview; the host cannot attach them to follow-ups.
+const screenshotPreviews=[];
+function renderScreenshots(){q('#suv-image-previews').replaceChildren();for(const [i,item]of screenshotPreviews.entries()){const figure=document.createElement('figure'),img=document.createElement('img'),caption=document.createElement('figcaption'),name=document.createElement('span'),remove=document.createElement('button');img.src=item.url;img.alt='Предпросмотр скриншота '+(i+1);name.textContent=item.name;remove.type='button';remove.className='suv-quiet';remove.textContent='×';remove.setAttribute('aria-label','Убрать скриншот '+(i+1));remove.addEventListener('click',()=>{URL.revokeObjectURL(item.url);screenshotPreviews.splice(i,1);renderScreenshots();});caption.append(name,remove);figure.append(img,caption);q('#suv-image-previews').append(figure);}q('#suv-image-feedback').textContent=screenshotPreviews.length?`Для предпросмотра выбрано: ${screenshotPreviews.length}. Изображения ещё не отправлены в чат.`:'';}
+function addScreenshots(files){let rejected=0;for(const file of files){if(!/^image\/(png|jpeg|webp|gif|avif)$/.test(file.type)){rejected++;continue;}screenshotPreviews.push({name:file.name||`Скриншот ${screenshotPreviews.length+1}`,url:URL.createObjectURL(file)});}renderScreenshots();if(rejected)q('#suv-image-feedback').textContent+=' Поддерживаются PNG, JPEG, WebP, GIF и AVIF.';}
+q('#suv-image-picker').addEventListener('change',e=>{addScreenshots([...e.target.files]);e.target.value='';});
+q('#suv-image-paste').addEventListener('paste',e=>{const files=[...(e.clipboardData?.items||[])].filter(x=>x.kind==='file').map(x=>x.getAsFile()).filter(Boolean);if(files.length){e.preventDefault();addScreenshots(files);}else{e.preventDefault();q('#suv-image-feedback').textContent='В буфере нет изображения. Скопируйте скриншот или выберите файл выше.';}});
+window.addEventListener('pagehide',()=>screenshotPreviews.forEach(item=>URL.revokeObjectURL(item.url)));
 const periods=[['month','За месяц'],['order','За один заказ'],['purchase','За одну покупку'],['period','За весь период'],['other','Другой — впишу свой вариант']];
 const periodText={month:'за месяц',order:'за один заказ',purchase:'за одну покупку',period:'за весь период',other:'другой период — см. свой вариант'};
 const methods=[['','Выберите способ оплаты'],['pay_card','Карта Пэй'],['any_card','Любая карта'],['pay_button','Любая карта через кнопку Яндекс Пэй'],['cp_qr','QR-код Пэй в приложении магазина (CP-QR)'],['mp_qr','QR-код Пэй на кассе (MP-QR)'],['split','Сплит']];
@@ -168,7 +192,7 @@ function prepare(){if(!validate())return null;const d=payload(),lines=['Подг
 async function send(prompt){if(window.openai?.sendFollowUpMessage){await window.openai.sendFollowUpMessage({prompt,title:'Передать условия для СУВ'});status('Условия подготовлены для передачи в чат.');}else{q('#suv-result').hidden=false;q('#suv-result-text').value=prompt;status('Скопируйте подготовленные условия и отправьте их в чат.');}}
 q('#suv-manual').addEventListener('submit',e=>e.preventDefault());
 q('#suv-manual-send').addEventListener('click',async()=>{const text=prepare();if(!text)return;try{await send(text);}catch{status('Автоматическая передача недоступна. Скопируйте условия ниже и отправьте в чат.');}});
-q('#suv-table-send').addEventListener('click',async()=>{if(!q('#suv-table-url').reportValidity()||!q('#suv-table-target').reportValidity())return;const prompt='Хочу подготовить СУВ по таблице. '+(state.tableUrl?'Таблица: '+state.tableUrl+'. ':'Пришлю файл или скриншоты в чат. ')+(state.tableTarget?'Место в Figma: '+state.tableTarget+'. ':'');try{await send(prompt);}catch{q('#suv-result').hidden=false;q('#suv-result-text').value=prompt;status('Скопируйте запрос и прикрепите таблицу в чате.');}});
+q('#suv-table-send').addEventListener('click',async()=>{if(!q('#suv-table-url').reportValidity()||!q('#suv-table-target').reportValidity())return;const prompt=(screenshotPreviews.length?'Хочу подготовить СУВ по таблице. В форме выбраны скриншоты для предпросмотра; приложу их к сообщению в чате отдельно. Изображения через форму не переданы. ':'Хочу подготовить СУВ по таблице. ')+(state.tableUrl?'Таблица: '+state.tableUrl+'. ':'Пришлю файл или скриншоты в чат. ')+(state.tableTarget?'Место в Figma: '+state.tableTarget+'. ':'');try{await send(prompt);}catch{q('#suv-result').hidden=false;q('#suv-result-text').value=prompt;status('Скопируйте запрос и прикрепите таблицу в чате.');}});
 function hydrate(){q('[name=destination]').value=state.destination;q('[name=languages]').value=state.languages;q('[name=notes]').value=state.notes;q('#suv-table-url').value=state.tableUrl;q('#suv-table-target').value=state.tableTarget;render();route(state.route);}
 window.addEventListener('openai:set_globals',e=>{const snapshot=e.detail?.globals?.widgetState;if(snapshot){restore(snapshot);hydrate();}});
 hydrate();
