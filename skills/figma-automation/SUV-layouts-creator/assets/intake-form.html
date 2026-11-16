@@ -127,7 +127,7 @@ const methods=[['','Выберите способ оплаты'],['pay_card','К
 const instructionTypes=[['','Инструкция не нужна'],['pay','Как платить через Яндекс Пэй'],['mp_qr','Где найти QR-код на кассе'],['cp_qr','Где найти QR-код в приложении'],['custom','Введу свой вариант заголовка']];
 const emptyOffer=()=>({method:'',benefit:'cashback',rate:'',object:'purchase',threshold:'',cap:'',capPeriod:'month',additionalCap:'',additionalPeriod:'purchase',channels:[],extra:''});
 const defaultCtaText='Перейти в сервис';
-const emptyCategory=()=>({categoryKind:'cashback',taskType:'',taskService:'',taskCount:'',taskAmount:'',taskMethod:'',taskCtaUrl:'',name:'',type:'',benefitSource:'selector',description:'',double:false,secondBrand:'',tariffs:'',duration:'',durationUnit:'months',delay:'',delayFrom:'purchase',exclusions:'',cellNote:'',ctaPresence:'yes',cta:'',extra:'',instructionType:'',instructionApp:'',instructionTitle:'',instructionCollapsed:true,bullets:[''],offers:[emptyOffer()]});
+const emptyCategory=()=>({categoryKind:'cashback',taskType:'',taskService:'',taskCount:'',taskAmount:'',taskMethod:'',taskCtaUrl:'',name:'',type:'',benefitSource:'selector',description:'',double:false,secondBrand:'',tariffs:'',duration:'',durationUnit:'months',delay:'',delayFrom:'purchase',exclusions:'',cellNote:'',ctaPresence:'yes',cta:defaultCtaText,extra:'',instructionType:'',instructionApp:'',instructionTitle:'',instructionCollapsed:true,bullets:[''],offers:[emptyOffer()]});
 const needsBullets=c=>Boolean(c.instructionType)&&!c.instructionCollapsed;
 const isExpanded=c=>needsBullets(c);
 function defaultBullets(c){if(c.instructionType==='pay')return ['В онлайн-магазине выберите способ оплаты Яндекс Пэй','Оплатите покупку любым банком: картой или СБП'];if(c.instructionType==='mp_qr')return ['Для оплаты отсканируйте QR-код у кассы — обычно он находится на табличке или наклейке'];if(c.instructionType==='cp_qr'&&c.instructionApp.trim()){const app=c.instructionApp.trim();return [`Скачайте или обновите приложение «${app}»`,'В разделе с настройками или картой лояльности привяжите Яндекс Пэй к своему аккаунту',`Покажите QR-код от Яндекс Пэй в приложении «${app}» на кассе для оплаты`];}return [];}
@@ -179,7 +179,7 @@ ${sel('Единица срока','durationUnit',c.durationUnit,[['months','Ме
 ${inp('Отложка начисления, дней','delay',c.delay,'type="number" min="0" step="1" placeholder="Например, 21"')}
 ${sel('От какого события считать','delayFrom',c.delayFrom,[['purchase','После покупки'],['policy_start','После начала действия полиса'],['other','Другое — укажу ниже']])}
 ${sel('Основная кнопка','ctaPresence',c.ctaPresence,[['yes','Есть кнопка'],['no','Нет кнопки']])}
-${c.ctaPresence==='yes'?inp('Текст основной кнопки','cta',c.cta,`placeholder="По умолчанию: ${defaultCtaText}"`):''}
+${c.ctaPresence==='yes'?inp('Текст основной кнопки','cta',c.cta.trim()?c.cta:defaultCtaText,`placeholder="По умолчанию: ${defaultCtaText}"`):''}
 ${c.ctaPresence==='yes'&&c.categoryKind==='task'?inp('Ссылка в сервис выполнения задания','taskCtaUrl',c.taskCtaUrl,'type="url" placeholder="https://…"'):''}
 ${area('Исключения','exclusions',c.exclusions,'Например, не действует при оплате СБП или подарочным сертификатом')}
 </div></section>
