@@ -1,0 +1,6 @@
+interface:
+  display_name: "Шайба сервисов"
+  short_description: "Лого-шайбы по эталонам через обязательную анкету"
+  default_prompt: "Используй $service-shaiba, чтобы создать лого-шайбу сервиса через анкету."
+policy:
+  allow_implicit_invocation: true
